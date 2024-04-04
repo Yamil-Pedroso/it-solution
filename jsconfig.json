@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    
+    "paths": {
+      "@/*": ["./*"],
+      "@posts": ["./src/data/posts"],
+      "@posts/*": ["./src/data/posts/*"]
+    }
+  }
+}
