@@ -1,19 +1,19 @@
-import PageBanner from "@/src/components/PageBanner";
-import Layouts from "@/src/layouts/Layouts";
-import Link from "next/link";
+import PageBanner from '@/src/components/PageBanner'
+import Layouts from '@/src/layouts/Layouts'
+import Link from 'next/link'
 const Team = () => {
   return (
     <Layouts>
-      <PageBanner pageName={"Team"} pageTitle={"Leadership Team"} />
+      <PageBanner pageName={'Team'} pageTitle={'Leadership Team'} />
       {/* team */}
       <section className="mil-team mil-p-120-60">
         <div className="container">
           <h3 className="mil-text-center mil-mb-120">
-            It is a long established fact that a{" "}
+            It is a long established fact that a{' '}
             <span className="mil-accent">
               reader will be <br />
               distracted
-            </span>{" "}
+            </span>{' '}
             by the readable content.
           </h3>
           <div className="row">
@@ -24,7 +24,7 @@ const Team = () => {
                   <div className="mil-team-circle" />
                 </div>
                 <h4 className="mil-mb-10">Andrew Kazantzis</h4>
-                <p>CEO ITSulu</p>
+                <p>CEO Absolution</p>
               </Link>
             </div>
             <div className="col-sm-6 col-lg-4">
@@ -57,7 +57,7 @@ const Team = () => {
                   <div className="mil-team-circle" />
                 </div>
                 <h4 className="mil-mb-10">Andrew Kazantzis</h4>
-                <p>CEO ITSulu</p>
+                <p>CEO Absolution</p>
               </Link>
             </div>
             <div className="col-sm-6 col-lg-4">
@@ -168,7 +168,7 @@ const Team = () => {
       <section className="call-to-action mil-gradient-bg mil-p-120-0">
         <div
           className="mil-deco mil-deco-accent"
-          style={{ top: 0, left: "15%" }}
+          style={{ top: 0, left: '15%' }}
         />
         <div className="container mil-text-center">
           <div className="mil-cta-frame">
@@ -192,6 +192,6 @@ const Team = () => {
       </section>
       {/* call to action end */}
     </Layouts>
-  );
-};
-export default Team;
+  )
+}
+export default Team

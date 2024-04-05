@@ -51,14 +51,11 @@ top panel
         align-items: center;
     }
 
-    & .mil-logo {
-        height: 30px;
-        display: flex;
-        align-items: center;
-        background-image: url(../img/logo/logo-dark.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
+    & .lorem-logo {
+        & h2 {
+            color: #fff;
+            font-size: 1.5rem;
+        }
     }
 
     & .mil-navigation {
@@ -83,7 +80,7 @@ top panel
                         transition: $t-sm;
 
                         &:hover {
-                            color: $accent;
+                            color: $blue;
                         }
                     }
 
@@ -99,7 +96,7 @@ top panel
                             width: 8px;
                             height: 8px;
                             border-radius: 50%;
-                            border: solid 2px $accent;
+                            border: solid 2px $blue;
                         }
 
                         &:after {
@@ -139,7 +136,7 @@ top panel
                                     color: $dark;
 
                                     &:hover {
-                                        color: $accent;
+                                        color: $blue;
                                     }
                                 }
                             }
@@ -170,7 +167,7 @@ top panel
                 &:hover {
                     & svg {
                         & path {
-                            fill: $accent;
+                            fill: $blue;
                         }
                     }
                 }
@@ -237,7 +234,7 @@ top panel
                                     width: 8px;
                                     height: 8px;
                                     border-radius: 50%;
-                                    border: solid 2px $accent;
+                                    border: solid 2px $blue;
                                 }
                             }
 
@@ -298,7 +295,7 @@ top panel
                             color: $light;
 
                             &:hover {
-                                color: $accent;
+                                color: $blue;
                             }
                         }
 
@@ -318,7 +315,7 @@ top panel
                     &:hover {
                         & svg {
                             & path {
-                                fill: $accent;
+                                fill: $blue;
                             }
                         }
                     }
@@ -351,7 +348,7 @@ top panel
                                 color: $dark;
 
                                 &:hover {
-                                    color: $accent;
+                                    color: $blue;
                                 }
                             }
 
@@ -371,7 +368,7 @@ top panel
                         &:hover {
                             & svg {
                                 & path {
-                                    fill: $accent;
+                                    fill: $blue;
                                 }
                             }
                         }
@@ -528,7 +525,7 @@ addition panel
                 transition: $t-sm;
 
                 &:hover {
-                    color: $accent;
+                    color: $blue;
                 }
             }
         }
@@ -708,7 +705,7 @@ banner
         transition: $t-md;
 
         &:hover {
-            background-color: $accent;
+            background-color: $blue;
             color: $light;
         }
     }
@@ -936,11 +933,11 @@ illustration
                 & .mil-item-hover {
                     & h6 {
                         opacity: 1;
-                        color: $accent;
+                        color: $blue;
                     }
 
                     & .mil-plus-icon {
-                        background-color: $accent;
+                        background-color: $blue;
                         animation: puls 1s linear infinite;
 
                     }
@@ -970,7 +967,7 @@ illustration
     & .mil-circle-bg {
         width: 100%;
         height: 100%;
-        background-color: $accent;
+        background-color: $blue;
         position: absolute;
         top: 0;
         left: 0;
@@ -1055,7 +1052,7 @@ icons
 
     &:before {
         content: '';
-        background-color: $accent;
+        background-color: $blue;
         border-radius: 50%;
         position: absolute;
         bottom: -2px;
@@ -1130,6 +1127,7 @@ partners
         cursor: pointer;
         display: flex;
         justify-content: center;
+        align-items: center;
         margin-bottom: 30px;
         filter: grayscale(100%);
 
@@ -1157,6 +1155,10 @@ partners
             }
         }
 
+        & p {
+            margin-left: 10px;
+        }
+
         &:before {
             content: '';
             position: absolute;
@@ -1164,7 +1166,7 @@ partners
             left: calc(50% - 15px);
             transform: scale(0);
             border-radius: 50%;
-            background-color: $accent;
+            background-color: $blue;
             width: 30px;
             height: 30px;
             transition: $t-md;
@@ -1347,7 +1349,7 @@ card
                         margin-right: 5px;
 
                         & i {
-                            color: $accent;
+                            color: $blue;
                         }
 
                         &.mil-empty {
@@ -1459,7 +1461,7 @@ card
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            background-color: $accent;
+            background-color: $blue;
             opacity: .9;
             position: absolute;
             z-index: 2;
@@ -1509,7 +1511,7 @@ card
         }
 
         & .mil-category {
-            color: $accent !important;
+            color: $blue !important;
             font-weight: 500;
         }
 
@@ -1567,11 +1569,11 @@ card
     }
 
     &:hover {
-        border-color: $accent;
+        border-color: $blue;
         box-shadow: 0px 0px 40px 0px rgba(18, 24, 32, 0.1);
 
         & i {
-            background-color: $accent;
+            background-color: $blue;
         }
 
         & .mil-deco {
@@ -1621,7 +1623,7 @@ slider navigation
         }
 
         &:hover * {
-            color: $accent;
+            color: $blue;
         }
 
         &.mil-light {
@@ -1634,7 +1636,7 @@ slider navigation
             }
 
             &:hover * {
-                color: $accent;
+                color: $blue;
             }
         }
 
@@ -1792,7 +1794,7 @@ icon box
         &:before {
             content: '';
             border-radius: 50%;
-            background-color: $accent;
+            background-color: $blue;
             width: 18px;
             height: 18px;
             z-index: -1;
@@ -1850,7 +1852,7 @@ skills
 
         & .mil-skill-prog {
             position: relative;
-            background-color: $accent;
+            background-color: $blue;
             height: 2px;
 
             &:after {
@@ -1858,7 +1860,7 @@ skills
                 width: 14px;
                 height: 14px;
                 border: solid 2px $light;
-                background-color: $accent;
+                background-color: $blue;
                 position: absolute;
                 right: 0;
                 border-radius: 50%;
@@ -1891,7 +1893,7 @@ reviews
                 margin-right: 5px;
 
                 & i {
-                    color: $accent;
+                    color: $blue;
                 }
             }
         }
@@ -1990,7 +1992,7 @@ about
             width: 300px;
             height: 300px;
             border-radius: 50%;
-            background-color: $accent;
+            background-color: $blue;
             opacity: .9;
             position: absolute;
             z-index: 1;
@@ -2076,7 +2078,7 @@ about
                     margin-right: 5px;
 
                     & i {
-                        color: $accent;
+                        color: $blue;
                     }
 
                     &.mil-empty {
@@ -2115,7 +2117,7 @@ about
             content: '';
             width: 300px;
             height: 300px;
-            background-color: $accent;
+            background-color: $blue;
             border-radius: 50%;
             position: absolute;
             z-index: 2;
@@ -2142,7 +2144,7 @@ about
         align-items: center;
         width: 70px;
         height: 70px;
-        background-color: $accent;
+        background-color: $blue;
         animation: puls 1s linear infinite;
     }
 }
@@ -2197,7 +2199,7 @@ awards
                 position: absolute;
                 top: -120px;
                 right: -120px;
-                background-color: $accent;
+                background-color: $blue;
                 border-radius: 50%;
             }
         }
@@ -2232,7 +2234,7 @@ breadcrumbs
             transition: $t-sm;
 
             &:hover {
-                color: $accent;
+                color: $blue;
             }
         }
 
@@ -2241,7 +2243,7 @@ breadcrumbs
             width: 7px;
             height: 7px;
             border-radius: 50%;
-            background-color: $accent;
+            background-color: $blue;
             margin: 0 15px;
         }
 
@@ -2290,7 +2292,7 @@ team
 
         & .mil-team-circle {
             position: absolute;
-            background-color: $accent;
+            background-color: $blue;
             opacity: 0;
             width: 120px;
             height: 120px;
@@ -2355,7 +2357,7 @@ team
         }
 
         & p {
-            color: $accent;
+            color: $blue;
         }
     }
 }
@@ -2451,7 +2453,7 @@ team member
         width: 100%;
         padding-bottom: 100%;
         border-radius: 50%;
-        background-color: $accent;
+        background-color: $blue;
         position: absolute;
         bottom: 0;
         left: 0;
@@ -2494,7 +2496,7 @@ timeline
             height: 13px;
             border: solid 2px $light;
             border-radius: 50%;
-            background-color: $accent;
+            background-color: $blue;
         }
 
         & p {
@@ -2591,7 +2593,7 @@ accordion
     position: absolute;
     left: 0;
     font-size: 20px;
-    color: $accent;
+    color: $blue;
     bottom: -13px;
     background-color: $light;
     padding-right: 10px;
@@ -2667,7 +2669,7 @@ tabs
                 left: 0;
                 width: 100%;
                 height: 2px;
-                border-bottom: solid 2px $accent;
+                border-bottom: solid 2px $blue;
             }
         }
 
@@ -2704,7 +2706,7 @@ tabs
             content: '';
             width: 0;
             height: 2px;
-            background-color: $accent;
+            background-color: $blue;
             position: absolute;
             top: -2px;
             transition: $t-md;
@@ -2854,7 +2856,7 @@ tabs
                 }
 
                 &:before {
-                    border: solid 5px $accent;
+                    border: solid 5px $blue;
                 }
             }
         }
@@ -2881,13 +2883,13 @@ price
         border-color: $dt-10;
 
         &:hover {
-            border-color: $accent;
+            border-color: $blue;
         }
     }
 
     &:hover {
         & .mil-button {
-            border-color: $accent;
+            border-color: $blue;
         }
     }
 }
@@ -2920,7 +2922,7 @@ vacancies
             & .mil-badge {
                 padding: 2px 15px 0;
                 margin-right: 15px;
-                background-color: $accent;
+                background-color: $blue;
                 color: $light;
                 border-radius: 20px;
                 text-transform: uppercase;
@@ -2964,7 +2966,7 @@ careers features
         content: '';
         width: 300px;
         height: 300px;
-        background-color: $accent;
+        background-color: $blue;
         border-radius: 50%;
         position: absolute;
         z-index: 2;
@@ -3019,7 +3021,7 @@ careers features
         transition: $t-md;
 
         &.swiper-pagination-bullet-active {
-            background-color: $accent;
+            background-color: $blue;
         }
     }
 }
@@ -3088,7 +3090,7 @@ blog
         & .mil-description {
 
             & h6 {
-                color: $accent;
+                color: $blue;
             }
         }
 
@@ -3150,7 +3152,7 @@ blog
             transition: $t-sm;
 
             &:hover {
-                background-color: $accent;
+                background-color: $blue;
                 color: $light;
             }
         }
@@ -3272,7 +3274,7 @@ pagination
             &.mil-active {
                 & a {
                     color: $light;
-                    background-color: $accent;
+                    background-color: $blue;
                 }
             }
 
@@ -3374,7 +3376,7 @@ project
         content: '';
         width: 30%;
         padding-bottom: 30%;
-        background-color: $accent;
+        background-color: $blue;
         position: absolute;
         bottom: -15%;
         left: -10%;
@@ -3481,7 +3483,7 @@ footer
             height: 8px;
             border-radius: 50%;
             margin-right: 15px;
-            background-color: $accent;
+            background-color: $blue;
         }
     }
 }
@@ -3546,7 +3548,7 @@ footer
 
             &:hover {
                 & a {
-                    color: $accent !important;
+                    color: $blue !important;
                 }
             }
 
@@ -3659,7 +3661,7 @@ additional pages
         top: 0;
         left: 0;
     }
-    
+
     & .container {
         position: relative;
     }

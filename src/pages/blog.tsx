@@ -1,10 +1,10 @@
-import PageBanner from "@/src/components/PageBanner";
-import Layouts from "@/src/layouts/Layouts";
-import Link from "next/link";
+import PageBanner from '@/src/components/PageBanner'
+import Layouts from '@/src/layouts/Layouts'
+import Link from 'next/link'
 const Blog = () => {
   return (
     <Layouts footer={2}>
-      <PageBanner pageName={"Blog"} pageTitle={"Our Blog"} />
+      <PageBanner pageName={'Blog'} pageTitle={'Our Blog'} />
       {/* blog */}
       <section className="mil-blog mil-p-120-0">
         <div className="container">
@@ -105,7 +105,7 @@ const Blog = () => {
             </div>
             <div className="col-lg-4 col-xl-3 mil-mb-120">
               <div className="mil-mb-60">
-                <h5 className="mil-list-title mil-mb-30">About ITSulu</h5>
+                <h5 className="mil-list-title mil-mb-30">About Absolution</h5>
                 <p className="mil-mb-30">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                   diam nonummy nibh euismod tincidunt.
@@ -238,6 +238,6 @@ const Blog = () => {
       </section>
       {/* blog end */}
     </Layouts>
-  );
-};
-export default Blog;
+  )
+}
+export default Blog

@@ -1,16 +1,16 @@
-import React from "react";
-import ContactForm from "@/src/components/ContactForm";
-import PageBanner from "@/src/components/PageBanner";
-import Layouts from "@/src/layouts/Layouts";
+import React from 'react'
+import ContactForm from '@/src/components/ContactForm'
+import PageBanner from '@/src/components/PageBanner'
+import Layouts from '@/src/layouts/Layouts'
 const Faq = () => {
   return (
     <Layouts>
-      <PageBanner pageName={"FAQs"} pageTitle={"FAQs"} />
+      <PageBanner pageName={'FAQs'} pageTitle={'FAQs'} />
       {/* faq */}
       <section className="mil-faqs mil-p-0-120">
         <div
           className="mil-deco"
-          style={{ bottom: 0, left: "10%", transform: "rotate(180deg)" }}
+          style={{ bottom: 0, left: '10%', transform: 'rotate(180deg)' }}
         />
         <div className="container">
           <div className="mil-tabs">
@@ -25,7 +25,7 @@ const Faq = () => {
               <div className="row justify-content-between">
                 <div className="col-lg-4">
                   <h3 className="mil-up-font mil-mb-30">
-                    <span className="mil-accent">ITSulu Connects</span> The
+                    <span className="mil-accent">Absolution Connects</span> The
                     Entire Organization From End To End.
                   </h3>
                   <p className="mil-mb-60">
@@ -36,7 +36,7 @@ const Faq = () => {
                 </div>
                 <div className="col-lg-7">
                   <div className="mil-accordion">
-                    <h6>Information about ITSulu</h6>
+                    <h6>Information about Absolution</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -56,7 +56,7 @@ const Faq = () => {
                     </div>
                   </div>
                   <div className="mil-accordion">
-                    <h6>What are the benefits of using ITSulu?</h6>
+                    <h6>What are the benefits of using Absolution?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -76,7 +76,7 @@ const Faq = () => {
                     </div>
                   </div>
                   <div className="mil-accordion">
-                    <h6>How much does ITSulu cost?</h6>
+                    <h6>How much does Absolution cost?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -155,7 +155,7 @@ const Faq = () => {
                 </div>
                 <div className="col-lg-7">
                   <div className="mil-accordion">
-                    <h6>How much does ITSulu cost?</h6>
+                    <h6>How much does Absolution cost?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -175,7 +175,7 @@ const Faq = () => {
                     </div>
                   </div>
                   <div className="mil-accordion">
-                    <h6>What are the benefits of using ITSulu?</h6>
+                    <h6>What are the benefits of using Absolution?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -195,7 +195,7 @@ const Faq = () => {
                     </div>
                   </div>
                   <div className="mil-accordion">
-                    <h6>Information about ITSulu</h6>
+                    <h6>Information about Absolution</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -273,7 +273,7 @@ const Faq = () => {
                 </div>
                 <div className="col-lg-7">
                   <div className="mil-accordion">
-                    <h6>What are the benefits of using ITSulu?</h6>
+                    <h6>What are the benefits of using Absolution?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -313,7 +313,7 @@ const Faq = () => {
                     </div>
                   </div>
                   <div className="mil-accordion">
-                    <h6>How much does ITSulu cost?</h6>
+                    <h6>How much does Absolution cost?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -353,7 +353,7 @@ const Faq = () => {
                     </div>
                   </div>
                   <div className="mil-accordion">
-                    <h6>Information about ITSulu</h6>
+                    <h6>Information about Absolution</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -381,7 +381,7 @@ const Faq = () => {
               <div className="row justify-content-between">
                 <div className="col-lg-4">
                   <h3 className="mil-up-font mil-mb-30">
-                    <span className="mil-accent">Aliquam aut natus</span>{" "}
+                    <span className="mil-accent">Aliquam aut natus</span>{' '}
                     perspiciatis corporis sunt alias cumques.
                   </h3>
                   <p className="mil-mb-60">
@@ -391,7 +391,7 @@ const Faq = () => {
                 </div>
                 <div className="col-lg-7">
                   <div className="mil-accordion">
-                    <h6>Information about ITSulu</h6>
+                    <h6>Information about Absolution</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -411,7 +411,7 @@ const Faq = () => {
                     </div>
                   </div>
                   <div className="mil-accordion">
-                    <h6>What are the benefits of using ITSulu?</h6>
+                    <h6>What are the benefits of using Absolution?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -431,7 +431,7 @@ const Faq = () => {
                     </div>
                   </div>
                   <div className="mil-accordion">
-                    <h6>How much does ITSulu cost?</h6>
+                    <h6>How much does Absolution cost?</h6>
                   </div>
                   <div className="mil-panel">
                     <div className="mil-window">
@@ -501,6 +501,6 @@ const Faq = () => {
       {/* contact */}
       <ContactForm />
     </Layouts>
-  );
-};
-export default Faq;
+  )
+}
+export default Faq

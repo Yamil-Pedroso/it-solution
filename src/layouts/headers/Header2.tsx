@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react'
+import Link from 'next/link'
 
 interface Header2Props {
   transparent?: any
@@ -19,7 +19,7 @@ const Header2 = ({ transparent }: Header2Props) => {
             <div className="mil-icon-frame mil-icon-frame-sm">
               <img src="img/icons/sm/4.svg" alt="icon" />
             </div>
-            <p>Find out how ITSulu Could save you over 2.400 US$ a year.</p>
+            <p>Lorem Ipsum</p>
           </div>
           <ul className="mil-ap-list">
             <li>
@@ -143,6 +143,6 @@ const Header2 = ({ transparent }: Header2Props) => {
         </div>
       </div>
     </div>
-  );
-};
-export default Header2;
+  )
+}
+export default Header2

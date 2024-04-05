@@ -1,15 +1,14 @@
-import React from "react";
-import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { sliderProps } from "../../common/sliderProps";
+import React from 'react'
+import Link from 'next/link'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { sliderProps } from '../../common/sliderProps'
 
-import SectionData from '../../data/sliders/latest-projects.json';
+import SectionData from '../../data/sliders/latest-projects.json'
 
-const LatestProjects = ( {projects}: any ) => {
-  
+const LatestProjects = ({ projects }: any) => {
   return (
     <section className="mil-works mil-p-120-90">
-      <div className="mil-deco" style={{ top: 0, right: "40%" }} />
+      <div className="mil-deco" style={{ top: 0, right: '40%' }} />
       <div className="container">
         <div className="row align-items-center mil-mb-60-adapt">
           <div className="col-md-6 col-xl-6">
@@ -35,40 +34,47 @@ const LatestProjects = ( {projects}: any ) => {
           {...sliderProps.latestProjectSlider}
           className="swiper-container mil-works-slider mil-mb-90"
         >
-          {projects && projects.slice(0, SectionData.numOfItems).map((item: any, key: any) => (
-          <SwiperSlide className="swiper-slide">
-            <Link href="project" className="mil-card">
-              <div className="mil-cover-frame">
-                <img src={item.image} alt={item.title} />
-              </div>
-              <div className="mil-description">
-                <div className="mil-card-title">
-                  <h4 className="mil-mb-20">
-                    {item.title}
-                  </h4>
-                  <h6>
-                    by: <span className="mil-accent">{item.author}</span>
-                  </h6>
-                </div>
-                <div className="mil-card-text">
-                  <p>{item.short}</p>
-                </div>
-              </div>
-            </Link>
-          </SwiperSlide>
-          ))}
+          {projects &&
+            projects
+              .slice(0, SectionData.numOfItems)
+              .map((item: any, key: any) => (
+                <SwiperSlide className="swiper-slide">
+                  <Link href="project" className="mil-card">
+                    <div className="mil-cover-frame">
+                      <img src={item.image} alt={item.title} />
+                    </div>
+                    <div className="mil-description">
+                      <div className="mil-card-title">
+                        <h4 className="mil-mb-20">{item.title}</h4>
+                        <h6>
+                          by: <span className="mil-accent">{item.author}</span>
+                        </h6>
+                      </div>
+                      <div className="mil-card-text">
+                        <p>{item.short}</p>
+                      </div>
+                    </div>
+                  </Link>
+                </SwiperSlide>
+              ))}
         </Swiper>
 
         <div className="row align-items-center">
           <div className="col-md-6 col-xl-6">
-            <Link href={SectionData.button1.link} className="mil-link mil-mb-30">
+            <Link
+              href={SectionData.button1.link}
+              className="mil-link mil-mb-30"
+            >
               <span>{SectionData.button1.label}</span>
               <i className="fas fa-arrow-right" />
             </Link>
           </div>
           <div className="col-md-6 col-xl-6">
             <div className="mil-adaptive-right">
-              <Link href={SectionData.button2.link} className="mil-button mil-border mil-mb-30">
+              <Link
+                href={SectionData.button2.link}
+                className="mil-button mil-border mil-mb-30"
+              >
                 <span>{SectionData.button2.label}</span>
               </Link>
             </div>
@@ -76,6 +82,6 @@ const LatestProjects = ( {projects}: any ) => {
         </div>
       </div>
     </section>
-  );
-};
-export default LatestProjects;
+  )
+}
+export default LatestProjects

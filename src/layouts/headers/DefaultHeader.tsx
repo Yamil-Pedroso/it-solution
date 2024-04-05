@@ -1,12 +1,12 @@
-import React from "react";
-import Link from "next/link";
-import { useState } from "react";
+import React from 'react'
+import Link from 'next/link'
+import { useState } from 'react'
 
 const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(false)
   return (
     <div
-      className={`mil-top-position mil-fixed ${extarClass ? extarClass : ""}`}
+      className={`mil-top-position mil-fixed ${extarClass ? extarClass : ''}`}
     >
       {headerTop && (
         <div className="mil-additional-panel">
@@ -21,7 +21,9 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
               <div className="mil-icon-frame mil-icon-frame-sm">
                 <img src="img/icons/sm/4.svg" alt="icon" />
               </div>
-              <p>Find out how ITSulu Could save you over 2.400 US$ a year.</p>
+              <p>
+                Find out how Absolution Could save you over 2.400 US$ a year.
+              </p>
             </div>
             <ul className="mil-ap-list">
               <li>
@@ -36,15 +38,17 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
       )}
       <div
         className={`mil-top-panel ${
-          transparent ? "mil-top-panel-transparent mil-animated" : ""
+          transparent ? 'mil-top-panel-transparent mil-animated' : ''
         }`}
       >
         {/* mil-top-panel-transparent */}
         <div className="container">
           <Link href="/" legacyBehavior>
-            <a className="mil-logo" style={{ width: 140 }}></a>
+            <a className="lorem-logo">
+              <h2>Absolution</h2>
+            </a>
           </Link>
-          <div className={`mil-navigation ${toggle ? "mil-active" : ""}`}>
+          <div className={`mil-navigation ${toggle ? 'mil-active' : ''}`}>
             <nav>
               <ul>
                 <li className="mil-has-children">
@@ -147,7 +151,7 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
           </div>
           {/* mobile menu button */}
           <div
-            className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
+            className={`mil-menu-btn ${toggle ? 'mil-active' : ''}`}
             onClick={() => setToggle(!toggle)}
           >
             <span />
@@ -156,6 +160,6 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
         </div>
       </div>
     </div>
-  );
-};
-export default DefaultHeader;
+  )
+}
+export default DefaultHeader

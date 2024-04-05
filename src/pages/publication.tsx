@@ -1,5 +1,5 @@
-import Layouts from "@/src/layouts/Layouts";
-import Link from "next/link";
+import Layouts from '@/src/layouts/Layouts'
+import Link from 'next/link'
 const Publication = () => {
   return (
     <Layouts>
@@ -8,7 +8,7 @@ const Publication = () => {
         <img
           src="img/blog/5.jpg"
           className="mil-background-image"
-          style={{ objectPosition: "center" }}
+          style={{ objectPosition: 'center' }}
           alt="Publication cover"
         />
         <div className="mil-overlay" />
@@ -252,7 +252,7 @@ const Publication = () => {
                       <textarea
                         placeholder="Your Message"
                         className="mil-shortened"
-                        defaultValue={""}
+                        defaultValue={''}
                       />
                     </div>
                   </div>
@@ -287,7 +287,7 @@ const Publication = () => {
             </div>
             <div className="col-lg-4 col-xl-3 mil-mb-120">
               <div className="mil-mb-60">
-                <h5 className="mil-list-title mil-mb-30">About ITSulu</h5>
+                <h5 className="mil-list-title mil-mb-30">About Absolution</h5>
                 <p className="mil-mb-30">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                   diam nonummy nibh euismod tincidunt.
@@ -419,6 +419,6 @@ const Publication = () => {
         </div>
       </section>
     </Layouts>
-  );
-};
-export default Publication;
+  )
+}
+export default Publication

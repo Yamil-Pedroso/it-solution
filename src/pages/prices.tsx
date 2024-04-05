@@ -1,22 +1,22 @@
-import PageBanner from "@/src/components/PageBanner";
-import Layouts from "@/src/layouts/Layouts";
-import dynamic from "next/dynamic";
+import PageBanner from '@/src/components/PageBanner'
+import Layouts from '@/src/layouts/Layouts'
+import dynamic from 'next/dynamic'
 const PriceTestimonialSlider = dynamic(
-  () => import("@/src/components/sliders/PriceTestimonialSlider"),
+  () => import('@/src/components/sliders/PriceTestimonialSlider'),
   {
     ssr: false,
-  }
-);
+  },
+)
 const Prices = () => {
   return (
     <Layouts>
-      <PageBanner pageName={"Pricing"} pageTitle={"Pricing and plans"} />
+      <PageBanner pageName={'Pricing'} pageTitle={'Pricing and plans'} />
       {/* prices */}
       <section className="mil-prices mil-p-120-0">
         <div className="container">
           <h3 className="mil-text-center mil-mb-120">
             Get <span className="mil-accent">2 months</span> free by choosing
-            ITSulu annual plan
+            Absolution annual plan
           </h3>
           <div className="row">
             <div className="col-xl-4">
@@ -109,7 +109,7 @@ const Prices = () => {
       <section className="call-to-action mil-gradient-bg mil-p-120-0">
         <div
           className="mil-deco mil-deco-accent"
-          style={{ top: 0, left: "15%" }}
+          style={{ top: 0, left: '15%' }}
         />
         <div className="container mil-text-center">
           <div className="mil-cta-frame">
@@ -118,7 +118,7 @@ const Prices = () => {
             </div>
             <p className="mil-light mil-mb-30">Leadership Team</p>
             <h2 className="mil-light mil-mb-30">
-              <span className="mil-accent">ITSulu</span> in The Future
+              <span className="mil-accent">Absolution</span> in The Future
             </h2>
             <p className="mil-light-soft mil-mb-60">
               It is a long established fact that a reader will be distracted by
@@ -137,6 +137,6 @@ const Prices = () => {
       </section>
       {/* call to action end */}
     </Layouts>
-  );
-};
-export default Prices;
+  )
+}
+export default Prices

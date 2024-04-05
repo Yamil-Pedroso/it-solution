@@ -1,5 +1,5 @@
-import Layouts from "@/src/layouts/Layouts";
-import Link from "next/link";
+import Layouts from '@/src/layouts/Layouts'
+import Link from 'next/link'
 const ComingSoon = () => {
   return (
     <Layouts noHeader noFooter>
@@ -11,10 +11,10 @@ const ComingSoon = () => {
             <Link href="/" className="mil-logo" style={{ width: 140 }} />
             <div className="mil-navigation">
               <p className="mil-light">
-                We Provide{" "}
+                We Provide{' '}
                 <span className="mil-accent m-3">
                   IT Solutions &amp; Services
-                </span>{" "}
+                </span>{' '}
                 For Enterprise
               </p>
             </div>
@@ -47,7 +47,7 @@ const ComingSoon = () => {
               <div className="row align-items-center">
                 <div className="col-lg-5">
                   <h4 className="mil-light mil-mb-30">
-                    Join The <span className="mil-accent">ITSulu</span>
+                    Join The <span className="mil-accent">Absolution</span>
                     <br /> Experience
                   </h4>
                 </div>
@@ -75,11 +75,11 @@ const ComingSoon = () => {
       {/* coming soon end */}
       <div className="mil-addition-bottom">
         <div className="container-fluid">
-          <p className="mil-text-sm mil-light-soft">© ITSulu 2023.</p>
+          <p className="mil-text-sm mil-light-soft">© Absolution 2023.</p>
           <p className="mil-text-sm mil-light-soft">All Rights Reserved.</p>
         </div>
       </div>
     </Layouts>
-  );
-};
-export default ComingSoon;
+  )
+}
+export default ComingSoon

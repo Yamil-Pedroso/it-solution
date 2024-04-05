@@ -154,7 +154,7 @@ a {
             width: 7px;
             height: 7px;
             border-radius: 50%;
-            background-color: $accent;
+            background-color: $blue;
             position: absolute;
             left: 0;
             top: 9px;
@@ -179,7 +179,7 @@ a {
 }
 
 .mil-accent {
-    color: $accent;
+    color: $blue;
 }
 
 .mil-light {
@@ -244,7 +244,7 @@ list
             content: '';
             width: 7px;
             height: 7px;
-            background-color: $accent;
+            background-color: $blue;
             border-radius: 50%;
             left: 0;
             top: 0;
@@ -285,7 +285,7 @@ list
             font-family: "Font Awesome 5 Free";
             font-weight: 900;
             content: "\f00c";
-            color: $accent;
+            color: $blue;
             border-radius: 50%;
             left: 0;
             top: 0;
@@ -307,7 +307,7 @@ list
             content: '';
             width: 7px;
             height: 7px;
-            background-color: $accent;
+            background-color: $blue;
             border-radius: 50%;
             margin-right: 15px;
         }
@@ -355,7 +355,7 @@ list
                 content: '';
                 width: 7px;
                 height: 7px;
-                background-color: $accent;
+                background-color: $blue;
                 border-radius: 50%;
                 margin-right: 0;
                 transform: scale(0);
@@ -363,7 +363,7 @@ list
             }
 
             &:hover {
-                color: $accent;
+                color: $blue;
 
                 &:before {
                     margin-right: 10px;
@@ -395,7 +395,7 @@ list
         height: 8px;
         border-radius: 50%;
         margin-right: 15px;
-        background-color: $accent;
+        background-color: $blue;
     }
 }
 
@@ -412,7 +412,7 @@ list
             transition: $t-sm;
 
             &:hover {
-                color: $accent;
+                color: $blue;
             }
         }
     }
@@ -444,7 +444,7 @@ list
             &:hover {
                 & i {
                     transform: translateX(0);
-                    color: $accent;
+                    color: $blue;
                 }
             }
         }
@@ -525,7 +525,7 @@ button
     align-items: center;
     justify-content: center;
     text-align: center;
-    box-shadow: inset 0 0 0 0 $accent;
+    box-shadow: inset 0 0 0 0 $blue;
     border: solid 2px transparent;
     border-radius: 40px;
     text-decoration: none;
@@ -544,11 +544,11 @@ button
     }
 
     &.mil-border {
-        border-color: $accent;
+        border-color: $blue;
         background-color: transparent;
 
         &:hover {
-            box-shadow: inset 0 0 0 1px $accent;
+            box-shadow: inset 0 0 0 1px $blue;
             backdrop-filter: blur(10px);
         }
 
@@ -576,7 +576,7 @@ button
     }
 
     &.mil-accent-bg {
-        background-color: $accent;
+        background-color: $blue;
         border-color: transparent;
 
         &:hover {
@@ -652,7 +652,7 @@ link
         font-size: 12px;
         color: $light;
         margin-left: 15px;
-        background-color: $accent;
+        background-color: $blue;
         width: 35px;
         height: 35px;
         border-radius: 50%;
@@ -682,7 +682,7 @@ link
             }
         }
     }
-    
+
     &.mil-light {
         color: $light;
     }
@@ -884,7 +884,7 @@ form
         width: 60px;
         border-radius: 50%;
         color: $light;
-        background-color: $accent;
+        background-color: $blue;
         border: none;
         transition: $t-md;
 
@@ -915,7 +915,7 @@ form
         transition: $t-sm;
 
         &.mil-with-file {
-            color: $accent;
+            color: $blue;
         }
 
         & input[type="file"] {
@@ -926,7 +926,7 @@ form
         }
 
         &:hover {
-            color: $accent;
+            color: $blue;
         }
     }
 
@@ -944,11 +944,11 @@ form
             color: $dark;
 
             &.mil-with-file {
-                color: $accent;
+                color: $blue;
             }
 
             &:hover {
-                color: $accent;
+                color: $blue;
             }
         }
     }
@@ -991,12 +991,12 @@ form
 
         &:hover + label:before {
             background: $lt-10;
-            border: solid 1px $accent;
+            border: solid 1px $blue;
         }
 
         &:checked + label:before {
-            background: $accent;
-            border: solid 1px $accent;
+            background: $blue;
+            border: solid 1px $blue;
         }
 
         &:disabled + label {
@@ -1036,12 +1036,12 @@ form
 
             &:hover + label:before {
                 background: $lt-10;
-                border: solid 1px $accent;
+                border: solid 1px $blue;
             }
 
             &:checked + label:before {
-                background: $accent;
-                border: solid 1px $accent;
+                background: $blue;
+                border: solid 1px $blue;
             }
         }
     }
@@ -1064,7 +1064,7 @@ divider
         width: 25px;
         border-right: solid 5px $light;
         height: 100%;
-        background-color: $accent;
+        background-color: $blue;
         position: absolute;
         top: 0;
         left: 0;
@@ -1148,7 +1148,7 @@ background
         content: '';
         width: 350px;
         height: 350px;
-        background-color: $accent;
+        background-color: $blue;
         position: absolute;
         top: -150px;
         right: -150px;

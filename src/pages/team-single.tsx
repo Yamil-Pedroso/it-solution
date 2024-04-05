@@ -1,6 +1,6 @@
-import ContactForm from "@/src/components/ContactForm";
-import Layouts from "@/src/layouts/Layouts";
-import Link from "next/link";
+import ContactForm from '@/src/components/ContactForm'
+import Layouts from '@/src/layouts/Layouts'
+import Link from 'next/link'
 const TeamSingle = () => {
   return (
     <Layouts>
@@ -54,7 +54,7 @@ const TeamSingle = () => {
                   <p className="mil-text-sm">2017-1019</p>
                 </li>
                 <li>
-                  <h5 className="mil-mb-5">ITSulu Group</h5>
+                  <h5 className="mil-mb-5">Absolution Group</h5>
                   <p className="mil-text-sm">2019-Today</p>
                 </li>
               </ul>
@@ -77,7 +77,7 @@ const TeamSingle = () => {
                     <div className="mil-skill-track">
                       <div
                         className="mil-skill-prog"
-                        style={{ width: "65%" }}
+                        style={{ width: '65%' }}
                       />
                     </div>
                     <div className="mil-text-sm">65%</div>
@@ -89,7 +89,7 @@ const TeamSingle = () => {
                     <div className="mil-skill-track">
                       <div
                         className="mil-skill-prog"
-                        style={{ width: "65%" }}
+                        style={{ width: '65%' }}
                       />
                     </div>
                     <div className="mil-text-sm">65%</div>
@@ -101,7 +101,7 @@ const TeamSingle = () => {
                     <div className="mil-skill-track">
                       <div
                         className="mil-skill-prog"
-                        style={{ width: "65%" }}
+                        style={{ width: '65%' }}
                       />
                     </div>
                     <div className="mil-text-sm">65%</div>
@@ -142,7 +142,7 @@ const TeamSingle = () => {
                   <img src="img/icons/md/7.svg" alt="icon" />
                 </div>
                 <h4 className="mil-mb-30">
-                  ITSulu allowed me to grow and{" "}
+                  Absolution allowed me to grow and{' '}
                   <span className="mil-accent">reach goals</span> that I never
                   imagined.
                 </h4>
@@ -157,6 +157,6 @@ const TeamSingle = () => {
       {/* contact */}
       <ContactForm />
     </Layouts>
-  );
-};
-export default TeamSingle;
+  )
+}
+export default TeamSingle

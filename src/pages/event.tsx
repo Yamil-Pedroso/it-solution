@@ -1,6 +1,6 @@
-import React from "react";
-import Layouts from "@/src/layouts/Layouts";
-import Link from "next/link";
+import React from 'react'
+import Layouts from '@/src/layouts/Layouts'
+import Link from 'next/link'
 const Event = () => {
   return (
     <Layouts>
@@ -9,7 +9,7 @@ const Event = () => {
         <img
           src="img/photo/13.jpg"
           className="mil-background-image"
-          style={{ objectPosition: "center" }}
+          style={{ objectPosition: 'center' }}
           data-swiper-parallax={-100}
           data-swiper-parallax-scale="1.1"
           alt="image"
@@ -91,8 +91,8 @@ const Event = () => {
                       defaultValue="value"
                     />
                     <label htmlFor="checkbox-1" className="mil-text-sm">
-                      I agree to receive other communications from{" "}
-                      <span className="mil-accent">ITSulu.</span>
+                      I agree to receive other communications from{' '}
+                      <span className="mil-accent">Absolution.</span>
                     </label>
                   </div>
                   <p className="mil-text-sm mil-mb-30">
@@ -116,7 +116,7 @@ const Event = () => {
           <div className="row">
             <div className="col-xl-6">
               <h6>
-                Digital <span className="mil-accent">Transformation</span>{" "}
+                Digital <span className="mil-accent">Transformation</span>{' '}
                 Services &amp; Why It Matters Webinar
               </h6>
             </div>
@@ -178,7 +178,7 @@ const Event = () => {
                       <h5 className="mil-mb-10">Jane Meldrum</h5>
                       <p className="mil-text-sm">
                         VP, Research Director <br />
-                        ITSulu Agent
+                        Absolution Agent
                       </p>
                     </div>
                   </Link>
@@ -195,7 +195,7 @@ const Event = () => {
                       <h5 className="mil-mb-10">Jane Meldrum</h5>
                       <p className="mil-text-sm">
                         VP, Research Director <br />
-                        ITSulu Agent
+                        Absolution Agent
                       </p>
                     </div>
                   </Link>
@@ -212,7 +212,7 @@ const Event = () => {
                       <h5 className="mil-mb-10">Jane Meldrum</h5>
                       <p className="mil-text-sm">
                         VP, Research Director <br />
-                        ITSulu Agent
+                        Absolution Agent
                       </p>
                     </div>
                   </Link>
@@ -314,6 +314,6 @@ const Event = () => {
         </div>
       </section>
     </Layouts>
-  );
-};
-export default Event;
+  )
+}
+export default Event

@@ -1,6 +1,6 @@
 import React from 'react'
-import Layouts from "@/src/layouts/Layouts";
-import Link from "next/link";
+import Layouts from '@/src/layouts/Layouts'
+import Link from 'next/link'
 const E404 = () => {
   return (
     <Layouts noFooter transparent>
@@ -8,7 +8,7 @@ const E404 = () => {
       <div className="mil-dark-bg mil-add-page">
         <div
           className="mil-deco mil-deco-accent"
-          style={{ top: "40vh", right: "10%", transform: "rotate(90deg)" }}
+          style={{ top: '40vh', right: '10%', transform: 'rotate(90deg)' }}
         />
         <img src="img/deco/map.png" alt="background" className="mil-map-bg" />
         <div className="container">
@@ -39,11 +39,11 @@ const E404 = () => {
       {/* 404 end */}
       <div className="mil-addition-bottom">
         <div className="container-fluid">
-          <p className="mil-text-sm mil-light-soft">© ITSulu 2023.</p>
+          <p className="mil-text-sm mil-light-soft">© Absolution 2023.</p>
           <p className="mil-text-sm mil-light-soft">All Rights Reserved.</p>
         </div>
       </div>
     </Layouts>
-  );
-};
-export default E404;
+  )
+}
+export default E404

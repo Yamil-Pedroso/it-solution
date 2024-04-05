@@ -1,7 +1,12 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react'
+import Link from 'next/link'
 
-const PageBanner = ({ pageTitle, pageName }) => {
+interface PageBannerProps {
+  pageTitle: string
+  pageName: string
+}
+
+const PageBanner = ({ pageTitle, pageName }: PageBannerProps) => {
   return (
     <div className="mil-banner-sm mil-deep-bg">
       <img
@@ -11,7 +16,7 @@ const PageBanner = ({ pageTitle, pageName }) => {
       />
       <div
         className="mil-deco mil-deco-accent"
-        style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
+        style={{ top: '47%', right: '10%', transform: 'rotate(90deg)' }}
       />
       <div className="mil-banner-content">
         <div className="container mil-relative">
@@ -27,6 +32,6 @@ const PageBanner = ({ pageTitle, pageName }) => {
         </div>
       </div>
     </div>
-  );
-};
-export default PageBanner;
+  )
+}
+export default PageBanner
