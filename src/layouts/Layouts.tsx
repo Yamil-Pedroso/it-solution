@@ -1,8 +1,12 @@
-import React from "react"
-import { useEffect } from "react";
-import { accordion, milButtonClick, milButtonClick2 } from "@/src/common/utilits";
-import Footer from "./footers/Index";
-import Header from "./headers/Index";
+import React from 'react'
+import { useEffect } from 'react'
+import {
+  accordion,
+  milButtonClick,
+  milButtonClick2,
+} from '@/src/common/utilits'
+import Footer from './footers/Index'
+import Header from './headers/Index'
 
 const Layouts = ({
   children,
@@ -12,13 +16,13 @@ const Layouts = ({
   noFooter,
   transparent,
   headerTop,
-  extarClass,
+  extraClass,
 }: any) => {
   useEffect(() => {
-    milButtonClick();
-    milButtonClick2();
-    accordion();
-  }, []) ;
+    milButtonClick()
+    milButtonClick2()
+    accordion()
+  }, [])
 
   return (
     <div className="mil-wrapper">
@@ -27,12 +31,12 @@ const Layouts = ({
           header={header}
           transparent={transparent}
           headerTop={headerTop}
-          extarClass={extarClass}
+          extraClass={extraClass}
         />
       )}
       {children}
       {!noFooter && <Footer footer={footer} />}
     </div>
-  );
-};
-export default Layouts;
+  )
+}
+export default Layouts

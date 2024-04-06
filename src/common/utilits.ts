@@ -1,5 +1,5 @@
-// Sticky nav
-export const stickyNav = (extraClass) => {
+
+export const stickyNav = (extraClass: any) => {
   window.addEventListener("scroll", () => {
     let offset = window.scrollY;
     const sticky = document.querySelectorAll(
@@ -52,8 +52,8 @@ export const milButtonClick2 = () => {
 };
 
 export const accordion = () => {
-  var acc = document.getElementsByClassName("mil-accordion");
-  var i;
+  let acc = document.getElementsByClassName("mil-accordion") as any;
+  let i;
 
   for (i = 0; i < acc.length; i++) {
     acc[i].onclick = function () {

@@ -1,12 +1,17 @@
 import React from 'react'
 import Link from 'next/link'
 import { useState } from 'react'
+import { DefaultHeaderProps } from '@/src/types/types'
 
-const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
+const DefaultHeader = ({
+  transparent,
+  headerTop,
+  extraClass,
+}: DefaultHeaderProps) => {
   const [toggle, setToggle] = useState(false)
   return (
     <div
-      className={`mil-top-position mil-fixed ${extarClass ? extarClass : ''}`}
+      className={`mil-top-position mil-fixed ${extraClass ? extraClass : ''}`}
     >
       {headerTop && (
         <div className="mil-additional-panel">
@@ -27,7 +32,7 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
             </div>
             <ul className="mil-ap-list">
               <li>
-                <a href="#.">Accounta</a>
+                <a href="#.">Account</a>
               </li>
               <li>
                 <a href="#.">English</a>

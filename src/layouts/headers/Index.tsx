@@ -1,13 +1,19 @@
-import React from "react";
-import { stickyNav } from "@/src/common/utilits";
-import { useEffect } from "react";
-import DefaultHeader from "./DefaultHeader";
-import Header2 from "./Header2";
+import React from 'react'
+import { stickyNav } from '@/src/common/utilits'
+import { useEffect } from 'react'
+import DefaultHeader from './DefaultHeader'
+import Header2 from './Header2'
+import { HeaderProps } from '@/src/types/types'
 
-const Header = ({ header, transparent, headerTop, extarClass }) => {
+const Header = ({
+  header,
+  transparent,
+  headerTop,
+  extraClass,
+}: HeaderProps) => {
   useEffect(() => {
-    stickyNav(extarClass);
-  }, []);
+    stickyNav(extraClass)
+  }, [])
 
   switch (header) {
     case 1:
@@ -15,21 +21,21 @@ const Header = ({ header, transparent, headerTop, extarClass }) => {
         <DefaultHeader
           transparent={transparent}
           headerTop={headerTop}
-          extarClass={extarClass}
+          extraClass={extraClass}
         />
-      );
+      )
 
     case 2:
-      return <Header2 transparent={transparent} />;
+      return <Header2 transparent={transparent} />
 
     default:
       return (
         <DefaultHeader
           transparent={transparent}
           headerTop={headerTop}
-          extarClass={extarClass}
+          extraClass={extraClass}
         />
-      );
+      )
   }
-};
-export default Header;
+}
+export default Header

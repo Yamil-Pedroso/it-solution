@@ -1,8 +1,4 @@
-/* -------------------------------------------
 
-top panel
-
-------------------------------------------- */
 
 .mil-top-position {
     width: 100%;
@@ -53,7 +49,7 @@ top panel
 
     & .lorem-logo {
         & h2 {
-            color: #fff;
+            color: $dark;
             font-size: 1.5rem;
         }
     }
@@ -70,7 +66,6 @@ top panel
                 & li {
                     margin-right: 40px;
                     list-style-type: none;
-
                     & a {
                         font-family: $font-2;
                         text-decoration: none;
@@ -91,13 +86,13 @@ top panel
                         &:before {
                             content: '';
                             position: absolute;
-                            top: 0;
-                            right: 0;
-                            width: 8px;
-                            height: 8px;
+                            top: -.5rem;
+                            left: -.5rem;
+                            width: .5rem;
+                            height: .5rem;
                             border-radius: 50%;
-                            border: solid 2px $blue;
-                        }
+                            background-color: $blue;
+}
 
                         &:after {
                             content: '';
@@ -283,8 +278,10 @@ top panel
         background-color: transparent;
         box-shadow: none;
 
-        & .mil-logo {
-            background-image: url(../img/logo/logo-light.png);
+        & .lorem-logo {
+            & h2 {
+                color: $light;
+            }
         }
 
         & .mil-navigation {
@@ -335,11 +332,6 @@ top panel
         @media screen and (max-width: 1200px) {
             background-color: $light;
 
-
-            & .mil-logo {
-                background-image: url(../img/logo/logo-dark.png);
-            }
-
             & .mil-navigation {
                 & nav {
                     & ul {
@@ -387,12 +379,6 @@ top panel
         }
     }
 }
-
-/* -------------------------------------------
-
-menu button
-
-------------------------------------------- */
 
 .mil-menu-btn {
     height: 24px;
