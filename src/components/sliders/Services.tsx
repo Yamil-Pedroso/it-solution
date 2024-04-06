@@ -6,25 +6,25 @@ import Content from '../../data/sliders/services.json'
 
 const Home2ServicesSlider = () => {
   return (
-    <section className="mil-services mil-deep-bg mil-p-120-90">
-      <div className="mil-deco" style={{ top: 0, right: '20%' }} />
+    <section className="absolution-services absolution-deep-bg absolution-p-120-90">
+      <div className="absolution-deco" style={{ top: 0, right: '20%' }} />
       <div className="container">
-        <div className="row align-items-center mil-mb-90">
+        <div className="row align-items-center absolution-mb-90">
           <div className="col-md-6 col-xl-6">
-            <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+            <span className="absolution-suptitle absolution-suptitle-2 absolution-mb-30">
               {Content.subtitle}
             </span>
             <h2>{Content.title}</h2>
           </div>
           <div className="col-md-6 col-xl-6">
-            <div className="mil-adaptive-right mil-mt-60-adapt">
-              <div className="mil-slider-nav">
-                <div className="mil-slider-btn-prev mil-services-prev">
+            <div className="absolution-adaptive-right absolution-mt-60-adapt">
+              <div className="absolution-slider-nav">
+                <div className="absolution-slider-btn-prev absolution-services-prev">
                   <i className="fas fa-arrow-left" />
-                  <span className="mil-h6">Prev</span>
+                  <span className="absolution-h6">Prev</span>
                 </div>
-                <div className="mil-slider-btn-next mil-services-next">
-                  <span className="mil-h6">Next</span>
+                <div className="absolution-slider-btn-next absolution-services-next">
+                  <span className="absolution-h6">Next</span>
                   <i className="fas fa-arrow-right" />
                 </div>
               </div>
@@ -33,20 +33,20 @@ const Home2ServicesSlider = () => {
         </div>
         <Swiper
           {...sliderProps.milServicesSlider}
-          className="swiper-container mil-services-slider"
+          className="swiper-container absolution-services-slider"
         >
           {Content.items.map((item, key) => (
             <SwiperSlide className="swiper-slide">
-              <div className="mil-hover-card">
-                <h4 className="mil-mb-30">{item.name}</h4>
-                <p className="mil-mb-50">{item.text}</p>
-                <div className="mil-divider mil-divider-left mil-mb-50" />
-                <ul className="mil-simple-list mil-mb-50">
+              <div className="absolution-hover-card">
+                <h4 className="absolution-mb-30">{item.name}</h4>
+                <p className="absolution-mb-50">{item.text}</p>
+                <div className="absolution-divider absolution-divider-left absolution-mb-50" />
+                <ul className="absolution-simple-list absolution-mb-50">
                   {item.list.map((element, key) => (
                     <li>{element.value}</li>
                   ))}
                 </ul>
-                <a href={item.link} className="mil-link">
+                <a href={item.link} className="absolution-link">
                   <span>{item.button}</span>
                   <i className="fas fa-arrow-right" />
                 </a>

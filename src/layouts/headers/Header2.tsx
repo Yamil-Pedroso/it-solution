@@ -6,22 +6,22 @@ interface Header2Props {
 }
 const Header2 = ({ transparent }: Header2Props) => {
   return (
-    <div className="mil-top-position mil-fixed has-additional-panel">
-      <div className="mil-additional-panel">
+    <div className="absolution-top-position absolution-fixed has-additional-panel">
+      <div className="absolution-additional-panel">
         <div className="container-fluid">
-          <ul className="mil-ap-list">
+          <ul className="absolution-ap-list">
             <li>
-              Phone: <span className="mil-accent">+ 01</span> 800 070 404
+              Phone: <span className="absolution-accent">+ 01</span> 800 070 404
             </li>
             <li>Info@mydomain.com</li>
           </ul>
-          <div className="mil-ap-call-to-action">
-            <div className="mil-icon-frame mil-icon-frame-sm">
+          <div className="absolution-ap-call-to-action">
+            <div className="absolution-icon-frame absolution-icon-frame-sm">
               <img src="img/icons/sm/4.svg" alt="icon" />
             </div>
             <p>Lorem Ipsum</p>
           </div>
-          <ul className="mil-ap-list">
+          <ul className="absolution-ap-list">
             <li>
               <a href="#.">Accounta</a>
             </li>
@@ -31,16 +31,16 @@ const Header2 = ({ transparent }: Header2Props) => {
           </ul>
         </div>
       </div>
-      <div className="mil-top-panel">
-        {/* mil-top-panel-transparent */}
+      <div className="absolution-top-panel">
+        {/* absolution-top-panel-transparent */}
         <div className="container">
           <Link href="/" legacyBehavior>
-            <a className="mil-logo" style={{ width: 140 }} />
+            <a className="absolution-logo" style={{ width: 140 }} />
           </Link>
-          <div className="mil-navigation">
+          <div className="absolution-navigation">
             <nav>
               <ul>
-                <li className="mil-has-children">
+                <li className="absolution-has-children">
                   <Link href="/">Enterprise</Link>
                   <ul>
                     <li>
@@ -69,7 +69,7 @@ const Header2 = ({ transparent }: Header2Props) => {
                 <li>
                   <Link href="portfolio">Case Studies</Link>
                 </li>
-                <li className="mil-has-children">
+                <li className="absolution-has-children">
                   <Link href="#.">Services</Link>
                   <ul>
                     <li>
@@ -86,7 +86,7 @@ const Header2 = ({ transparent }: Header2Props) => {
                     </li>
                   </ul>
                 </li>
-                <li className="mil-has-children">
+                <li className="absolution-has-children">
                   <Link href="#.">Solutions</Link>
                   <ul>
                     <li>
@@ -106,7 +106,7 @@ const Header2 = ({ transparent }: Header2Props) => {
                 <li>
                   <Link href="contact">Contact Us</Link>
                 </li>
-                <li className="mil-has-children">
+                <li className="absolution-has-children">
                   <a href="#.">Other</a>
                   <ul>
                     <li>
@@ -118,7 +118,7 @@ const Header2 = ({ transparent }: Header2Props) => {
                   </ul>
                 </li>
               </ul>
-              <div className="mil-search-icon">
+              <div className="absolution-search-icon">
                 <svg
                   width={21}
                   height={20}
@@ -136,7 +136,7 @@ const Header2 = ({ transparent }: Header2Props) => {
             </nav>
           </div>
           {/* mobile menu button */}
-          <div className="mil-menu-btn">
+          <div className="absolution-menu-btn">
             <span />
           </div>
           {/* mobile menu button end */}

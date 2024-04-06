@@ -24,7 +24,7 @@ body {
     scroll-behavior: smooth;
 }
 
-.mil-wrapper {
+.absolution-wrapper {
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -37,29 +37,29 @@ typography
 
 ------------------------------------------- */
 h1,
-.mil-h1,
+.absolution-h1,
 h2,
-.mil-h12,
+.absolution-h12,
 h3,
-.mil-h3,
+.absolution-h3,
 h4,
-.mil-h4,
+.absolution-h4,
 h5,
-.mil-h5,
+.absolution-h5,
 h6,
-.mil-h6 {
+.absolution-h6 {
     font-family: $font-1;
     color: $dark;
     font-weight: 600;
     line-height: 140%;
 
-    & .mil-font-3 {
+    & .absolution-font-3 {
         white-space: nowrap;
     }
 }
 
 h1,
-.mil-h1 {
+.absolution-h1 {
     font-size: $h1;
 
     @media screen and (max-width: 992px) {
@@ -72,7 +72,7 @@ h1,
 }
 
 h2,
-.mil-h2 {
+.absolution-h2 {
     font-size: $h2;
 
     @media screen and (max-width: 992px) {
@@ -85,10 +85,10 @@ h2,
 }
 
 h3,
-.mil-h3 {
+.absolution-h3 {
     font-size: $h3;
 
-    &.mil-up-font {
+    &.absolution-up-font {
         font-size: $h3 + 10px;
 
         @media screen and (max-width: 992px) {
@@ -98,7 +98,7 @@ h3,
 }
 
 h4,
-.mil-h4 {
+.absolution-h4 {
     font-size: $h4;
 
     @media screen and (max-width: 992px) {
@@ -111,7 +111,7 @@ h4,
 }
 
 h5,
-.mil-h5 {
+.absolution-h5 {
     font-size: $h5;
 
     @media screen and (max-width: 992px) {
@@ -124,11 +124,11 @@ h5,
 }
 
 h6,
-.mil-h6 {
+.absolution-h6 {
     font-size: $h6;
 }
 
-.mil-bold {
+.absolution-bold {
     font-weight: 500;
 }
 
@@ -137,14 +137,14 @@ a {
     text-decoration: none;
 }
 
-.mil-suptitle {
+.absolution-suptitle {
     font-size: 18px;
     display: inline-block;
     color: $dark;
     font-weight: 500;
     font-family: $font-1;
 
-    &.mil-suptitle-2 {
+    &.absolution-suptitle-2 {
         font-size: 16px;
         position: relative;
         padding-left: 15px;
@@ -162,52 +162,52 @@ a {
     }
 }
 
-.mil-font-1 {
+.absolution-font-1 {
     font-family: $font-1;
 }
 
-.mil-font-2 {
+.absolution-font-2 {
     font-family: $font-2;
 }
 
-.mil-font-3 {
+.absolution-font-3 {
     font-family: $font-3;
 }
 
-.mil-uppercase {
+.absolution-uppercase {
     text-transform: uppercase;
 }
 
-.mil-accent {
+.absolution-accent {
     color: $blue;
 }
 
-.mil-light {
+.absolution-light {
     color: $light;
 }
 
-.mil-dark {
+.absolution-dark {
     color: $dark;
 }
 
-.mil-light-soft {
+.absolution-light-soft {
     color: $lt-50;
 }
 
-.mil-dark-soft {
+.absolution-dark-soft {
     color: $dt-50;
 }
 
-.mil-text-sm {
+.absolution-text-sm {
     font-size: $text - 2px;
 }
 
-.mil-text-lg {
+.absolution-text-lg {
     font-size: $text + 2px;
     line-height: 220%;
 }
 
-.mil-text-center {
+.absolution-text-center {
     text-align: center;
 }
 
@@ -229,7 +229,7 @@ blockquote {
 list
 
 ------------------------------------------- */
-.mil-simple-list {
+.absolution-simple-list {
     padding: 0;
     margin: 0;
 
@@ -253,7 +253,7 @@ list
     }
 }
 
-.mil-check-list {
+.absolution-check-list {
     margin: 0;
     padding: 0;
 
@@ -264,7 +264,7 @@ list
         display: flex;
         align-items: center;
 
-        &.mil-empty {
+        &.absolution-empty {
             opacity: .2;
             text-decoration: line-through;
 
@@ -294,7 +294,7 @@ list
     }
 }
 
-.mil-dot-list {
+.absolution-dot-list {
     display: flex;
 
     & li {
@@ -325,7 +325,7 @@ list
     }
 }
 
-.mil-check-icon-list {
+.absolution-check-icon-list {
     & li {
         display: flex;
         margin-bottom: 15px;
@@ -340,7 +340,7 @@ list
     }
 }
 
-.mil-hover-link-list {
+.absolution-hover-link-list {
     & li {
         list-style-type: none;
         margin-bottom: 15px;
@@ -377,7 +377,7 @@ list
         }
     }
 
-    &.mil-light {
+    &.absolution-light {
         & a {
             color: $lt-60;
 
@@ -385,7 +385,7 @@ list
     }
 }
 
-.mil-list-title {
+.absolution-list-title {
     display: flex;
     align-items: center;
 
@@ -399,7 +399,7 @@ list
     }
 }
 
-.mil-social-links {
+.absolution-social-links {
     display: flex;
 
     & li {
@@ -418,7 +418,7 @@ list
     }
 }
 
-.mil-rec-res {
+.absolution-rec-res {
     border-top: solid 1px $dt-10;
 
     & li {
@@ -455,7 +455,7 @@ list
 flexbox
 
 ------------------------------------------- */
-.mil-flex-hori-center {
+.absolution-flex-hori-center {
     display: flex;
     align-items: center;
 
@@ -465,7 +465,7 @@ flexbox
     }
 }
 
-.mil-adaptive-right {
+.absolution-adaptive-right {
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -476,18 +476,18 @@ flexbox
     }
 }
 
-.mil-relative {
+.absolution-relative {
     position: relative;
 }
 
 
-.mil-adaptive-center {
+.absolution-adaptive-center {
     @media screen and (max-width: 992px) {
         text-align: center;
     }
 }
 
-.mil-fake-container {
+.absolution-fake-container {
     width: 670px;
     margin-left: auto;
     padding-right: 180px;
@@ -512,7 +512,7 @@ flexbox
 button
 
 ------------------------------------------- */
-.mil-button {
+.absolution-button {
     cursor: pointer;
     height: 70px;
     padding: 0 60px;
@@ -531,19 +531,19 @@ button
     text-decoration: none;
     transition: $t-sm;
 
-    &.mil-button-sm {
+    &.absolution-button-sm {
         height: 50px;
         padding: 0 40px;
         font-size: $h6 - 2px;
     }
 
-    &.mil-button-xs {
+    &.absolution-button-xs {
         height: 40px;
         padding: 0 30px;
         font-size: $h6 - 4px;
     }
 
-    &.mil-border {
+    &.absolution-border {
         border-color: $blue;
         background-color: transparent;
 
@@ -552,7 +552,7 @@ button
             backdrop-filter: blur(10px);
         }
 
-        &.mil-gray-border {
+        &.absolution-gray-border {
             border-color: $dt-10;
 
             &:hover {
@@ -562,20 +562,20 @@ button
         }
     }
 
-    &.mil-light {
+    &.absolution-light {
         color: $light;
     }
 
-    &.mil-fw {
+    &.absolution-fw {
         width: 100%;
     }
 
-    &.mil-light-bg {
+    &.absolution-light-bg {
         background-color: $light;
         border-color: transparent;
     }
 
-    &.mil-accent-bg {
+    &.absolution-accent-bg {
         background-color: $blue;
         border-color: transparent;
 
@@ -584,7 +584,7 @@ button
         }
     }
 
-    &.mil-icon-button {
+    &.absolution-icon-button {
         padding: 0;
         width: 70px;
 
@@ -594,26 +594,26 @@ button
     }
 }
 
-.mil-button-with-label {
+.absolution-button-with-label {
     display: flex;
     align-items: center;
     font-weight: 500;
 
-    & .mil-button {
+    & .absolution-button {
         margin-right: 25px;
     }
 }
 
-.mil-buttons-frame {
+.absolution-buttons-frame {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 
-    & .mil-button {
+    & .absolution-button {
         margin-right: 30px;
     }
 
-    &.mil-buttons-frame-center {
+    &.absolution-buttons-frame-center {
         justify-content: center;
     }
 
@@ -621,7 +621,7 @@ button
         flex-direction: column;
         align-items: flex-start;
 
-        & .mil-button {
+        & .absolution-button {
             margin-right: 0;
             margin-bottom: 20px;
         }
@@ -634,7 +634,7 @@ link
 
 ------------------------------------------- */
 
-.mil-link {
+.absolution-link {
     font-family: $font-1;
     font-size: $h6;
     color: $dark;
@@ -644,7 +644,7 @@ link
     align-items: center;
     text-decoration: none;
 
-    &.mil-link-sm {
+    &.absolution-link-sm {
         font-size: $h6 - 2px;
     }
 
@@ -683,7 +683,7 @@ link
         }
     }
 
-    &.mil-light {
+    &.absolution-light {
         color: $light;
     }
 }
@@ -693,7 +693,7 @@ link
 form
 
 ------------------------------------------- */
-.mil-input-frame {
+.absolution-input-frame {
     & label {
         display: block;
         font-family: $font-1;
@@ -746,7 +746,7 @@ form
             color: $dt-30;
         }
 
-        &.mil-shortened {
+        &.absolution-shortened {
             height: 200px;
         }
 
@@ -765,7 +765,7 @@ form
         }
     }
 
-    &.mil-dark-input {
+    &.absolution-dark-input {
 
         & input,
         & textarea {
@@ -783,7 +783,7 @@ form
     }
 }
 
-.mil-subscribe-form {
+.absolution-subscribe-form {
     position: relative;
     width: 100%;
 
@@ -830,7 +830,7 @@ form
     }
 }
 
-.mil-rounded-input {
+.absolution-rounded-input {
     width: 100%;
     height: 70px;
     padding: 0 30px;
@@ -851,10 +851,10 @@ form
     }
 }
 
-.mil-sidebar-input-frame {
+.absolution-sidebar-input-frame {
     position: relative;
 
-    & .mil-sidebar-input {
+    & .absolution-sidebar-input {
         width: 100%;
         height: 70px;
         padding: 0 30px;
@@ -897,7 +897,7 @@ form
 
 // attach file
 
-.mil-attach-frame {
+.absolution-attach-frame {
     display: flex;
     flex-wrap: wrap;
 
@@ -908,13 +908,13 @@ form
         margin-right: 15px;
     }
 
-    & .mil-custom-file-input {
+    & .absolution-custom-file-input {
         font-family: $font-1;
         color: $light;
         cursor: pointer;
         transition: $t-sm;
 
-        &.mil-with-file {
+        &.absolution-with-file {
             color: $blue;
         }
 
@@ -930,20 +930,20 @@ form
         }
     }
 
-    & .mil-text-sm {
+    & .absolution-text-sm {
         width: 100%;
         margin-left: 30px;
     }
 
-    &.mil-dark {
+    &.absolution-dark {
         & i {
             color: $dark;
         }
 
-        & .mil-custom-file-input {
+        & .absolution-custom-file-input {
             color: $dark;
 
-            &.mil-with-file {
+            &.absolution-with-file {
                 color: $blue;
             }
 
@@ -957,7 +957,7 @@ form
 
 // checkbox
 
-.mil-checbox-frame {
+.absolution-checbox-frame {
     display: flex;
     align-items: center;
 
@@ -965,7 +965,7 @@ form
         line-height: 250%;
     }
 
-    & .mil-checkbox {
+    & .absolution-checkbox {
         position: absolute;
         opacity: 0;
 
@@ -1028,8 +1028,8 @@ form
         }
     }
 
-    &.mil-dark-input {
-        & .mil-checkbox {
+    &.absolution-dark-input {
+        & .absolution-checkbox {
             & + label:before {
                 border-color: $dt-40;
             }
@@ -1052,7 +1052,7 @@ form
 divider
 
 ------------------------------------------- */
-.mil-divider {
+.absolution-divider {
     width: 100%;
     height: 2px;
     background-color: $dt-10;
@@ -1078,7 +1078,7 @@ divider
 
     }
 
-    &.mil-light {
+    &.absolution-light {
         background-color: $lt-10;
 
         &:before,
@@ -1087,7 +1087,7 @@ divider
         }
     }
 
-    &.mil-divider-left {
+    &.absolution-divider-left {
         &:after {
             display: none;
         }
@@ -1105,7 +1105,7 @@ footer {
     position: relative;
 }
 
-.mil-deco {
+.absolution-deco {
     background-image: url(../img/deco/deco-1.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -1114,7 +1114,7 @@ footer {
     width: 220px;
     height: 140px;
 
-    &.mil-deco-accent {
+    &.absolution-deco-accent {
         background-image: url(../img/deco/deco-2.svg);
         z-index: 1;
     }
@@ -1129,19 +1129,19 @@ footer {
 background
 
 ------------------------------------------- */
-.mil-deep-bg {
+.absolution-deep-bg {
     background-color: $dt-5;
 }
 
-.mil-dark-bg {
+.absolution-dark-bg {
     background-color: $dark;
 }
 
-.mil-gradient-bg {
+.absolution-gradient-bg {
     background: linear-gradient(180deg, rgba(24, 30, 38, 1) 0%, $dark 100%);
 }
 
-.mil-deco-right {
+.absolution-deco-right {
     overflow: hidden;
 
     &:after {
@@ -1166,7 +1166,7 @@ spaces
 
 ------------------------------------------- */
 
-.mil-mt-60-adapt {
+.absolution-mt-60-adapt {
     margin-top: 60px;
 
     @media screen and (max-width: 768px) {
@@ -1174,7 +1174,7 @@ spaces
     }
 }
 
-.mil-mt-70-adapt {
+.absolution-mt-70-adapt {
     margin-top: 60px;
 
     @media screen and (max-width: 768px) {
@@ -1182,7 +1182,7 @@ spaces
     }
 }
 
-.mil-mb-60-adapt {
+.absolution-mb-60-adapt {
     margin-bottom: 60px;
 
     @media screen and (max-width: 768px) {
@@ -1190,15 +1190,15 @@ spaces
     }
 }
 
-.mil-mr-15 {
+.absolution-mr-15 {
     margin-right: 15px;
 }
 
-.mil-mr-30 {
+.absolution-mr-30 {
     margin-right: 30px;
 }
 
-.mil-mt-15 {
+.absolution-mt-15 {
     margin-top: 15px !important;
 
     @media screen and (max-width: 992px) {
@@ -1206,31 +1206,31 @@ spaces
     }
 }
 
-.mil-mt-30 {
+.absolution-mt-30 {
     margin-top: 30px !important;
 }
 
-.mil-mt-60 {
+.absolution-mt-60 {
     margin-top: 60px !important;
 }
 
-.mil-mb-5 {
+.absolution-mb-5 {
     margin-bottom: 5px !important;
 }
 
-.mil-mb-10 {
+.absolution-mb-10 {
     margin-bottom: 5px !important;
 }
 
-.mil-mb-15 {
+.absolution-mb-15 {
     margin-bottom: 15px !important;
 }
 
-.mil-mb-20 {
+.absolution-mb-20 {
     margin-bottom: 20px !important;
 }
 
-.mil-mb-30-adapt {
+.absolution-mb-30-adapt {
     margin-bottom: 30px;
 
     @media screen and (max-width: 992px) {
@@ -1238,19 +1238,19 @@ spaces
     }
 }
 
-.mil-mb-30 {
+.absolution-mb-30 {
     margin-bottom: 30px !important;
 }
 
-.mil-mb-50 {
+.absolution-mb-50 {
     margin-bottom: 50px !important;
 }
 
-.mil-mb-60 {
+.absolution-mb-60 {
     margin-bottom: 60px !important;
 }
 
-.mil-mb-90 {
+.absolution-mb-90 {
     margin-bottom: 90px;
 
     @media screen and (max-width: 992px) {
@@ -1258,7 +1258,7 @@ spaces
     }
 }
 
-.mil-mb-120 {
+.absolution-mb-120 {
     margin-bottom: 120px;
 
     @media screen and (max-width: 992px) {
@@ -1266,7 +1266,7 @@ spaces
     }
 }
 
-.mil-p-90-90 {
+.absolution-p-90-90 {
     padding-top: 90px;
     padding-bottom: 90px;
 
@@ -1276,7 +1276,7 @@ spaces
     }
 }
 
-.mil-p-90-60 {
+.absolution-p-90-60 {
     padding-top: 90px;
     padding-bottom: 60px;
 
@@ -1286,7 +1286,7 @@ spaces
     }
 }
 
-.mil-p-120-120 {
+.absolution-p-120-120 {
     padding-top: 120px;
     padding-bottom: 120px;
 
@@ -1296,7 +1296,7 @@ spaces
     }
 }
 
-.mil-p-120-90 {
+.absolution-p-120-90 {
     padding-top: 120px;
     padding-bottom: 90px;
 
@@ -1306,7 +1306,7 @@ spaces
     }
 }
 
-.mil-p-120-60 {
+.absolution-p-120-60 {
     padding-top: 120px;
     padding-bottom: 60px;
 
@@ -1316,7 +1316,7 @@ spaces
     }
 }
 
-.mil-p-120-0 {
+.absolution-p-120-0 {
     padding-top: 120px;
     padding-bottom: 0;
 
@@ -1326,7 +1326,7 @@ spaces
     }
 }
 
-.mil-p-0-120 {
+.absolution-p-0-120 {
     padding-top: 0;
     padding-bottom: 120px;
 
@@ -1336,7 +1336,7 @@ spaces
     }
 }
 
-.mil-p-120-30 {
+.absolution-p-120-30 {
     padding-top: 120px;
     padding-bottom: 30px;
 
@@ -1346,7 +1346,7 @@ spaces
     }
 }
 
-.mil-p-90-120 {
+.absolution-p-90-120 {
     padding-top: 90px;
     padding-bottom: 120px;
 
@@ -1356,7 +1356,7 @@ spaces
     }
 }
 
-.mil-p-0-90 {
+.absolution-p-0-90 {
     padding-top: 0;
     padding-bottom: 90px;
 

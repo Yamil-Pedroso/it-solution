@@ -1,36 +1,46 @@
-import React from 'react'
-import Link from 'next/link'
-import { useState } from 'react'
-import { DefaultHeaderProps } from '@/src/types/types'
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import { LayoutProps } from "@/src/types/types";
+import Search from "@/src/components/search/Search";
 
-const DefaultHeader = ({
-  transparent,
-  headerTop,
-  extraClass,
-}: DefaultHeaderProps) => {
-  const [toggle, setToggle] = useState(false)
+const DefaultHeader = ({ transparent, headerTop, extraClass }: LayoutProps) => {
+  const [toggle, setToggle] = useState(false);
+  const [searchVisible, setSearchVisible] = useState(false);
+
+  const handleSearchVisible = () => {
+    console.log("handleSearchVisible called", !searchVisible);
+    setSearchVisible(!searchVisible);
+  };
+
+  const handleCloseSearch = () => {
+    setSearchVisible(false);
+  };
+
   return (
     <div
-      className={`mil-top-position mil-fixed ${extraClass ? extraClass : ''}`}
+      className={`absolution-top-position absolution-fixed ${
+        extraClass ? extraClass : ""
+      }`}
     >
       {headerTop && (
-        <div className="mil-additional-panel">
+        <div className="absolution-additional-panel">
           <div className="container-fluid">
-            <ul className="mil-ap-list">
+            <ul className="absolution-ap-list">
               <li>
-                Phone: <span className="mil-accent">+ 01</span> 800 070 404
+                Phone: <span className="absolution-accent">+ 01</span> 800 070
+                404
               </li>
               <li>Info@mydomain.com</li>
             </ul>
-            <div className="mil-ap-call-to-action">
-              <div className="mil-icon-frame mil-icon-frame-sm">
+            <div className="absolution-ap-call-to-action">
+              <div className="absolution-icon-frame absolution-icon-frame-sm">
                 <img src="img/icons/sm/4.svg" alt="icon" />
               </div>
               <p>
                 Find out how Absolution Could save you over 2.400 US$ a year.
               </p>
             </div>
-            <ul className="mil-ap-list">
+            <ul className="absolution-ap-list">
               <li>
                 <a href="#.">Account</a>
               </li>
@@ -42,21 +52,30 @@ const DefaultHeader = ({
         </div>
       )}
       <div
-        className={`mil-top-panel ${
-          transparent ? 'mil-top-panel-transparent mil-animated' : ''
+       className="absolution-search-visible" 
+      >{searchVisible && <Search />}</div>
+      <div
+        className={`absolution-top-panel ${
+          transparent
+            ? "absolution-top-panel-transparent absolution-animated"
+            : ""
         }`}
       >
-        {/* mil-top-panel-transparent */}
+        {/* absolution-top-panel-transparent */}
         <div className="container">
           <Link href="/" legacyBehavior>
             <a className="lorem-logo">
               <h2>Absolution</h2>
             </a>
           </Link>
-          <div className={`mil-navigation ${toggle ? 'mil-active' : ''}`}>
+          <div
+            className={`absolution-navigation ${
+              toggle ? "absolution-active" : ""
+            }`}
+          >
             <nav>
               <ul>
-                <li className="mil-has-children">
+                <li className="absolution-has-children">
                   <Link href="/">Enterprise</Link>
                   <ul>
                     <li>
@@ -88,7 +107,7 @@ const DefaultHeader = ({
                 <li>
                   <Link href="portfolio">Case Studies</Link>
                 </li>
-                <li className="mil-has-children">
+                <li className="absolution-has-children">
                   <Link href="service-1">Services</Link>
                   <ul>
                     <li>
@@ -105,7 +124,7 @@ const DefaultHeader = ({
                     </li>
                   </ul>
                 </li>
-                <li className="mil-has-children">
+                <li className="absolution-has-children">
                   <Link href="solution-1">Solutions</Link>
                   <ul>
                     <li>
@@ -125,7 +144,7 @@ const DefaultHeader = ({
                 <li>
                   <Link href="contact">Contact Us</Link>
                 </li>
-                <li className="mil-has-children">
+                <li className="absolution-has-children">
                   <Link href="#.">Other</Link>
                   <ul>
                     <li>
@@ -137,7 +156,11 @@ const DefaultHeader = ({
                   </ul>
                 </li>
               </ul>
-              <div className="mil-search-icon">
+
+              <div
+                className="absolution-search-icon"
+                onClick={handleSearchVisible}
+              >
                 <svg
                   width={21}
                   height={20}
@@ -156,7 +179,9 @@ const DefaultHeader = ({
           </div>
           {/* mobile menu button */}
           <div
-            className={`mil-menu-btn ${toggle ? 'mil-active' : ''}`}
+            className={`absolution-menu-btn ${
+              toggle ? "absolution-active" : ""
+            }`}
             onClick={() => setToggle(!toggle)}
           >
             <span />
@@ -165,6 +190,6 @@ const DefaultHeader = ({
         </div>
       </div>
     </div>
-  )
-}
-export default DefaultHeader
+  );
+};
+export default DefaultHeader;

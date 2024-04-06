@@ -3,16 +3,16 @@ import Content from "../../data/sections/icon-boxes.json";
 
 const IconBoxesSection = () => {
     return (
-      <section className="mil-icon-boxes mil-p-120-60">
+      <section className="absolution-icon-boxes absolution-p-120-60">
         <div className="container">
           <div className="row">
             {Content.items.map((item) => (
             <div className="col-md-6 col-xl-3">
-              <div className="mil-icon-box mil-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
+              <div className="absolution-icon-box absolution-center absolution-mb-60">
+                <div className="absolution-icon-frame absolution-icon-frame-md absolution-mb-30">
                   <img src={item.icon} alt="icon" />
                 </div>
-                <p className="mil-text-sm mil-mb-20">{item.subtitle}</p>
+                <p className="absolution-text-sm absolution-mb-20">{item.subtitle}</p>
                 <h5 dangerouslySetInnerHTML={{__html : item.title}} />
               </div>
             </div>

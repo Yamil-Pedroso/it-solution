@@ -3,21 +3,21 @@ import { sliderProps } from "@/src/common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 const Solution2TabSlider = () => {
   return (
-    <section className="mil-p-120-120">
-      <div className="mil-deco" style={{ top: 0, left: "15%" }} />
+    <section className="absolution-p-120-120">
+      <div className="absolution-deco" style={{ top: 0, left: "15%" }} />
       <div className="container">
-        <div className="mil-text-center mil-mb-90">
-          <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+        <div className="absolution-text-center absolution-mb-90">
+          <span className="absolution-suptitle absolution-suptitle-2 absolution-mb-30">
             A Great Service
           </span>
-          <h2 className="mil-mb-30">
-            Supercharge <span className="mil-accent">Your Data</span> With
+          <h2 className="absolution-mb-30">
+            Supercharge <span className="absolution-accent">Your Data</span> With
           </h2>
         </div>
-        <div className="mil-tab-buttons mil-tab-buttons-2 mil-mb-90">
-          <a href="#tab1" className="mil-active">
+        <div className="absolution-tab-buttons absolution-tab-buttons-2 absolution-mb-90">
+          <a href="#tab1" className="absolution-active">
             <div>
-              <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-15">
+              <div className="absolution-icon-frame absolution-icon-frame-md absolution-icon-bg absolution-mb-15">
                 <img src="img/icons/md/20.svg" alt="icon" />
               </div>
               <h6>DataOps</h6>
@@ -25,7 +25,7 @@ const Solution2TabSlider = () => {
           </a>
           <a href="#tab2">
             <div>
-              <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-15">
+              <div className="absolution-icon-frame absolution-icon-frame-md absolution-icon-bg absolution-mb-15">
                 <img src="img/icons/md/21.svg" alt="icon" />
               </div>
               <h6>MLOps</h6>
@@ -34,7 +34,7 @@ const Solution2TabSlider = () => {
         </div>
         <Swiper
           {...sliderProps.milTabsSlider}
-          className="swiper-container mil-tabs-slider"
+          className="swiper-container absolution-tabs-slider"
         >
           <SwiperSlide className="swiper-slide" data-hash="tab1">
             <div data-swiper-parallax-y={-100} data-swiper-parallax-opacity={0}>

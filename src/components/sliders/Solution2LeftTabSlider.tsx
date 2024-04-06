@@ -3,31 +3,31 @@ import { sliderProps } from "@/src/common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 const Solution2LeftTabSlider = () => {
   return (
-    <section className="mil-p-120-60">
-      <div className="mil-deco" style={{ top: 0, right: "15%" }} />
+    <section className="absolution-p-120-60">
+      <div className="absolution-deco" style={{ top: 0, right: "15%" }} />
       <div className="container">
-        <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+        <span className="absolution-suptitle absolution-suptitle-2 absolution-mb-30">
           An Ocean Data For You
         </span>
-        <h2 className="mil-mb-90">
-          Our Data <span className="mil-accent">Ecosystem Development</span>{" "}
+        <h2 className="absolution-mb-90">
+          Our Data <span className="absolution-accent">Ecosystem Development</span>{" "}
           Approach
         </h2>
         <div className="row justify-content-between align-items-center">
           <div className="col-lg-5">
-            <ul className="mil-tabs-left-nav mil-mb-60">
+            <ul className="absolution-tabs-left-nav absolution-mb-60">
               <li>
-                <a href="#tab-l-1" className="mil-h4 mil-active">
+                <a href="#tab-l-1" className="absolution-h4 absolution-active">
                   Starting Small
                 </a>
               </li>
               <li>
-                <a href="#tab-l-2" className="mil-h4">
+                <a href="#tab-l-2" className="absolution-h4">
                   Building a Scale-Ready MVP
                 </a>
               </li>
               <li>
-                <a href="#tab-l-3" className="mil-h4">
+                <a href="#tab-l-3" className="absolution-h4">
                   Improving Your Data Ecosystem Iteratively
                 </a>
               </li>
@@ -36,7 +36,7 @@ const Solution2LeftTabSlider = () => {
           <div className="col-lg-6">
             <Swiper
               {...sliderProps.milTabsSlider}
-              className="swiper-container mil-tabs-slider mil-mb-60"
+              className="swiper-container absolution-tabs-slider absolution-mb-60"
             >
               <SwiperSlide className="swiper-slide" data-hash="tab-l-1">
                 <div

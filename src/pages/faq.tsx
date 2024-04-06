@@ -7,13 +7,13 @@ const Faq = () => {
     <Layouts>
       <PageBanner pageName={'FAQs'} pageTitle={'FAQs'} />
       {/* faq */}
-      <section className="mil-faqs mil-p-0-120">
+      <section className="absolution-faqs absolution-p-0-120">
         <div
-          className="mil-deco"
+          className="absolution-deco"
           style={{ bottom: 0, left: '10%', transform: 'rotate(180deg)' }}
         />
         <div className="container">
-          <div className="mil-tabs">
+          <div className="absolution-tabs">
             <input
               type="radio"
               name="tabs"
@@ -21,25 +21,25 @@ const Faq = () => {
               defaultChecked="checked"
             />
             <label htmlFor="tab1">Information</label>
-            <div className="mil-tab">
+            <div className="absolution-tab">
               <div className="row justify-content-between">
                 <div className="col-lg-4">
-                  <h3 className="mil-up-font mil-mb-30">
-                    <span className="mil-accent">Absolution Connects</span> The
+                  <h3 className="absolution-up-font absolution-mb-30">
+                    <span className="absolution-accent">Absolution Connects</span> The
                     Entire Organization From End To End.
                   </h3>
-                  <p className="mil-mb-60">
+                  <p className="absolution-mb-60">
                     Typi non habent claritatem insitam; est usus legentis in iis
                     qui facit eorum claritatem. Investigationes demonstraverunt
                     lectores legere me lius quod ii legunt saepius.
                   </p>
                 </div>
                 <div className="col-lg-7">
-                  <div className="mil-accordion">
+                  <div className="absolution-accordion">
                     <h6>Information about Absolution</h6>
                   </div>
-                  <div className="mil-panel">
-                    <div className="mil-window">
+                  <div className="absolution-panel">
+                    <div className="absolution-window">
                       <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in
@@ -55,11 +55,11 @@ const Faq = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="mil-accordion">
+                  <div className="absolution-accordion">
                     <h6>What are the benefits of using Absolution?</h6>
                   </div>
-                  <div className="mil-panel">
-                    <div className="mil-window">
+                  <div className="absolution-panel">
+                    <div className="absolution-window">
                       <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in
@@ -75,11 +75,11 @@ const Faq = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="mil-accordion">
+                  <div className="absolution-accordion">
                     <h6>How much does Absolution cost?</h6>
                   </div>
-                  <div className="mil-panel">
-                    <div className="mil-window">
+                  <div className="absolution-panel">
+                    <div className="absolution-window">
                       <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in
@@ -95,11 +95,11 @@ const Faq = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="mil-accordion">
+                  <div className="absolution-accordion">
                     <h6>Who owns the information created by staff?</h6>
                   </div>
-                  <div className="mil-panel">
-                    <div className="mil-window">
+                  <div className="absolution-panel">
+                    <div className="absolution-window">
                       <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in
@@ -115,11 +115,11 @@ const Faq = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="mil-accordion">
+                  <div className="absolution-accordion">
                     <h6>How do I delete my account?</h6>
                   </div>
-                  <div className="mil-panel">
-                    <div className="mil-window">
+                  <div className="absolution-panel">
+                    <div className="absolution-window">
                       <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in
@@ -140,25 +140,25 @@ const Faq = () => {
             </div>
             <input type="radio" name="tabs" id="tab2" />
             <label htmlFor="tab2">Pricing Plans</label>
-            <div className="mil-tab">
+            <div className="absolution-tab">
               <div className="row justify-content-between">
                 <div className="col-lg-4">
-                  <h3 className="mil-up-font mil-mb-30">
-                    <span className="mil-accent">Lorem ipsum</span> dolor sit
+                  <h3 className="absolution-up-font absolution-mb-30">
+                    <span className="absolution-accent">Lorem ipsum</span> dolor sit
                     amet, consectetur adipisicing elit.
                   </h3>
-                  <p className="mil-mb-60">
+                  <p className="absolution-mb-60">
                     Typi non habent claritatem insitam; est usus legentis in iis
                     qui facit eorum claritatem. Investigationes demonstraverunt
                     lectores legere me lius quod ii legunt saepius.
                   </p>
                 </div>
                 <div className="col-lg-7">
-                  <div className="mil-accordion">
+                  <div className="absolution-accordion">
                     <h6>How much does Absolution cost?</h6>
                   </div>
-                  <div className="mil-panel">
-                    <div className="mil-window">
+                  <div className="absolution-panel">
+                    <div className="absolution-window">
                       <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in
@@ -174,11 +174,11 @@ const Faq = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="mil-accordion">
+                  <div className="absolution-accordion">
                     <h6>What are the benefits of using Absolution?</h6>
                   </div>
-                  <div className="mil-panel">
-                    <div className="mil-window">
+                  <div className="absolution-panel">
+                    <div className="absolution-window">
                       <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in
@@ -194,11 +194,11 @@ const Faq = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="mil-accordion">
+                  <div className="absolution-accordion">
                     <h6>Information about Absolution</h6>
                   </div>
-                  <div className="mil-panel">
-                    <div className="mil-window">
+                  <div className="absolution-panel">
+                    <div className="absolution-window">
                       <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in
@@ -214,11 +214,11 @@ const Faq = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="mil-accordion">
+                  <div className="absolution-accordion">
                     <h6>Lorem Ipsum, you need to be sure there</h6>
                   </div>
-                  <div className="mil-panel">
-                    <div className="mil-window">
+                  <div className="absolution-panel">
+                    <div className="absolution-window">
                       <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in
@@ -234,11 +234,11 @@ const Faq = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="mil-accordion">
+                  <div className="absolution-accordion">
                     <h6>How do I delete my account?</h6>
                   </div>
-                  <div className="mil-panel">
-                    <div className="mil-window">
+                  <div className="absolution-panel">
+                    <div className="absolution-window">
                       <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in
@@ -259,24 +259,24 @@ const Faq = () => {
             </div>
             <input type="radio" name="tabs" id="tab3" />
             <label htmlFor="tab3">Data and Privacy</label>
-            <div className="mil-tab">
+            <div className="absolution-tab">
               <div className="row justify-content-between">
                 <div className="col-lg-4">
-                  <h3 className="mil-up-font mil-mb-30">
-                    <span className="mil-accent">Lorem Ipsum</span> available,
+                  <h3 className="absolution-up-font absolution-mb-30">
+                    <span className="absolution-accent">Lorem Ipsum</span> available,
                     but the majority have suffered
                   </h3>
-                  <p className="mil-mb-60">
+                  <p className="absolution-mb-60">
                     Typi non habent claritatem insitam; est usus legentis in iis
                     qui facit eorum claritatem.
                   </p>
                 </div>
                 <div className="col-lg-7">
-                  <div className="mil-accordion">
+                  <div className="absolution-accordion">
                     <h6>What are the benefits of using Absolution?</h6>
                   </div>
-                  <div className="mil-panel">
-                    <div className="mil-window">
+                  <div className="absolution-panel">
+                    <div className="absolution-window">
                       <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in
@@ -292,11 +292,11 @@ const Faq = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="mil-accordion">
+                  <div className="absolution-accordion">
                     <h6>Who owns the information created by staff?</h6>
                   </div>
-                  <div className="mil-panel">
-                    <div className="mil-window">
+                  <div className="absolution-panel">
+                    <div className="absolution-window">
                       <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in
@@ -312,11 +312,11 @@ const Faq = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="mil-accordion">
+                  <div className="absolution-accordion">
                     <h6>How much does Absolution cost?</h6>
                   </div>
-                  <div className="mil-panel">
-                    <div className="mil-window">
+                  <div className="absolution-panel">
+                    <div className="absolution-window">
                       <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in
@@ -332,11 +332,11 @@ const Faq = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="mil-accordion">
+                  <div className="absolution-accordion">
                     <h6>How do I delete my account?</h6>
                   </div>
-                  <div className="mil-panel">
-                    <div className="mil-window">
+                  <div className="absolution-panel">
+                    <div className="absolution-window">
                       <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in
@@ -352,11 +352,11 @@ const Faq = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="mil-accordion">
+                  <div className="absolution-accordion">
                     <h6>Information about Absolution</h6>
                   </div>
-                  <div className="mil-panel">
-                    <div className="mil-window">
+                  <div className="absolution-panel">
+                    <div className="absolution-window">
                       <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in
@@ -377,24 +377,24 @@ const Faq = () => {
             </div>
             <input type="radio" name="tabs" id="tab4" />
             <label htmlFor="tab4">Security</label>
-            <div className="mil-tab">
+            <div className="absolution-tab">
               <div className="row justify-content-between">
                 <div className="col-lg-4">
-                  <h3 className="mil-up-font mil-mb-30">
-                    <span className="mil-accent">Aliquam aut natus</span>{' '}
+                  <h3 className="absolution-up-font absolution-mb-30">
+                    <span className="absolution-accent">Aliquam aut natus</span>{' '}
                     perspiciatis corporis sunt alias cumques.
                   </h3>
-                  <p className="mil-mb-60">
+                  <p className="absolution-mb-60">
                     Typi non habent claritatem insitam; est usus legentis in iis
                     qui facit eorum claritatem.
                   </p>
                 </div>
                 <div className="col-lg-7">
-                  <div className="mil-accordion">
+                  <div className="absolution-accordion">
                     <h6>Information about Absolution</h6>
                   </div>
-                  <div className="mil-panel">
-                    <div className="mil-window">
+                  <div className="absolution-panel">
+                    <div className="absolution-window">
                       <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in
@@ -410,11 +410,11 @@ const Faq = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="mil-accordion">
+                  <div className="absolution-accordion">
                     <h6>What are the benefits of using Absolution?</h6>
                   </div>
-                  <div className="mil-panel">
-                    <div className="mil-window">
+                  <div className="absolution-panel">
+                    <div className="absolution-window">
                       <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in
@@ -430,11 +430,11 @@ const Faq = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="mil-accordion">
+                  <div className="absolution-accordion">
                     <h6>How much does Absolution cost?</h6>
                   </div>
-                  <div className="mil-panel">
-                    <div className="mil-window">
+                  <div className="absolution-panel">
+                    <div className="absolution-window">
                       <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in
@@ -450,11 +450,11 @@ const Faq = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="mil-accordion">
+                  <div className="absolution-accordion">
                     <h6>Who owns the information created by staff?</h6>
                   </div>
-                  <div className="mil-panel">
-                    <div className="mil-window">
+                  <div className="absolution-panel">
+                    <div className="absolution-window">
                       <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in
@@ -470,11 +470,11 @@ const Faq = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="mil-accordion">
+                  <div className="absolution-accordion">
                     <h6>How do I delete my account?</h6>
                   </div>
-                  <div className="mil-panel">
-                    <div className="mil-window">
+                  <div className="absolution-panel">
+                    <div className="absolution-window">
                       <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in

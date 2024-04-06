@@ -12,74 +12,74 @@ const Prices = () => {
     <Layouts>
       <PageBanner pageName={'Pricing'} pageTitle={'Pricing and plans'} />
       {/* prices */}
-      <section className="mil-prices mil-p-120-0">
+      <section className="absolution-prices absolution-p-120-0">
         <div className="container">
-          <h3 className="mil-text-center mil-mb-120">
-            Get <span className="mil-accent">2 months</span> free by choosing
+          <h3 className="absolution-text-center absolution-mb-120">
+            Get <span className="absolution-accent">2 months</span> free by choosing
             Absolution annual plan
           </h3>
           <div className="row">
             <div className="col-xl-4">
-              <div className="mil-hover-card mil-price-card mil-mb-30">
-                <p className="mil-mb-15">For People</p>
+              <div className="absolution-hover-card absolution-price-card absolution-mb-30">
+                <p className="absolution-mb-15">For People</p>
                 <h2>PLUS</h2>
-                <div className="mil-plan-price mil-mb-15">
-                  <h3 className="mil-accent">$9</h3>
+                <div className="absolution-plan-price absolution-mb-15">
+                  <h3 className="absolution-accent">$9</h3>
                   <span>Per Month</span>
                 </div>
-                <p className="mil-text-sm mil-mb-60">2TB (2000 GB), 1 User</p>
-                <a href="#." className="mil-button mil-border mil-fw mil-mb-60">
+                <p className="absolution-text-sm absolution-mb-60">2TB (2000 GB), 1 User</p>
+                <a href="#." className="absolution-button absolution-border absolution-fw absolution-mb-60">
                   <span>Get Started</span>
                 </a>
-                <ul className="mil-check-list">
+                <ul className="absolution-check-list">
                   <li>There many variations of passages</li>
                   <li>All the lorem ipsum generators</li>
                   <li>There many variations of passages</li>
                   <li>All the lorem ipsum generators</li>
-                  <li className="mil-empty">
+                  <li className="absolution-empty">
                     There many variations of passages
                   </li>
-                  <li className="mil-empty">All the lorem ipsum generators</li>
+                  <li className="absolution-empty">All the lorem ipsum generators</li>
                 </ul>
               </div>
             </div>
             <div className="col-xl-4">
-              <div className="mil-hover-card mil-price-card mil-mb-30">
-                <p className="mil-mb-15">For Independent Workers</p>
+              <div className="absolution-hover-card absolution-price-card absolution-mb-30">
+                <p className="absolution-mb-15">For Independent Workers</p>
                 <h2>PRO</h2>
-                <div className="mil-plan-price mil-mb-15">
-                  <h3 className="mil-accent">$99</h3>
+                <div className="absolution-plan-price absolution-mb-15">
+                  <h3 className="absolution-accent">$99</h3>
                   <span>Per Month</span>
                 </div>
-                <p className="mil-text-sm mil-mb-60">4TB (4000 GB), 4 User</p>
-                <a href="#." className="mil-button mil-border mil-fw mil-mb-60">
+                <p className="absolution-text-sm absolution-mb-60">4TB (4000 GB), 4 User</p>
+                <a href="#." className="absolution-button absolution-border absolution-fw absolution-mb-60">
                   <span>Get Started</span>
                 </a>
-                <ul className="mil-check-list">
+                <ul className="absolution-check-list">
                   <li>There many variations of passages</li>
                   <li>All the lorem ipsum generators</li>
                   <li>There many variations of passages</li>
                   <li>All the lorem ipsum generators</li>
                   <li>There many variations of passages</li>
-                  <li className="mil-empty">All the lorem ipsum generators</li>
+                  <li className="absolution-empty">All the lorem ipsum generators</li>
                 </ul>
               </div>
             </div>
             <div className="col-xl-4">
-              <div className="mil-hover-card mil-price-card mil-mb-30">
-                <p className="mil-mb-15">Startup</p>
+              <div className="absolution-hover-card absolution-price-card absolution-mb-30">
+                <p className="absolution-mb-15">Startup</p>
                 <h2>GOLD</h2>
-                <div className="mil-plan-price mil-mb-15">
-                  <h3 className="mil-accent">$299</h3>
+                <div className="absolution-plan-price absolution-mb-15">
+                  <h3 className="absolution-accent">$299</h3>
                   <span>Per Month</span>
                 </div>
-                <p className="mil-text-sm mil-mb-60">
+                <p className="absolution-text-sm absolution-mb-60">
                   All the necessary space, Unlimited
                 </p>
-                <a href="#." className="mil-button mil-border mil-fw mil-mb-60">
+                <a href="#." className="absolution-button absolution-border absolution-fw absolution-mb-60">
                   <span>Get Started</span>
                 </a>
-                <ul className="mil-check-list">
+                <ul className="absolution-check-list">
                   <li>There many variations of passages</li>
                   <li>All the lorem ipsum generators</li>
                   <li>There many variations of passages</li>
@@ -89,9 +89,9 @@ const Prices = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lx-12 mil-p-90-120">
-              <h3 className="mil-text-center">
-                Do you only need <span className="mil-accent">9GB</span> to save
+            <div className="col-lx-12 absolution-p-90-120">
+              <h3 className="absolution-text-center">
+                Do you only need <span className="absolution-accent">9GB</span> to save
                 and share your files?
               </h3>
             </div>
@@ -100,37 +100,37 @@ const Prices = () => {
       </section>
       {/* prices end */}
       <div className="container">
-        <div className="mil-divider" />
+        <div className="absolution-divider" />
       </div>
       {/* reviews */}
       <PriceTestimonialSlider />
       {/* reviews end */}
       {/* call to action */}
-      <section className="call-to-action mil-gradient-bg mil-p-120-0">
+      <section className="call-to-action absolution-gradient-bg absolution-p-120-0">
         <div
-          className="mil-deco mil-deco-accent"
+          className="absolution-deco absolution-deco-accent"
           style={{ top: 0, left: '15%' }}
         />
-        <div className="container mil-text-center">
-          <div className="mil-cta-frame">
-            <div className="mil-icon-frame mil-icon-frame-md mil-mb-60">
+        <div className="container absolution-text-center">
+          <div className="absolution-cta-frame">
+            <div className="absolution-icon-frame absolution-icon-frame-md absolution-mb-60">
               <img src="img/icons/md/6l.svg" alt="icon" />
             </div>
-            <p className="mil-light mil-mb-30">Leadership Team</p>
-            <h2 className="mil-light mil-mb-30">
-              <span className="mil-accent">Absolution</span> in The Future
+            <p className="absolution-light absolution-mb-30">Leadership Team</p>
+            <h2 className="absolution-light absolution-mb-30">
+              <span className="absolution-accent">Absolution</span> in The Future
             </h2>
-            <p className="mil-light-soft mil-mb-60">
+            <p className="absolution-light-soft absolution-mb-60">
               It is a long established fact that a reader will be distracted by
               the readable content <br /> of a page when looking at its layout.
             </p>
-            <a href="#." className="mil-button-with-label">
-              <div className="mil-button mil-border mil-icon-button mil-light">
+            <a href="#." className="absolution-button-with-label">
+              <div className="absolution-button absolution-border absolution-icon-button absolution-light">
                 <span>
                   <i className="fas fa-play" />
                 </span>
               </div>
-              <span className="mil-light">Watch Video</span>
+              <span className="absolution-light">Watch Video</span>
             </a>
           </div>
         </div>

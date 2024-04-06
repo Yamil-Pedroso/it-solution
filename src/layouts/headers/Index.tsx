@@ -3,14 +3,14 @@ import { stickyNav } from '@/src/common/utilits'
 import { useEffect } from 'react'
 import DefaultHeader from './DefaultHeader'
 import Header2 from './Header2'
-import { HeaderProps } from '@/src/types/types'
+import { LayoutProps } from '@/src/types/types'
 
 const Header = ({
   header,
   transparent,
   headerTop,
   extraClass,
-}: HeaderProps) => {
+}: LayoutProps) => {
   useEffect(() => {
     stickyNav(extraClass)
   }, [])

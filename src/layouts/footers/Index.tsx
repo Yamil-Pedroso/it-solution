@@ -1,8 +1,10 @@
 import React from "react";
 import DefaultFooter from "./DefaultFooter";
 import Footer2 from "./Footer2";
+import { LayoutProps } from "@/src/types/types";
 
-const Footer = ({ footer }) => {
+const Footer = ({ footer }: LayoutProps) => {
+
   switch (footer) {
     case 1:
       return <DefaultFooter />;

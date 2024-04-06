@@ -4,18 +4,18 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 const Service2Steps = () => {
   return (
-    <section className="mil-deep-bg mil-p-120-0">
+    <section className="absolution-deep-bg absolution-p-120-0">
       <div className="container">
-        <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+        <span className="absolution-suptitle absolution-suptitle-2 absolution-mb-30">
           Our Enterprise
         </span>
-        <h2 className="mil-mb-120">
-          How We <span className="mil-accent">Deliver Our UI/UX</span> Design
+        <h2 className="absolution-mb-120">
+          How We <span className="absolution-accent">Deliver Our UI/UX</span> Design
           Services
         </h2>
         <Swiper
           {...sliderProps.milTabsSlider}
-          className="swiper-container mil-tabs-slider"
+          className="swiper-container absolution-tabs-slider"
         >
           <SwiperSlide className="swiper-slide" data-hash="tab1">
             <div
@@ -24,10 +24,10 @@ const Service2Steps = () => {
               data-swiper-parallax-opacity={0}
             >
               <div className="col-lg-7">
-                <div className="mil-hori-box mil-mb-60">
+                <div className="absolution-hori-box absolution-mb-60">
                   <h3>Discovery</h3>
                 </div>
-                <div className="row mil-mb-60">
+                <div className="row absolution-mb-60">
                   <div className="col-lg-6">
                     <p>
                       There are many variations of passages of Lorem Ipsum
@@ -50,22 +50,22 @@ const Service2Steps = () => {
                 </div>
                 <Link
                   href="contact"
-                  className="mil-button mil-border mil-mb-15 mil-mr-30"
+                  className="absolution-button absolution-border absolution-mb-15 absolution-mr-30"
                 >
                   <span>Hire UI / UX Designers</span>
                 </Link>
-                <a href="#." className="mil-link mil-mb-60">
+                <a href="#." className="absolution-link absolution-mb-60">
                   <span>See More</span>
                   <i className="fas fa-arrow-right" />
                 </a>
               </div>
               <div className="col-lg-4">
                 <div
-                  className="mil-circle-illustration mil-with-dots mil-mb-60"
+                  className="absolution-circle-illustration absolution-with-dots absolution-mb-60"
                   data-swiper-parallax-scale=".8"
                 >
-                  <div className="mil-circle-bg" />
-                  <div className="mil-image-frame">
+                  <div className="absolution-circle-bg" />
+                  <div className="absolution-image-frame">
                     <img src="img/faces/t5.png" alt="img" />
                   </div>
                 </div>
@@ -79,10 +79,10 @@ const Service2Steps = () => {
               data-swiper-parallax-opacity={0}
             >
               <div className="col-lg-7">
-                <div className="mil-hori-box mil-mb-60">
+                <div className="absolution-hori-box absolution-mb-60">
                   <h3>Validate</h3>
                 </div>
-                <div className="row mil-mb-60">
+                <div className="row absolution-mb-60">
                   <div className="col-lg-6">
                     <p>
                       There are many variations of passages of Lorem Ipsum
@@ -105,22 +105,22 @@ const Service2Steps = () => {
                 </div>
                 <Link
                   href="contact"
-                  className="mil-button mil-border mil-mb-15 mil-mr-30"
+                  className="absolution-button absolution-border absolution-mb-15 absolution-mr-30"
                 >
                   <span>Hire UI / UX Designers</span>
                 </Link>
-                <a href="#." className="mil-link mil-mb-60">
+                <a href="#." className="absolution-link absolution-mb-60">
                   <span>See More</span>
                   <i className="fas fa-arrow-right" />
                 </a>
               </div>
               <div className="col-lg-4">
                 <div
-                  className="mil-circle-illustration mil-with-dots mil-mb-60"
+                  className="absolution-circle-illustration absolution-with-dots absolution-mb-60"
                   data-swiper-parallax-scale=".8"
                 >
-                  <div className="mil-circle-bg" />
-                  <div className="mil-image-frame">
+                  <div className="absolution-circle-bg" />
+                  <div className="absolution-image-frame">
                     <img src="img/faces/t4.png" alt="img" />
                   </div>
                 </div>
@@ -134,10 +134,10 @@ const Service2Steps = () => {
               data-swiper-parallax-opacity={0}
             >
               <div className="col-lg-7">
-                <div className="mil-hori-box mil-mb-60">
+                <div className="absolution-hori-box absolution-mb-60">
                   <h3>Design</h3>
                 </div>
-                <div className="row mil-mb-60">
+                <div className="row absolution-mb-60">
                   <div className="col-lg-6">
                     <p>
                       There are many variations of passages of Lorem Ipsum
@@ -160,22 +160,22 @@ const Service2Steps = () => {
                 </div>
                 <Link
                   href="contact"
-                  className="mil-button mil-border mil-mb-15 mil-mr-30"
+                  className="absolution-button absolution-border absolution-mb-15 absolution-mr-30"
                 >
                   <span>Hire UI / UX Designers</span>
                 </Link>
-                <a href="#." className="mil-link mil-mb-60">
+                <a href="#." className="absolution-link absolution-mb-60">
                   <span>See More</span>
                   <i className="fas fa-arrow-right" />
                 </a>
               </div>
               <div className="col-lg-4">
                 <div
-                  className="mil-circle-illustration mil-with-dots mil-mb-60"
+                  className="absolution-circle-illustration absolution-with-dots absolution-mb-60"
                   data-swiper-parallax-scale=".8"
                 >
-                  <div className="mil-circle-bg" />
-                  <div className="mil-image-frame">
+                  <div className="absolution-circle-bg" />
+                  <div className="absolution-image-frame">
                     <img src="img/faces/t3.png" alt="img" />
                   </div>
                 </div>
@@ -189,10 +189,10 @@ const Service2Steps = () => {
               data-swiper-parallax-opacity={0}
             >
               <div className="col-lg-7">
-                <div className="mil-hori-box mil-mb-60">
+                <div className="absolution-hori-box absolution-mb-60">
                   <h3>Improve</h3>
                 </div>
-                <div className="row mil-mb-60">
+                <div className="row absolution-mb-60">
                   <div className="col-lg-6">
                     <p>
                       There are many variations of passages of Lorem Ipsum
@@ -215,22 +215,22 @@ const Service2Steps = () => {
                 </div>
                 <Link
                   href="contact"
-                  className="mil-button mil-border mil-mb-15 mil-mr-30"
+                  className="absolution-button absolution-border absolution-mb-15 absolution-mr-30"
                 >
                   <span>Hire UI / UX Designers</span>
                 </Link>
-                <a href="#." className="mil-link mil-mb-60">
+                <a href="#." className="absolution-link absolution-mb-60">
                   <span>See More</span>
                   <i className="fas fa-arrow-right" />
                 </a>
               </div>
               <div className="col-lg-4">
                 <div
-                  className="mil-circle-illustration mil-with-dots mil-mb-60"
+                  className="absolution-circle-illustration absolution-with-dots absolution-mb-60"
                   data-swiper-parallax-scale=".8"
                 >
-                  <div className="mil-circle-bg" />
-                  <div className="mil-image-frame">
+                  <div className="absolution-circle-bg" />
+                  <div className="absolution-image-frame">
                     <img src="img/faces/t2.png" alt="img" />
                   </div>
                 </div>
@@ -238,8 +238,8 @@ const Service2Steps = () => {
             </div>
           </SwiperSlide>
         </Swiper>
-        <div className="mil-tab-buttons mil-mt-60-adapt">
-          <a className="mil-active" href="#tab1">
+        <div className="absolution-tab-buttons absolution-mt-60-adapt">
+          <a className="absolution-active" href="#tab1">
             <span>Discovery</span>
           </a>
           <a href="#tab2">

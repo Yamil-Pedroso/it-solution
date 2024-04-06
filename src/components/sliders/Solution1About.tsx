@@ -3,21 +3,21 @@ import { sliderProps } from "@/src/common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const clickedTabsSliderButton = event => {
-  const buttons = document.querySelectorAll('.mil-tab-buttons a');
+  const buttons = document.querySelectorAll('.absolution-tab-buttons a');
   buttons.forEach((button) => {
-    button.classList.remove('mil-active');
+    button.classList.remove('absolution-active');
   });
 
-  event.currentTarget.classList.toggle('mil-active');
+  event.currentTarget.classList.toggle('absolution-active');
 }
 
 const Solution1About = () => {
   return (
-    <section className="mil-deep-bg mil-p-120-0">
+    <section className="absolution-deep-bg absolution-p-120-0">
       <div className="container">
         <Swiper
           {...sliderProps.milTabsSlider}
-          className="swiper-container mil-tabs-slider"
+          className="swiper-container absolution-tabs-slider"
         >
           <SwiperSlide className="swiper-slide" data-hash="tab1">
             <div
@@ -26,15 +26,15 @@ const Solution1About = () => {
               data-swiper-parallax-opacity={0}
             >
               <div className="col-lg-7">
-                <div className="mil-hori-box mil-mb-60">
-                  <div className="mil-mr-15">
-                    <div className="mil-icon-frame mil-icon-frame-md">
+                <div className="absolution-hori-box absolution-mb-60">
+                  <div className="absolution-mr-15">
+                    <div className="absolution-icon-frame absolution-icon-frame-md">
                       <img src="img/icons/md/2.svg" alt="icon" />
                     </div>
                   </div>
                   <h5>Machine Learning</h5>
                 </div>
-                <div className="row mil-mb-60">
+                <div className="row absolution-mb-60">
                   <div className="col-lg-6">
                     <p>
                       There are many variations of passages of Lorem Ipsum
@@ -55,18 +55,18 @@ const Solution1About = () => {
                     </p>
                   </div>
                 </div>
-                <a href="#." className="mil-link mil-mb-60">
+                <a href="#." className="absolution-link absolution-mb-60">
                   <span>See More</span>
                   <i className="fas fa-arrow-right" />
                 </a>
               </div>
               <div className="col-lg-4">
                 <div
-                  className="mil-circle-illustration mil-with-dots mil-mb-60"
+                  className="absolution-circle-illustration absolution-with-dots absolution-mb-60"
                   data-swiper-parallax-scale=".8"
                 >
-                  <div className="mil-circle-bg" />
-                  <div className="mil-image-frame">
+                  <div className="absolution-circle-bg" />
+                  <div className="absolution-image-frame">
                     <img src="img/faces/t3.png" alt="img" />
                   </div>
                 </div>
@@ -80,15 +80,15 @@ const Solution1About = () => {
               data-swiper-parallax-opacity={0}
             >
               <div className="col-lg-7">
-                <div className="mil-hori-box mil-mb-60">
-                  <div className="mil-mr-15">
-                    <div className="mil-icon-frame mil-icon-frame-md">
+                <div className="absolution-hori-box absolution-mb-60">
+                  <div className="absolution-mr-15">
+                    <div className="absolution-icon-frame absolution-icon-frame-md">
                       <img src="img/icons/md/1.svg" alt="icon" />
                     </div>
                   </div>
                   <h5>Deep Learning</h5>
                 </div>
-                <div className="row mil-mb-60">
+                <div className="row absolution-mb-60">
                   <div className="col-lg-6">
                     <p>
                       There are many variations of passages of Lorem Ipsum
@@ -109,18 +109,18 @@ const Solution1About = () => {
                     </p>
                   </div>
                 </div>
-                <a href="#." className="mil-link mil-mb-60">
+                <a href="#." className="absolution-link absolution-mb-60">
                   <span>See More</span>
                   <i className="fas fa-arrow-right" />
                 </a>
               </div>
               <div className="col-lg-4">
                 <div
-                  className="mil-circle-illustration mil-with-dots mil-mb-60"
+                  className="absolution-circle-illustration absolution-with-dots absolution-mb-60"
                   data-swiper-parallax-scale=".8"
                 >
-                  <div className="mil-circle-bg" />
-                  <div className="mil-image-frame">
+                  <div className="absolution-circle-bg" />
+                  <div className="absolution-image-frame">
                     <img src="img/faces/t4.png" alt="img" />
                   </div>
                 </div>
@@ -134,15 +134,15 @@ const Solution1About = () => {
               data-swiper-parallax-opacity={0}
             >
               <div className="col-lg-7">
-                <div className="mil-hori-box mil-mb-60">
-                  <div className="mil-mr-15">
-                    <div className="mil-icon-frame mil-icon-frame-md">
+                <div className="absolution-hori-box absolution-mb-60">
+                  <div className="absolution-mr-15">
+                    <div className="absolution-icon-frame absolution-icon-frame-md">
                       <img src="img/icons/md/11.svg" alt="icon" />
                     </div>
                   </div>
                   <h5>Natural Language</h5>
                 </div>
-                <div className="row mil-mb-60">
+                <div className="row absolution-mb-60">
                   <div className="col-lg-6">
                     <p>
                       There are many variations of passages of Lorem Ipsum
@@ -163,18 +163,18 @@ const Solution1About = () => {
                     </p>
                   </div>
                 </div>
-                <a href="#." className="mil-link mil-mb-60">
+                <a href="#." className="absolution-link absolution-mb-60">
                   <span>See More</span>
                   <i className="fas fa-arrow-right" />
                 </a>
               </div>
               <div className="col-lg-4">
                 <div
-                  className="mil-circle-illustration mil-with-dots mil-mb-60"
+                  className="absolution-circle-illustration absolution-with-dots absolution-mb-60"
                   data-swiper-parallax-scale=".8"
                 >
-                  <div className="mil-circle-bg" />
-                  <div className="mil-image-frame">
+                  <div className="absolution-circle-bg" />
+                  <div className="absolution-image-frame">
                     <img src="img/faces/t2.png" alt="img" />
                   </div>
                 </div>
@@ -188,15 +188,15 @@ const Solution1About = () => {
               data-swiper-parallax-opacity={0}
             >
               <div className="col-lg-7">
-                <div className="mil-hori-box mil-mb-60">
-                  <div className="mil-mr-15">
-                    <div className="mil-icon-frame mil-icon-frame-md">
+                <div className="absolution-hori-box absolution-mb-60">
+                  <div className="absolution-mr-15">
+                    <div className="absolution-icon-frame absolution-icon-frame-md">
                       <img src="img/icons/md/3.svg" alt="icon" />
                     </div>
                   </div>
                   <h5>Computer Vision</h5>
                 </div>
-                <div className="row mil-mb-60">
+                <div className="row absolution-mb-60">
                   <div className="col-lg-6">
                     <p>
                       There are many variations of passages of Lorem Ipsum
@@ -217,18 +217,18 @@ const Solution1About = () => {
                     </p>
                   </div>
                 </div>
-                <a href="#." className="mil-link mil-mb-60">
+                <a href="#." className="absolution-link absolution-mb-60">
                   <span>See More</span>
                   <i className="fas fa-arrow-right" />
                 </a>
               </div>
               <div className="col-lg-4">
                 <div
-                  className="mil-circle-illustration mil-with-dots mil-mb-60"
+                  className="absolution-circle-illustration absolution-with-dots absolution-mb-60"
                   data-swiper-parallax-scale=".8"
                 >
-                  <div className="mil-circle-bg" />
-                  <div className="mil-image-frame">
+                  <div className="absolution-circle-bg" />
+                  <div className="absolution-image-frame">
                     <img src="img/faces/t5.png" alt="img" />
                   </div>
                 </div>
@@ -236,8 +236,8 @@ const Solution1About = () => {
             </div>
           </SwiperSlide>
         </Swiper>
-        <div className="mil-tab-buttons mil-mt-60-adapt">
-          <a href="#tab1" className="mil-active" onClick={clickedTabsSliderButton}>
+        <div className="absolution-tab-buttons absolution-mt-60-adapt">
+          <a href="#tab1" className="absolution-active" onClick={clickedTabsSliderButton}>
             <span>Machine Learning</span>
           </a>
           <a href="#tab2" onClick={clickedTabsSliderButton}>

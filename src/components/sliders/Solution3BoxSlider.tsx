@@ -3,19 +3,19 @@ import { sliderProps } from "@/src/common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 const Solution3BoxSlider = () => {
   return (
-    <section className="mil-gradient-bg mil-p-120-120">
+    <section className="absolution-gradient-bg absolution-p-120-120">
       <div
-        className="mil-deco mil-deco-accent"
+        className="absolution-deco absolution-deco-accent"
         style={{ top: 0, right: "30%" }}
       />
       <div
-        className="mil-deco mil-deco-accent"
+        className="absolution-deco absolution-deco-accent"
         style={{ bottom: 0, right: "20%", transform: "rotate(180deg)" }}
       />
       <div className="container">
         <Swiper
           {...sliderProps.milBoxSlider}
-          className="swiper-container mil-box-slider"
+          className="swiper-container absolution-box-slider"
         >
           <div className="swiper-wrapper">
             <SwiperSlide className="swiper-slide">
@@ -26,30 +26,30 @@ const Solution3BoxSlider = () => {
               >
                 <div className="col-lg-3 offset-lg-1">
                   <div
-                    className="mil-circle-illustration mil-with-dots mil-mb-60"
+                    className="absolution-circle-illustration absolution-with-dots absolution-mb-60"
                     data-swiper-parallax-scale=".8"
                   >
-                    <div className="mil-circle-bg" />
-                    <div className="mil-image-frame">
+                    <div className="absolution-circle-bg" />
+                    <div className="absolution-image-frame">
                       <img src="img/faces/t6.png" alt="img" />
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-7">
-                  <div className="mil-icon-frame mil-light mil-icon-frame-sm mil-mb-60">
+                  <div className="absolution-icon-frame absolution-light absolution-icon-frame-sm absolution-mb-60">
                     <img src="img/icons/sm/11.svg" alt="icon" />
                   </div>
-                  <p className="mil-text-lg mil-light mil-mb-60">
+                  <p className="absolution-text-lg absolution-light absolution-mb-60">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua quis ipsum suspendisse ultrices gravida risus commodo
                     viverra maecenas.
                   </p>
-                  <h3 className="mil-light mil-mb-15">Victoria Oldman</h3>
-                  <p className="mil-light-soft">
+                  <h3 className="absolution-light absolution-mb-15">Victoria Oldman</h3>
+                  <p className="absolution-light-soft">
                     Director of Product Management
                   </p>
-                  <p className="mil-accent">ITAgency, Inc</p>
+                  <p className="absolution-accent">ITAgency, Inc</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -61,30 +61,30 @@ const Solution3BoxSlider = () => {
               >
                 <div className="col-lg-3 offset-lg-1">
                   <div
-                    className="mil-circle-illustration mil-with-dots mil-mb-60"
+                    className="absolution-circle-illustration absolution-with-dots absolution-mb-60"
                     data-swiper-parallax-scale=".8"
                   >
-                    <div className="mil-circle-bg" />
-                    <div className="mil-image-frame">
+                    <div className="absolution-circle-bg" />
+                    <div className="absolution-image-frame">
                       <img src="img/faces/t1.png" alt="img" />
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-7">
-                  <div className="mil-icon-frame mil-light mil-icon-frame-sm mil-mb-60">
+                  <div className="absolution-icon-frame absolution-light absolution-icon-frame-sm absolution-mb-60">
                     <img src="img/icons/sm/11.svg" alt="icon" />
                   </div>
-                  <p className="mil-text-lg mil-light mil-mb-60">
+                  <p className="absolution-text-lg absolution-light absolution-mb-60">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua quis ipsum suspendisse ultrices gravida risus commodo
                     viverra maecenas.
                   </p>
-                  <h3 className="mil-light mil-mb-15">John Doe</h3>
-                  <p className="mil-light-soft">
+                  <h3 className="absolution-light absolution-mb-15">John Doe</h3>
+                  <p className="absolution-light-soft">
                     Director of Product Management
                   </p>
-                  <p className="mil-accent">ITAgency, Inc</p>
+                  <p className="absolution-accent">ITAgency, Inc</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -96,30 +96,30 @@ const Solution3BoxSlider = () => {
               >
                 <div className="col-lg-3 offset-lg-1">
                   <div
-                    className="mil-circle-illustration mil-with-dots mil-mb-60"
+                    className="absolution-circle-illustration absolution-with-dots absolution-mb-60"
                     data-swiper-parallax-scale=".8"
                   >
-                    <div className="mil-circle-bg" />
-                    <div className="mil-image-frame">
+                    <div className="absolution-circle-bg" />
+                    <div className="absolution-image-frame">
                       <img src="img/faces/t2.png" alt="img" />
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-7">
-                  <div className="mil-icon-frame mil-light mil-icon-frame-sm mil-mb-60">
+                  <div className="absolution-icon-frame absolution-light absolution-icon-frame-sm absolution-mb-60">
                     <img src="img/icons/sm/11.svg" alt="icon" />
                   </div>
-                  <p className="mil-text-lg mil-light mil-mb-60">
+                  <p className="absolution-text-lg absolution-light absolution-mb-60">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua quis ipsum suspendisse ultrices gravida risus commodo
                     viverra maecenas.
                   </p>
-                  <h3 className="mil-light mil-mb-15">Oscar Trueman</h3>
-                  <p className="mil-light-soft">
+                  <h3 className="absolution-light absolution-mb-15">Oscar Trueman</h3>
+                  <p className="absolution-light-soft">
                     Director of Product Management
                   </p>
-                  <p className="mil-accent">ITAgency, Inc</p>
+                  <p className="absolution-accent">ITAgency, Inc</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -127,13 +127,13 @@ const Solution3BoxSlider = () => {
         </Swiper>
         <div className="row">
           <div className="col-lg-5">
-            <div className="mil-slider-nav justify-content-lg-center mil-reviews-btns-space">
-              <div className="mil-slider-btn-prev mil-box-prev mil-light">
+            <div className="absolution-slider-nav justify-content-lg-center absolution-reviews-btns-space">
+              <div className="absolution-slider-btn-prev absolution-box-prev absolution-light">
                 <i className="fas fa-arrow-left" />
-                <span className="mil-h6">Prev</span>
+                <span className="absolution-h6">Prev</span>
               </div>
-              <div className="mil-slider-btn-next mil-box-next mil-light">
-                <span className="mil-h6">Next</span>
+              <div className="absolution-slider-btn-next absolution-box-next absolution-light">
+                <span className="absolution-h6">Next</span>
                 <i className="fas fa-arrow-right" />
               </div>
             </div>

@@ -6,27 +6,27 @@ import Content from '../../data/sliders/testimonial';
 
 const Home1TestimonialSlider = () => {
   return (
-    <section className="mil-reviews mil-deep-bg mil-p-120-120">
-      <div className="mil-deco" style={{ top: 0, right: "30%" }} />
+    <section className="absolution-reviews absolution-deep-bg absolution-p-120-120">
+      <div className="absolution-deco" style={{ top: 0, right: "30%" }} />
       <div className="container">
-        <div className="row align-items-center mil-mb-90">
+        <div className="row align-items-center absolution-mb-90">
           <div className="col-md-6 col-xl-6">
-            <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+            <span className="absolution-suptitle absolution-suptitle-2 absolution-mb-30">
               {Content.subtitle}
             </span>
             <h2>
-              {Content.title.first} <span className="mil-accent">{Content.title.second}</span> {Content.title.third}
+              {Content.title.first} <span className="absolution-accent">{Content.title.second}</span> {Content.title.third}
             </h2>
           </div>
           <div className="col-md-6 col-xl-6">
-            <div className="mil-adaptive-right mil-mt-60-adapt">
-              <div className="mil-slider-nav">
-                <div className="mil-slider-btn-prev mil-revi-prev">
+            <div className="absolution-adaptive-right absolution-mt-60-adapt">
+              <div className="absolution-slider-nav">
+                <div className="absolution-slider-btn-prev absolution-revi-prev">
                   <i className="fas fa-arrow-left" />
-                  <span className="mil-h6">Prev</span>
+                  <span className="absolution-h6">Prev</span>
                 </div>
-                <div className="mil-slider-btn-next mil-revi-next">
-                  <span className="mil-h6">Next</span>
+                <div className="absolution-slider-btn-next absolution-revi-next">
+                  <span className="absolution-h6">Next</span>
                   <i className="fas fa-arrow-right" />
                 </div>
               </div>
@@ -35,12 +35,12 @@ const Home1TestimonialSlider = () => {
         </div>
         <Swiper
           {...sliderProps.milReviSlider}
-          className="swiper-container mil-revi-slider"
+          className="swiper-container absolution-revi-slider"
         >
           {Content.items.map((item, key) => (
           <SwiperSlide className="swiper-slide">
-            <div className="mil-review">
-              <div className="mil-stars mil-mb-30">
+            <div className="absolution-review">
+              <div className="absolution-stars absolution-mb-30">
                 <img src="img/icons/sm/11.svg" alt="quote" />
                 <ul>
                   <li>
@@ -60,14 +60,14 @@ const Home1TestimonialSlider = () => {
                   </li>
                 </ul>
               </div>
-              <p className="mil-mb-30">
+              <p className="absolution-mb-30">
                 {item.text}
               </p>
-              <div className="mil-author">
+              <div className="absolution-author">
                 <img src={item.image} alt={item.name} />
-                <div className="mil-name">
-                  <h6 className="mil-mb-5">{item.name}</h6>
-                  <span className="mil-text-sm">{item.role}</span>
+                <div className="absolution-name">
+                  <h6 className="absolution-mb-5">{item.name}</h6>
+                  <span className="absolution-text-sm">{item.role}</span>
                 </div>
               </div>
             </div>

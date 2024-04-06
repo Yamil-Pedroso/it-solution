@@ -5,41 +5,41 @@ const AwardsSection = () => {
     const awardsItems = [] as any;
 
     Content.items.forEach((item, index) => {
-      let itemClass = 'mil-awards-box mil-gradient-bg';
+      let itemClass = 'absolution-awards-box absolution-gradient-bg';
       if ((index+1) % 2 == 0 ) {
-        itemClass += ' mil-box-2';
+        itemClass += ' absolution-box-2';
       }
       if (index == (Content.items.length - 1) ){
-        itemClass += ' mil-pb-60-adapt';
+        itemClass += ' absolution-pb-60-adapt';
       }
       let newobj = Object.assign({}, item, { "boxClass": itemClass });
       awardsItems.push(newobj);
     });
 
     return (
-      <section className="mil-awards">
+      <section className="absolution-awards">
         <div className="row m-0">
-          <div className="col-xl-6 p-0 mil-relative">
+          <div className="col-xl-6 p-0 absolution-relative">
             <img
               src={Content.bg_image}
-              className="mil-background-image"
+              className="absolution-background-image"
               style={{ objectPosition: "center" }}
               data-swiper-parallax-scale="1.1"
               alt="image"
             />
-            <div className="mil-overlay" />
-            <div className="mil-fake-container">
-              <span className="mil-suptitle mil-suptitle-2 mil-light mil-mb-30">
+            <div className="absolution-overlay" />
+            <div className="absolution-fake-container">
+              <span className="absolution-suptitle absolution-suptitle-2 absolution-light absolution-mb-30">
                 {Content.subtitle}
               </span>
-              <h2 className="mil-light mil-mb-30">
-                {Content.title.first} <span className="mil-accent">{Content.title.second}</span> {Content.title.third}
+              <h2 className="absolution-light absolution-mb-30">
+                {Content.title.first} <span className="absolution-accent">{Content.title.second}</span> {Content.title.third}
               </h2>
-              <p className="mil-light-soft mil-mb-30">
+              <p className="absolution-light-soft absolution-mb-30">
                 {Content.description}
               </p>
-              <a href={Content.button.link} className="mil-link">
-                <span className="mil-light">{Content.button.label}</span>
+              <a href={Content.button.link} className="absolution-link">
+                <span className="absolution-light">{Content.button.label}</span>
                 <i className="fas fa-arrow-right" />
               </a>
             </div>
@@ -49,12 +49,12 @@ const AwardsSection = () => {
               {awardsItems.map((item: any, key: any) => (
               <div className="col-md-6 col-xl-6 p-0">
                 <div className={item.boxClass}>
-                  <div className="mil-icon-box mil-center">
-                    <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
+                  <div className="absolution-icon-box absolution-center">
+                    <div className="absolution-icon-frame absolution-icon-frame-md absolution-mb-30">
                       <img src="img/icons/md/6l.svg" alt="icon" />
                     </div>
-                    <h5 className="mil-light mil-mb-20">{item.name}</h5>
-                    <p className="mil-text-sm mil-light-soft">
+                    <h5 className="absolution-light absolution-mb-20">{item.name}</h5>
+                    <p className="absolution-text-sm absolution-light-soft">
                       {item.text}
                     </p>
                   </div>

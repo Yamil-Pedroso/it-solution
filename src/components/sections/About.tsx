@@ -3,27 +3,27 @@ import Content from "../../data/sections/about.json";
 
 const AboutSection = () => {
     return (
-      <section className="mil-about mil-p-120-60">
-        <div className="mil-deco" style={{ top: 0, right: "10%" }} />
+      <section className="absolution-about absolution-p-120-60">
+        <div className="absolution-deco" style={{ top: 0, right: "10%" }} />
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <div className="col-md-5 col-xl-5">
-              <div className="mil-about-illustration mil-mb-60">
-                <div className="mil-image-frame">
+              <div className="absolution-about-illustration absolution-mb-60">
+                <div className="absolution-image-frame">
                   <img src={Content.image} alt={Content.title} />
                 </div>
-                <div className="mil-window">
-                  <ul className="mil-speakers">
+                <div className="absolution-window">
+                  <ul className="absolution-speakers">
                     {Content.speakers.map((item, key) => (
-                    <li className="mil-speaker">
+                    <li className="absolution-speaker">
                       <img src={item.image} alt={item.alt} />
                     </li>
                     ))}
                   </ul>
-                  <div className="mil-window-bottom">
+                  <div className="absolution-window-bottom">
                     <h3>{Content.rating.value}</h3>
                     <div>
-                      <ul className="mil-stars">
+                      <ul className="absolution-stars">
                         <li>
                           <i className="fas fa-star" />
                         </li>
@@ -36,25 +36,25 @@ const AboutSection = () => {
                         <li>
                           <i className="fas fa-star" />
                         </li>
-                        <li className="mil-empty">
+                        <li className="absolution-empty">
                           <i className="fas fa-star" />
                         </li>
                       </ul>
-                      <p className="mil-text-sm">{Content.rating.label}</p>
+                      <p className="absolution-text-sm">{Content.rating.label}</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-md-6 col-xl-6">
-              <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+              <span className="absolution-suptitle absolution-suptitle-2 absolution-mb-30">
                 {Content.subtitle}
               </span>
-              <h2 className="mil-mb-30">{Content.title}</h2>
-              <p className="mil-mb-30">
+              <h2 className="absolution-mb-30">{Content.title}</h2>
+              <p className="absolution-mb-30">
                 {Content.text}
               </p>
-              <ul className="mil-simple-list mil-mb-60">
+              <ul className="absolution-simple-list absolution-mb-60">
                 {Content.list.map((item, key) => (
                 <li>{item.value}</li>
                 ))}

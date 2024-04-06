@@ -1,19 +1,19 @@
 
 
-.mil-top-position {
+.absolution-top-position {
     width: 100%;
     z-index: 999;
     transition: $t-md;
 
-    &.mil-absolute {
+    &.absolution-absolute {
         position: absolute;
     }
 
-    &.mil-fixed {
+    &.absolution-fixed {
         position: fixed;
     }
 
-    &.mil-hide-top {
+    &.absolution-hide-top {
         transform: translateY(-40px);
 
         @media screen and (max-width: 756px) {
@@ -22,7 +22,7 @@
     }
 }
 
-.mil-top-panel {
+.absolution-top-panel {
     padding: 0 10px;
     height: 100px;
     background-color: $light;
@@ -54,7 +54,7 @@
         }
     }
 
-    & .mil-navigation {
+    & .absolution-navigation {
         & nav {
             display: flex;
 
@@ -79,7 +79,7 @@
                         }
                     }
 
-                    &.mil-has-children {
+                    &.absolution-has-children {
                         position: relative;
                         padding-right: 10px;
 
@@ -148,7 +148,7 @@
                 }
             }
 
-            & .mil-search-icon {
+            & .absolution-search-icon {
                 margin-left: 20px;
                 cursor: pointer;
 
@@ -181,7 +181,7 @@
             background-color: $light;
             transition: $t-md;
 
-            &.mil-active {
+            &.absolution-active {
                 opacity: 1;
                 pointer-events: all;
                 transform: translateY(0);
@@ -211,7 +211,7 @@
                             padding: 0 15px;
                         }
 
-                        &.mil-has-children {
+                        &.absolution-has-children {
                             overflow: hidden;
                             height: auto;
                             padding-right: 0;
@@ -267,14 +267,14 @@
                     }
                 }
 
-                & .mil-search-icon {
+                & .absolution-search-icon {
                     display: none;
                 }
             }
         }
     }
 
-    &.mil-top-panel-transparent {
+    &.absolution-top-panel-transparent {
         background-color: transparent;
         box-shadow: none;
 
@@ -284,7 +284,7 @@
             }
         }
 
-        & .mil-navigation {
+        & .absolution-navigation {
             & nav {
                 & ul {
                     & li {
@@ -302,7 +302,7 @@
                     }
                 }
 
-                & .mil-search-icon {
+                & .absolution-search-icon {
                     & svg {
                         & path {
                             fill: $light;
@@ -320,7 +320,7 @@
             }
         }
 
-        & .mil-menu-btn {
+        & .absolution-menu-btn {
 
             & span,
             & span:after,
@@ -332,7 +332,7 @@
         @media screen and (max-width: 1200px) {
             background-color: $light;
 
-            & .mil-navigation {
+            & .absolution-navigation {
                 & nav {
                     & ul {
                         & li {
@@ -350,7 +350,7 @@
                         }
                     }
 
-                    & .mil-search-icon {
+                    & .absolution-search-icon {
                         & svg {
                             & path {
                                 fill: $dark;
@@ -368,7 +368,7 @@
                 }
             }
 
-            & .mil-menu-btn {
+            & .absolution-menu-btn {
 
                 & span,
                 & span:after,
@@ -380,7 +380,7 @@
     }
 }
 
-.mil-menu-btn {
+.absolution-menu-btn {
     height: 24px;
     cursor: pointer;
     display: none;
@@ -421,7 +421,7 @@
         }
     }
 
-    &.mil-active {
+    &.absolution-active {
         & span {
             transform: rotate(45deg);
 
@@ -446,8 +446,8 @@
     }
 }
 
-.mil-transparent-nav {
-    & .mil-menu-btn {
+.absolution-transparent-nav {
+    & .absolution-menu-btn {
 
         & span,
         & span:after,
@@ -463,7 +463,7 @@ addition panel
 
 ------------------------------------------- */
 
-.mil-additional-panel {
+.absolution-additional-panel {
     height: 40px;
     display: flex;
     align-items: center;
@@ -485,7 +485,7 @@ addition panel
         align-items: center;
     }
 
-    & .mil-ap-list {
+    & .absolution-ap-list {
         display: flex;
         width: 400px;
 
@@ -521,14 +521,14 @@ addition panel
         }
     }
 
-    & .mil-ap-call-to-action {
+    & .absolution-ap-call-to-action {
         display: flex;
 
         @media screen and (max-width: 1200px) {
             display: none;
         }
 
-        & .mil-icon-frame {
+        & .absolution-icon-frame {
             margin-right: 15px;
         }
     }
@@ -539,13 +539,13 @@ addition panel
 banner
 
 ------------------------------------------- */
-.mil-banner {
+.absolution-banner {
     height: 100vh;
     width: 100%;
     position: relative;
     overflow: hidden;
 
-    &.mil-top-space-100 {
+    &.absolution-top-space-100 {
         margin-top: 100px;
         height: calc(100vh - 100px);
 
@@ -554,7 +554,7 @@ banner
         }
     }
 
-    &.mil-top-space-140 {
+    &.absolution-top-space-140 {
         margin-top: 140px;
         height: calc(100vh - 140px);
 
@@ -569,11 +569,11 @@ banner
         height: auto;
     }
 
-    & .mil-deco {
+    & .absolution-deco {
         z-index: 2;
     }
 
-    & .mil-banner-slideshow {
+    & .absolution-banner-slideshow {
         position: absolute;
         z-index: 0;
         top: 0;
@@ -582,14 +582,14 @@ banner
         height: 100%;
     }
 
-    & .mil-banner-slider {
+    & .absolution-banner-slider {
         width: 100%;
         height: 100%;
         position: relative;
         overflow: hidden;
     }
 
-    & .mil-background-image {
+    & .absolution-background-image {
         filter: grayscale(100%);
         width: 100%;
         height: 100%;
@@ -601,7 +601,7 @@ banner
         left: 0;
     }
 
-    & .mil-overlay {
+    & .absolution-overlay {
         background-color: $dt-80;
         width: 100%;
         height: 100%;
@@ -611,7 +611,7 @@ banner
         left: 0;
     }
 
-    & .mil-banner-content {
+    & .absolution-banner-content {
         padding-top: 140px;
         height: 100%;
         position: relative;
@@ -627,7 +627,7 @@ banner
             padding-bottom: 60px;
         }
 
-        & .mil-button-descr {
+        & .absolution-button-descr {
             width: 450px;
             padding-left: 60px;
 
@@ -639,7 +639,7 @@ banner
         }
     }
 
-    & .mil-banner-content-2 {
+    & .absolution-banner-content-2 {
         padding-top: 40px;
         height: 100%;
         position: relative;
@@ -652,7 +652,7 @@ banner
     }
 }
 
-.mil-banner-nav {
+.absolution-banner-nav {
     position: absolute;
     top: calc(50% - 35px);
     left: 0;
@@ -677,7 +677,7 @@ banner
         align-items: center;
     }
 
-    & .mil-banner-button {
+    & .absolution-banner-button {
         cursor: pointer;
         font-size: 12px;
         width: 35px;
@@ -697,7 +697,7 @@ banner
     }
 }
 
-.mil-banner-sm {
+.absolution-banner-sm {
     height: 550px;
     position: relative;
     padding-top: 220px;
@@ -705,7 +705,7 @@ banner
     display: flex;
     align-items: center;
 
-    & .mil-background-image {
+    & .absolution-background-image {
         filter: invert(100%);
         opacity: .05;
         width: 100%;
@@ -718,7 +718,7 @@ banner
         left: 0;
     }
 
-    & .mil-banner-content {
+    & .absolution-banner-content {
         width: 100%;
         position: relative;
     }
@@ -730,11 +730,11 @@ banner
     }
 }
 
-.mil-banner-sm-2 {
+.absolution-banner-sm-2 {
     height: 550px;
     position: relative;
 
-    & .mil-background-image {
+    & .absolution-background-image {
         filter: grayscale(100%);
         width: 100%;
         height: 100%;
@@ -745,7 +745,7 @@ banner
         left: 0;
     }
 
-    & .mil-overlay {
+    & .absolution-overlay {
         background: linear-gradient(0deg, rgba(24, 30, 38, .3) 0%, $dark 100%);
         width: 100%;
         height: 100%;
@@ -764,11 +764,11 @@ banner
     }
 }
 
-.mil-banner-sm-3 {
+.absolution-banner-sm-3 {
     height: auto;
     position: relative;
 
-    & .mil-background-image {
+    & .absolution-background-image {
         filter: grayscale(100%);
         width: 100%;
         height: 100%;
@@ -778,7 +778,7 @@ banner
         left: 0;
     }
 
-    & .mil-overlay {
+    & .absolution-overlay {
         background-color: $dt-80;
         width: 100%;
         height: 100%;
@@ -788,7 +788,7 @@ banner
         left: 0;
     }
 
-    & .mil-banner-content {
+    & .absolution-banner-content {
         padding-top: 220px;
         height: 100%;
 
@@ -798,7 +798,7 @@ banner
     }
 }
 
-.mil-banner-panel {
+.absolution-banner-panel {
     background-color: $dt-10;
     height: 100px;
     display: flex;
@@ -810,7 +810,7 @@ banner
 illustration
 
 ------------------------------------------- */
-.mil-illustration-1 {
+.absolution-illustration-1 {
     position: relative;
     height: 280px;
 
@@ -818,28 +818,28 @@ illustration
         display: none;
     }
 
-    & .mil-item {
+    & .absolution-item {
         position: absolute;
 
-        &.mil-item-1 {
+        &.absolution-item-1 {
             top: 0;
             left: 30px;
         }
 
-        &.mil-item-2 {
+        &.absolution-item-2 {
             top: 110px;
             right: 0;
         }
 
-        &.mil-item-3 {
+        &.absolution-item-3 {
             bottom: 0;
             left: 30%;
         }
 
-        & .mil-plus {
+        & .absolution-plus {
             position: relative;
 
-            & .mil-hover-window {
+            & .absolution-hover-window {
                 position: absolute;
                 opacity: 0;
                 pointer-events: none;
@@ -852,7 +852,7 @@ illustration
                 width: 260px;
                 transition: $t-md;
 
-                & .mil-window-content {
+                & .absolution-window-content {
                     padding: 30px;
                     position: relative;
                     height: 100%;
@@ -882,7 +882,7 @@ illustration
                 }
             }
 
-            & .mil-item-hover {
+            & .absolution-item-hover {
                 display: flex;
                 align-items: center;
                 cursor: pointer;
@@ -892,7 +892,7 @@ illustration
                     transition: $t-sm;
                 }
 
-                & .mil-plus-icon {
+                & .absolution-plus-icon {
                     background-color: $lt-10;
                     backdrop-filter: blur(10px);
                     width: 50px;
@@ -910,19 +910,19 @@ illustration
             }
 
             &:hover {
-                & .mil-hover-window {
+                & .absolution-hover-window {
                     opacity: 1;
                     transform: translateY(0) scale(1);
                     pointer-events: all;
                 }
 
-                & .mil-item-hover {
+                & .absolution-item-hover {
                     & h6 {
                         opacity: 1;
                         color: $blue;
                     }
 
-                    & .mil-plus-icon {
+                    & .absolution-plus-icon {
                         background-color: $blue;
                         animation: puls 1s linear infinite;
 
@@ -944,13 +944,13 @@ illustration
 
 }
 
-.mil-circle-illustration {
+.absolution-circle-illustration {
     margin-top: 60px;
     width: 100%;
     padding-bottom: 100%;
     position: relative;
 
-    & .mil-circle-bg {
+    & .absolution-circle-bg {
         width: 100%;
         height: 100%;
         background-color: $blue;
@@ -960,7 +960,7 @@ illustration
         border-radius: 50%;
     }
 
-    & .mil-image-frame {
+    & .absolution-image-frame {
         width: 100%;
         height: calc(100% + 60px);
         position: absolute;
@@ -979,7 +979,7 @@ illustration
         }
     }
 
-    &.mil-with-dots {
+    &.absolution-with-dots {
         &:before {
             content: '';
             background-image: radial-gradient($dark 15%, transparent 0);
@@ -1008,7 +1008,7 @@ illustration
         }
     }
 
-    &.mil-with-dots-2 {
+    &.absolution-with-dots-2 {
         &:after {
             content: '';
             background-image: radial-gradient($dark 15%, transparent 0);
@@ -1030,7 +1030,7 @@ icons
 
 ------------------------------------------- */
 
-.mil-icon-frame {
+.absolution-icon-frame {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1053,7 +1053,7 @@ icons
         position: relative;
     }
 
-    &.mil-icon-frame-md {
+    &.absolution-icon-frame-md {
         width: 45px;
         height: 45px;
 
@@ -1063,7 +1063,7 @@ icons
         }
     }
 
-    &.mil-icon-frame-sm {
+    &.absolution-icon-frame-sm {
         width: 25px;
         height: 25px;
 
@@ -1073,7 +1073,7 @@ icons
         }
     }
 
-    &.mil-icon-bg {
+    &.absolution-icon-bg {
         background-color: $dt-5;
         width: 70px;
         height: 70px;
@@ -1085,7 +1085,7 @@ icons
         }
     }
 
-    &.mil-light {
+    &.absolution-light {
         & img {
             filter: invert(100%);
         }
@@ -1097,7 +1097,7 @@ icons
 partners
 
 ------------------------------------------- */
-.mil-partners-frame {
+.absolution-partners-frame {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1168,7 +1168,7 @@ partners
     }
 }
 
-.mil-partners-spaces {
+.absolution-partners-spaces {
     padding-top: 90px;
     padding-bottom: 90px;
 
@@ -1183,7 +1183,7 @@ partners
 services
 
 ------------------------------------------- */
-.mil-service-item {
+.absolution-service-item {
     padding: 30px 0;
     display: flex;
     justify-content: space-between;
@@ -1192,7 +1192,7 @@ services
         flex-direction: column;
     }
 
-    & .mil-service-icon {
+    & .absolution-service-icon {
         width: 30%;
         padding-left: 30px;
 
@@ -1207,7 +1207,7 @@ services
         }
     }
 
-    & .mil-service-text {
+    & .absolution-service-text {
         width: 70%;
         padding-right: 30px;
 
@@ -1232,15 +1232,15 @@ services
         }
     }
 
-    &.mil-without-lines {
+    &.absolution-without-lines {
         padding: 0;
 
-        & .mil-service-icon {
+        & .absolution-service-icon {
             width: 20%;
             padding-left: 0;
         }
 
-        & .mil-service-text {
+        & .absolution-service-text {
             width: 80%;
         }
     }
@@ -1251,11 +1251,11 @@ services
 card
 
 ------------------------------------------- */
-.mil-card {
+.absolution-card {
     display: block;
     text-decoration: none;
 
-    & .mil-cover-frame {
+    & .absolution-cover-frame {
         position: relative;
         overflow: hidden;
         border-radius: 10px;
@@ -1276,7 +1276,7 @@ card
     }
 
     &:hover {
-        & .mil-cover-frame {
+        & .absolution-cover-frame {
             & img {
                 transform: scale(1.03);
                 filter: grayscale(0);
@@ -1284,15 +1284,15 @@ card
         }
     }
 
-    & .mil-description {
+    & .absolution-description {
         display: flex;
         justify-content: space-between;
 
-        & .mil-fw-descr {
+        & .absolution-fw-descr {
             width: 100%;
         }
 
-        & .mil-card-title {
+        & .absolution-card-title {
             width: 50%;
             padding-right: 30px;
 
@@ -1302,15 +1302,15 @@ card
             }
         }
 
-        & .mil-card-text {
+        & .absolution-card-text {
             width: 50%;
         }
 
-        & .mil-card-top {
+        & .absolution-card-top {
             display: flex;
             justify-content: space-between;
 
-            & .mil-bages {
+            & .absolution-bages {
                 display: flex;
 
                 & li {
@@ -1319,7 +1319,7 @@ card
                 }
             }
 
-            & .mil-stars {
+            & .absolution-stars {
                 display: flex;
                 align-items: center;
 
@@ -1338,7 +1338,7 @@ card
                             color: $blue;
                         }
 
-                        &.mil-empty {
+                        &.absolution-empty {
                             & i {
                                 color: $dt-20;
                             }
@@ -1351,47 +1351,47 @@ card
         @media screen and (max-width: 1200px) {
             flex-direction: column;
 
-            & .mil-card-title {
+            & .absolution-card-title {
                 width: 100%;
                 margin-bottom: 20px;
                 padding-right: 0;
             }
 
-            & .mil-card-text {
+            & .absolution-card-text {
                 width: 100%;
             }
         }
     }
 
-    &.mil-card-sm {
-        & .mil-cover-frame {
+    &.absolution-card-sm {
+        & .absolution-cover-frame {
             padding-bottom: 100%;
         }
 
-        & .mil-description {
+        & .absolution-description {
             flex-direction: column;
 
             & h6 {
                 display: none;
             }
 
-            & .mil-card-title {
+            & .absolution-card-title {
                 width: 100%;
                 padding-right: 0;
             }
 
-            & .mil-card-text {
+            & .absolution-card-text {
                 width: 100%;
             }
         }
 
-        &.mil-reverse-sm {
+        &.absolution-reverse-sm {
 
-            & .mil-cover-frame {
+            & .absolution-cover-frame {
                 margin-bottom: 0;
             }
 
-            & .mil-description {
+            & .absolution-description {
                 margin-bottom: 30px;
             }
 
@@ -1399,22 +1399,22 @@ card
                 display: flex;
                 flex-direction: column-reverse;
 
-                & .mil-cover-frame {
+                & .absolution-cover-frame {
                     margin-bottom: 30px;
                 }
 
-                & .mil-description {
+                & .absolution-description {
                     margin-bottom: 0;
                 }
             }
         }
 
         @media screen and (max-width: 1200px) {
-            & .mil-cover-frame {
+            & .absolution-cover-frame {
                 padding-bottom: 60%;
             }
 
-            & .mil-description {
+            & .absolution-description {
                 & h6 {
                     display: block;
                 }
@@ -1423,8 +1423,8 @@ card
     }
 }
 
-.mil-card-2 {
-    & .mil-cover-frame {
+.absolution-card-2 {
+    & .absolution-cover-frame {
         position: relative;
         overflow: hidden;
         border-radius: 10px 10px 0 0;
@@ -1457,13 +1457,13 @@ card
         }
     }
 
-    & .mil-description {
+    & .absolution-description {
         position: relative;
         padding: 30px 30px 35px;
         background-color: $light;
         border-radius: 0 0 10px 10px;
 
-        & .mil-speakers {
+        & .absolution-speakers {
             filter: grayscale(100%);
             position: absolute;
             top: -30px;
@@ -1472,7 +1472,7 @@ card
             justify-content: flex-end;
             transition: $t-md;
 
-            & .mil-speaker {
+            & .absolution-speaker {
                 margin-right: 5px;
                 width: 60px;
                 height: 60px;
@@ -1496,7 +1496,7 @@ card
             }
         }
 
-        & .mil-category {
+        & .absolution-category {
             color: $blue !important;
             font-weight: 500;
         }
@@ -1504,7 +1504,7 @@ card
     }
 
     &:hover {
-        & .mil-cover-frame {
+        & .absolution-cover-frame {
             & img {
                 transform: scale(1.05);
                 filter: grayscale(0);
@@ -1516,9 +1516,9 @@ card
             }
         }
 
-        & .mil-description {
+        & .absolution-description {
 
-            & .mil-speakers {
+            & .absolution-speakers {
                 filter: grayscale(0);
             }
 
@@ -1526,7 +1526,7 @@ card
     }
 }
 
-.mil-hover-card {
+.absolution-hover-card {
     overflow: hidden;
     position: relative;
     padding: 60px;
@@ -1534,11 +1534,11 @@ card
     border-radius: 10px;
     transition: $t-md;
 
-    &.mil-card-only-30 {
+    &.absolution-card-only-30 {
         padding: 30px;
     }
 
-    & .mil-deco {
+    & .absolution-deco {
         opacity: 0;
         transform: translateY(0);
         transition: $t-md;
@@ -1548,7 +1548,7 @@ card
         padding: 30px;
     }
 
-    & .mil-link {
+    & .absolution-link {
         & i {
             background-color: $dt-20;
         }
@@ -1562,7 +1562,7 @@ card
             background-color: $blue;
         }
 
-        & .mil-deco {
+        & .absolution-deco {
             opacity: 1;
             transform: translateY(5%);
         }
@@ -1575,10 +1575,10 @@ slider navigation
 
 ------------------------------------------- */
 
-.mil-slider-nav {
+.absolution-slider-nav {
     display: flex;
 
-    & .mil-slider-btn-prev {
+    & .absolution-slider-btn-prev {
         margin-right: 30px;
 
         & i {
@@ -1586,14 +1586,14 @@ slider navigation
         }
     }
 
-    & .mil-slider-btn-next {
+    & .absolution-slider-btn-next {
         & i {
             margin-left: 15px;
         }
     }
 
-    & .mil-slider-btn-prev,
-    & .mil-slider-btn-next {
+    & .absolution-slider-btn-prev,
+    & .absolution-slider-btn-next {
         cursor: pointer;
         display: flex;
         align-items: center;
@@ -1612,7 +1612,7 @@ slider navigation
             color: $blue;
         }
 
-        &.mil-light {
+        &.absolution-light {
             & span {
                 color: $light;
             }
@@ -1642,41 +1642,41 @@ slider navigation
 icon box
 
 ------------------------------------------- */
-.mil-icon-box-head {
+.absolution-icon-box-head {
     display: flex;
     align-items: center;
 
-    & .mil-icon-frame {
+    & .absolution-icon-frame {
         margin-right: 15px;
 
-        &.mil-light {
+        &.absolution-light {
             & img {
                 filter: invert(100%);
             }
         }
     }
 
-    &.mil-long {
+    &.absolution-long {
         @media screen and (max-width: 768px) {
             flex-direction: column;
             align-items: flex-start;
 
-            & .mil-icon-frame {
+            & .absolution-icon-frame {
                 margin-right: 0;
                 margin-bottom: 15px;
             }
         }
     }
 
-    &.mil-mob-center {
+    &.absolution-mob-center {
         @media screen and (max-width: 768px) {
             align-items: center;
         }
     }
 }
 
-.mil-icon-box {
-    &.mil-center {
+.absolution-icon-box {
+    &.absolution-center {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1687,34 +1687,34 @@ icon box
 }
 
 
-.mil-awards-box {
+.absolution-awards-box {
     padding: 90px;
 
     @media screen and (max-width: 768px) {
         padding: 60px 60px 0;
 
-        &.mil-pb-60-adapt {
+        &.absolution-pb-60-adapt {
             padding-bottom: 60px;
         }
     }
 
-    &.mil-box-2 {
-        &.mil-gradient-bg {
+    &.absolution-box-2 {
+        &.absolution-gradient-bg {
             background: linear-gradient(0deg, rgba(24, 30, 38, 1) 0%, $dark 100%);
         }
     }
 }
 
-.mil-line-icon-box {
+.absolution-line-icon-box {
     padding: 60px 0 30px;
 }
 
-.mil-hori-box {
+.absolution-hori-box {
     display: flex;
     align-items: center;
     width: 100%;
 
-    & .mil-icon-frame {
+    & .absolution-icon-frame {
         margin-right: 15px;
     }
 
@@ -1722,14 +1722,14 @@ icon box
         flex-direction: column;
         align-items: flex-start;
 
-        & .mil-icon-frame {
+        & .absolution-icon-frame {
             margin-right: 0;
             margin-bottom: 30px;
         }
     }
 }
 
-.mil-number-icon {
+.absolution-number-icon {
     position: relative;
     overflow: hidden;
     background-color: $dt-5;
@@ -1739,11 +1739,11 @@ icon box
     justify-content: center;
     align-items: center;
 
-    &.mil-circle {
+    &.absolution-circle {
         border-radius: 50%;
     }
 
-    &.mil-lines {
+    &.absolution-lines {
         background-color: transparent;
 
         &:before {
@@ -1790,10 +1790,10 @@ icon box
         }
     }
 
-    &.mil-light {
+    &.absolution-light {
         background-color: $lt-5;
 
-        &.mil-lines {
+        &.absolution-lines {
             background-color: transparent;
 
             &:before {
@@ -1813,7 +1813,7 @@ icon box
     }
 }
 
-.mil-box-center {
+.absolution-box-center {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1826,17 +1826,17 @@ skills
 
 ------------------------------------------- */
 
-.mil-skill-frame {
+.absolution-skill-frame {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    & .mil-skill-track {
+    & .absolution-skill-track {
         width: 80%;
         height: 2px;
         background-color: $dt-20;
 
-        & .mil-skill-prog {
+        & .absolution-skill-prog {
             position: relative;
             background-color: $blue;
             height: 2px;
@@ -1862,8 +1862,8 @@ reviews
 
 ------------------------------------------- */
 
-.mil-review {
-    & .mil-stars {
+.absolution-review {
+    & .absolution-stars {
         display: flex;
         align-items: center;
 
@@ -1885,7 +1885,7 @@ reviews
         }
     }
 
-    & .mil-author {
+    & .absolution-author {
         display: flex;
         align-items: center;
 
@@ -1897,24 +1897,24 @@ reviews
             transition: $t-md;
         }
 
-        & .mil-name {
+        & .absolution-name {
             padding-left: 20px;
 
-            & .mil-text-sm {
+            & .absolution-text-sm {
                 opacity: .6;
             }
         }
     }
 
     &:hover {
-        & .mil-author {
+        & .absolution-author {
             & img {
                 filter: grayscale(0);
             }
         }
     }
 
-    &.mil-text-center {
+    &.absolution-text-center {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1927,7 +1927,7 @@ reviews
             }
         }
 
-        & .mil-author {
+        & .absolution-author {
             flex-direction: column;
 
             & img {
@@ -1937,7 +1937,7 @@ reviews
     }
 }
 
-.mil-reviews-btns-space {
+.absolution-reviews-btns-space {
     @media screen and (max-width: 992px) {
         margin-top: 60px;
     }
@@ -1949,10 +1949,10 @@ about
 
 ------------------------------------------- */
 
-.mil-about-illustration {
+.absolution-about-illustration {
     position: relative;
 
-    & .mil-image-frame {
+    & .absolution-image-frame {
         border-radius: 10px;
         overflow: hidden;
         position: relative;
@@ -1995,7 +1995,7 @@ about
         }
     }
 
-    & .mil-window {
+    & .absolution-window {
         background-color: $light;
         padding: 30px;
         position: absolute;
@@ -2008,14 +2008,14 @@ about
             right: -30px;
         }
 
-        & .mil-speakers {
+        & .absolution-speakers {
             filter: grayscale(100%);
             top: -30px;
             right: 30px;
             display: flex;
             transition: $t-md;
 
-            & .mil-speaker {
+            & .absolution-speaker {
                 transform: translateX(-15px);
                 width: 50px;
                 height: 50px;
@@ -2048,7 +2048,7 @@ about
             }
         }
 
-        & .mil-window-bottom {
+        & .absolution-window-bottom {
             display: flex;
             align-items: flex-start;
 
@@ -2056,7 +2056,7 @@ about
                 padding-right: 15px;
             }
 
-            & .mil-stars {
+            & .absolution-stars {
                 display: flex;
 
                 & li {
@@ -2067,7 +2067,7 @@ about
                         color: $blue;
                     }
 
-                    &.mil-empty {
+                    &.absolution-empty {
                         & i {
                             color: $dt-20;
                         }
@@ -2079,10 +2079,10 @@ about
 }
 
 
-.mil-about-illustration-2 {
+.absolution-about-illustration-2 {
     position: relative;
 
-    & .mil-image-frame {
+    & .absolution-image-frame {
         border-radius: 10px;
         overflow: hidden;
         position: relative;
@@ -2119,7 +2119,7 @@ about
         }
     }
 
-    & .mil-play-button {
+    & .absolution-play-button {
         position: absolute;
         top: calc(50% - 35px);
         left: calc(50% - 35px);
@@ -2141,10 +2141,10 @@ awards
 
 ------------------------------------------- */
 
-.mil-awards {
+.absolution-awards {
     position: relative;
 
-    & .mil-background-image {
+    & .absolution-background-image {
         width: 100%;
         height: 100%;
         position: absolute;
@@ -2155,7 +2155,7 @@ awards
         filter: grayscale(100%);
     }
 
-    & .mil-overlay {
+    & .absolution-overlay {
         background-color: $dt-80;
         width: 100%;
         height: 100%;
@@ -2164,7 +2164,7 @@ awards
         top: 0;
         left: 0;
 
-        &.mil-gradient-bg {
+        &.absolution-gradient-bg {
             width: 100%;
             height: 100%;
             position: absolute;
@@ -2173,11 +2173,11 @@ awards
             left: 0;
         }
 
-        &.mil-super-light {
+        &.absolution-super-light {
             background-color: $dt-60;
         }
 
-        &.mil-with-deco {
+        &.absolution-with-deco {
             &:after {
                 content: '';
                 width: 300px;
@@ -2191,12 +2191,12 @@ awards
         }
     }
 
-    & .mil-relative {
+    & .absolution-relative {
         display: flex;
         align-items: center;
 
 
-        & .mil-fake-container {
+        & .absolution-fake-container {
             position: relative;
         }
     }
@@ -2207,7 +2207,7 @@ awards
 breadcrumbs
 
 ------------------------------------------- */
-.mil-breadcrumbs {
+.absolution-breadcrumbs {
     display: flex;
 
     & li {
@@ -2254,11 +2254,11 @@ team
 
 ------------------------------------------- */
 
-.mil-team-card {
+.absolution-team-card {
     text-align: center;
     display: block;
 
-    & .mil-image-frame {
+    & .absolution-image-frame {
         width: 100%;
         padding-bottom: 100%;
         position: relative;
@@ -2276,7 +2276,7 @@ team
             transition: $t-md;
         }
 
-        & .mil-team-circle {
+        & .absolution-team-circle {
             position: absolute;
             background-color: $blue;
             opacity: 0;
@@ -2325,8 +2325,8 @@ team
     }
 
     &:hover {
-        & .mil-image-frame {
-            & .mil-team-circle {
+        & .absolution-image-frame {
+            & .absolution-team-circle {
                 transform: scale(1);
                 opacity: 1;
             }
@@ -2353,10 +2353,10 @@ team
 call to action
 
 ------------------------------------------- */
-.mil-call-to-action {
+.absolution-call-to-action {
     position: relative;
 
-    & .mil-background-image {
+    & .absolution-background-image {
         filter: grayscale(100%);
         position: absolute;
         top: 0;
@@ -2367,7 +2367,7 @@ call to action
         object-position: center;
     }
 
-    & .mil-overlay {
+    & .absolution-overlay {
         background-color: $dt-80;
         width: 100%;
         height: 100%;
@@ -2377,14 +2377,14 @@ call to action
         left: 0;
     }
 
-    & .mil-cta-content {
+    & .absolution-cta-content {
         padding: 60px 0;
         position: relative;
         text-align: center;
     }
 }
 
-.mil-cta-frame {
+.absolution-cta-frame {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -2395,7 +2395,7 @@ call to action
 team member
 
 ------------------------------------------- */
-.mil-portrait-position {
+.absolution-portrait-position {
     position: absolute;
     pointer-events: none;
     z-index: 1;
@@ -2409,7 +2409,7 @@ team member
     }
 }
 
-.mil-portrait-frame {
+.absolution-portrait-frame {
     width: 450px;
     margin-left: auto;
     height: 510px;
@@ -2451,7 +2451,7 @@ team member
 timeline
 
 ------------------------------------------- */
-.mil-timeline {
+.absolution-timeline {
     padding-top: 60px;
     display: flex;
     justify-content: space-between;
@@ -2549,7 +2549,7 @@ accordion
 
 ------------------------------------------- */
 
-.mil-accordion {
+.absolution-accordion {
     position: relative;
     display: flex;
     align-items: center;
@@ -2564,17 +2564,17 @@ accordion
     }
 }
 
-.mil-accordion.mil-active,
-.mil-accordion:hover {}
+.absolution-accordion.absolution-active,
+.absolution-accordion:hover {}
 
-.mil-panel {
+.absolution-panel {
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
 
-.mil-accordion:after {
+.absolution-accordion:after {
     content: '+';
     position: absolute;
     left: 0;
@@ -2586,7 +2586,7 @@ accordion
     transition: $t-sm;
 }
 
-.mil-accordion.mil-active:after {
+.absolution-accordion.absolution-active:after {
     content: "-";
 }
 
@@ -2595,7 +2595,7 @@ accordion
 tabs
 
 ------------------------------------------- */
-.mil-tabs {
+.absolution-tabs {
     display: flex;
     flex-wrap: wrap;
 
@@ -2630,7 +2630,7 @@ tabs
         }
     }
 
-    & .mil-tab {
+    & .absolution-tab {
         order: 99;
         flex-grow: 1;
         width: 100%;
@@ -2659,17 +2659,17 @@ tabs
             }
         }
 
-        &:checked + label + .mil-tab {
+        &:checked + label + .absolution-tab {
             display: block;
         }
     }
 }
 
-.mil-window {
+.absolution-window {
     padding: 30px;
 }
 
-.mil-tab-buttons {
+.absolution-tab-buttons {
     border-top: solid 2px $dt-10;
     display: flex;
     justify-content: space-between;
@@ -2709,7 +2709,7 @@ tabs
             transition: $t-md;
         }
 
-        &.mil-active {
+        &.absolution-active {
             color: $dark;
 
             &:before {
@@ -2732,7 +2732,7 @@ tabs
         }
     }
 
-    &.mil-tab-buttons-2 {
+    &.absolution-tab-buttons-2 {
         border-bottom: solid 2px $dt-10;
         border-top: none;
         justify-content: center;
@@ -2746,7 +2746,7 @@ tabs
                 width: calc(50% - 30px);
             }
 
-            & .mil-icon-bg {
+            & .absolution-icon-bg {
                 background-color: transparent;
                 transition: $t-md;
             }
@@ -2766,8 +2766,8 @@ tabs
                 display: none;
             }
 
-            &.mil-active {
-                & .mil-icon-bg {
+            &.absolution-active {
+                & .absolution-icon-bg {
                     background-color: $dt-5;
                 }
 
@@ -2788,7 +2788,7 @@ tabs
     }
 }
 
-.mil-tabs-left-nav {
+.absolution-tabs-left-nav {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -2818,7 +2818,7 @@ tabs
             align-items: center;
             transition: $t-md;
 
-            &.mil-h4 {
+            &.absolution-h4 {
                 color: $dt-30;
             }
 
@@ -2836,8 +2836,8 @@ tabs
                 transition: $t-md;
             }
 
-            &.mil-active {
-                &.mil-h4 {
+            &.absolution-active {
+                &.absolution-h4 {
                     color: $dark;
                 }
 
@@ -2855,8 +2855,8 @@ tabs
 price
 
 ------------------------------------------- */
-.mil-price-card {
-    & .mil-plan-price {
+.absolution-price-card {
+    & .absolution-plan-price {
         display: flex;
         align-items: baseline;
 
@@ -2865,7 +2865,7 @@ price
         }
     }
 
-    & .mil-button {
+    & .absolution-button {
         border-color: $dt-10;
 
         &:hover {
@@ -2874,7 +2874,7 @@ price
     }
 
     &:hover {
-        & .mil-button {
+        & .absolution-button {
             border-color: $blue;
         }
     }
@@ -2886,9 +2886,9 @@ vacancies
 
 ------------------------------------------- */
 
-.mil-vacancies-frame {
+.absolution-vacancies-frame {
 
-    & .mil-vacancy {
+    & .absolution-vacancy {
         list-style-type: none;
         padding: 60px 0 30px;
         border-top: solid 2px $dt-10;
@@ -2901,11 +2901,11 @@ vacancies
             padding-bottom: 0;
         }
 
-        & .mil-vacancy-head {
+        & .absolution-vacancy-head {
             display: flex;
             align-items: center;
 
-            & .mil-badge {
+            & .absolution-badge {
                 padding: 2px 15px 0;
                 margin-right: 15px;
                 background-color: $blue;
@@ -2914,7 +2914,7 @@ vacancies
                 text-transform: uppercase;
                 font-size: 12px;
 
-                &.mil-badge-dark {
+                &.absolution-badge-dark {
                     color: $light;
                     background-color: $dt-30;
                 }
@@ -2928,7 +2928,7 @@ vacancies
 careers features
 
 ------------------------------------------- */
-.mil-banner-slide {
+.absolution-banner-slide {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
@@ -2938,7 +2938,7 @@ careers features
         height: auto;
     }
 
-    & .mil-banner-bg {
+    & .absolution-banner-bg {
         filter: grayscale(100%);
         position: absolute;
         top: 0;
@@ -2964,7 +2964,7 @@ careers features
         }
     }
 
-    & .mil-overlay {
+    & .absolution-overlay {
         background: linear-gradient(90deg, rgba(243, 243, 244, 0) 0%, rgba(243, 243, 244, 1) 50%);
         position: absolute;
         top: 0;
@@ -2986,7 +2986,7 @@ careers features
     }
 }
 
-.mil-sb-inner {
+.absolution-sb-inner {
     padding: 60px;
 
     @media screen and (max-width: 992px) {
@@ -2994,7 +2994,7 @@ careers features
     }
 }
 
-.mil-banners-pagination {
+.absolution-banners-pagination {
     text-align: center;
     margin-top: 30px;
 
@@ -3018,25 +3018,25 @@ blog
 
 ------------------------------------------- */
 
-.mil-blog-slider {
-    & .mil-slide-50 {
+.absolution-blog-slider {
+    & .absolution-slide-50 {
         width: calc(50% - 20px);
     }
 
-    & .mil-slide-25 {
+    & .absolution-slide-25 {
         width: calc(25% - 20px);
     }
 }
 
-.mil-post-sm {
+.absolution-post-sm {
     display: flex;
     align-items: center;
 
-    &.mil-top-text {
+    &.absolution-top-text {
         align-items: flex-start;
     }
 
-    & .mil-cover-frame {
+    & .absolution-cover-frame {
         width: 70px;
         height: 70px;
         border-radius: 50%;
@@ -3055,7 +3055,7 @@ blog
         }
     }
 
-    & .mil-description {
+    & .absolution-description {
         padding-left: 20px;
         width: calc(100% - 70px);
 
@@ -3065,7 +3065,7 @@ blog
     }
 
     &:hover {
-        & .mil-cover-frame {
+        & .absolution-cover-frame {
 
             & img {
                 filter: grayscale(0);
@@ -3073,7 +3073,7 @@ blog
             }
         }
 
-        & .mil-description {
+        & .absolution-description {
 
             & h6 {
                 color: $blue;
@@ -3083,7 +3083,7 @@ blog
     }
 }
 
-.mil-post-info {
+.absolution-post-info {
     @media screen and (max-width: 768px) {
         flex-direction: column;
 
@@ -3097,7 +3097,7 @@ blog
     }
 }
 
-.mil-post-author {
+.absolution-post-author {
     display: flex;
 
     & img {
@@ -3118,7 +3118,7 @@ blog
     }
 }
 
-.mil-tags {
+.absolution-tags {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: -10px;
@@ -3146,7 +3146,7 @@ blog
 }
 
 
-.mil-post-image {
+.absolution-post-image {
     filter: grayscale(100%);
     display: block;
     width: 100%;
@@ -3161,7 +3161,7 @@ blog
 }
 
 
-.mil-comments-frame {
+.absolution-comments-frame {
     padding: 0;
     margin: 0;
 
@@ -3169,14 +3169,14 @@ blog
         list-style-type: none;
     }
 
-    & .mil-comment {
-        & .mil-comment-top-panel {
+    & .absolution-comment {
+        & .absolution-comment-top-panel {
             margin-bottom: 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
 
-            & .mil-left {
+            & .absolution-left {
                 display: flex;
                 align-items: center;
 
@@ -3201,7 +3201,7 @@ blog
             }
         }
 
-        & .mil-comment-text {
+        & .absolution-comment-text {
             padding-left: 100px;
             margin-bottom: 60px;
 
@@ -3210,7 +3210,7 @@ blog
             }
         }
 
-        & .mil-sub-comments {
+        & .absolution-sub-comments {
             padding-left: 100px;
 
             @media screen and (max-width: 768px) {
@@ -3226,12 +3226,12 @@ blog
 pagination
 
 ------------------------------------------- */
-.mil-pagination {
+.absolution-pagination {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    & .mil-pagination-numbers {
+    & .absolution-pagination-numbers {
         display: flex;
         align-items: center;
 
@@ -3257,7 +3257,7 @@ pagination
 
             }
 
-            &.mil-active {
+            &.absolution-active {
                 & a {
                     color: $light;
                     background-color: $blue;
@@ -3270,7 +3270,7 @@ pagination
         }
     }
 
-    & .mil-button-all {
+    & .absolution-button-all {
         width: 50px;
         height: 50px;
         display: flex;
@@ -3286,19 +3286,19 @@ pagination
         }
     }
 
-    &.mil-hidden-arrows {
+    &.absolution-hidden-arrows {
         @media screen and (max-width: 992px) {
             justify-content: center;
 
-            & .mil-slider-nav {
+            & .absolution-slider-nav {
                 display: none;
             }
         }
     }
 
-    &.mil-hidden-button {
+    &.absolution-hidden-button {
         @media screen and (max-width: 992px) {
-            & .mil-button-all {
+            & .absolution-button-all {
                 display: none;
             }
         }
@@ -3311,7 +3311,7 @@ event
 
 ------------------------------------------- */
 
-.mil-event-form {
+.absolution-event-form {
     margin: 0 15px;
     position: absolute;
     z-index: 99;
@@ -3340,7 +3340,7 @@ event
 project
 
 ------------------------------------------- */
-.mil-project-cover {
+.absolution-project-cover {
     position: relative;
     overflow: hidden;
     padding-bottom: 65%;
@@ -3375,7 +3375,7 @@ project
         }
     }
 
-    &.mil-type-2 {
+    &.absolution-type-2 {
         &:after {
             left: auto;
             right: -10%;
@@ -3383,13 +3383,13 @@ project
     }
 }
 
-.mil-project-info {
+.absolution-project-info {
     border-radius: 10px;
     padding: 30px;
     box-shadow: 0px 0px 40px 0px rgba(18, 24, 32, 0.1);
 }
 
-.mil-item-card {
+.absolution-item-card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -3412,7 +3412,7 @@ map
 
 ------------------------------------------- */
 
-.mil-map-frame {
+.absolution-map-frame {
     position: relative;
     overflow: hidden;
     height: 60vh;
@@ -3440,7 +3440,7 @@ footer
 
 ------------------------------------------- */
 
-.mil-footer-bg {
+.absolution-footer-bg {
     position: absolute;
     top: 30px;
     left: 0;
@@ -3452,14 +3452,14 @@ footer
     pointer-events: none;
 }
 
-.mil-footer-content {
+.absolution-footer-content {
     position: relative;
 
-    & .mil-logo {
+    & .absolution-logo {
         width: 120px;
     }
 
-    & .mil-list-title {
+    & .absolution-list-title {
         display: flex;
         align-items: center;
 
@@ -3474,7 +3474,7 @@ footer
     }
 }
 
-.mil-app-btn {
+.absolution-app-btn {
     border-radius: 5px;
     padding: 10px 0;
     filter: brightness(150%);
@@ -3495,12 +3495,12 @@ footer
         font-size: 32px;
     }
 
-    & .mil-app-text {
+    & .absolution-app-text {
         width: 130px;
         color: $light;
         font-family: $font-2;
 
-        & .mil-h6 {
+        & .absolution-h6 {
             color: $light;
             font-family: $font-2;
         }
@@ -3511,7 +3511,7 @@ footer
     }
 }
 
-.mil-footer-links {
+.absolution-footer-links {
     position: relative;
     padding: 50px 0;
     display: flex;
@@ -3538,7 +3538,7 @@ footer
                 }
             }
 
-            &.mil-adapt-links {
+            &.absolution-adapt-links {
                 & a {
                     &:last-child {
                         display: none;
@@ -3561,11 +3561,11 @@ footer
     @media screen and (max-width: 992px) {
         flex-direction: column;
 
-        & .mil-social {
+        & .absolution-social {
             margin-bottom: 30px;
         }
 
-        & .mil-additional-links {
+        & .absolution-additional-links {
             flex-direction: column;
 
             & li {
@@ -3575,7 +3575,7 @@ footer
     }
 }
 
-.mil-footer-bottom {
+.absolution-footer-bottom {
     filter: brightness(80%);
     position: relative;
     background-color: $dark;
@@ -3599,23 +3599,23 @@ additional pages
 
 ------------------------------------------- */
 
-.mil-404-number {
+.absolution-404-number {
     font-size: 100px;
     font-family: $font-2;
 }
 
-.mil-404-text {
+.absolution-404-text {
     @media screen and (max-width: 1200px) {
         text-align: center;
     }
 }
 
-.mil-add-page {
+.absolution-add-page {
     height: 100vh;
     display: flex;
     align-items: center;
 
-    & .mil-map-bg {
+    & .absolution-map-bg {
         position: absolute;
         top: 30px;
         left: 0;
@@ -3627,7 +3627,7 @@ additional pages
         pointer-events: none;
     }
 
-    & .mil-background-image {
+    & .absolution-background-image {
         filter: grayscale(100%);
         width: 100%;
         height: 100%;
@@ -3638,7 +3638,7 @@ additional pages
         left: 0;
     }
 
-    & .mil-overlay {
+    & .absolution-overlay {
         background: $dt-95;
         width: 100%;
         height: 100%;
@@ -3653,7 +3653,7 @@ additional pages
     }
 }
 
-.mil-addition-bottom {
+.absolution-addition-bottom {
     height: 100px;
     position: absolute;
     bottom: 0;
@@ -3666,5 +3666,53 @@ additional pages
     & .container-fluid {
         display: flex;
         justify-content: space-between;
+    }
+}
+
+/* -------------------------------------------
+  Search
+------------------------------------------- */
+
+.absolution-search {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.5s;
+
+   
+    & .absolution-search-close {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        color: $light;
+        font-size: 30px;
+        cursor: pointer; 
+    }
+
+    & .absolution-search-form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30rem
+    }
+}
+
+.absolution-close {
+   visibility: hidden;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }

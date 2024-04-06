@@ -43,8 +43,8 @@ export const sliderProps = {
     spaceBetween: 30,
     speed: 800,
     navigation: {
-      prevEl: ".mil-works-prev",
-      nextEl: ".mil-works-next",
+      prevEl: ".absolution-works-prev",
+      nextEl: ".absolution-works-next",
     },
     breakpoints: {
       768: {
@@ -57,8 +57,8 @@ export const sliderProps = {
     speed: 800,
     slidesPerView: 1,
     navigation: {
-      prevEl: ".mil-blog-prev",
-      nextEl: ".mil-blog-next",
+      prevEl: ".absolution-blog-prev",
+      nextEl: ".absolution-blog-next",
     },
     breakpoints: {
       768: {
@@ -83,13 +83,13 @@ export const sliderProps = {
     parallax: true,
     loop: true,
     pagination: {
-      el: ".mil-banners-pagination",
+      el: ".absolution-banners-pagination",
       type: "bullets",
       clickable: true,
     },
     navigation: {
-      prevEl: ".mil-banner-prev",
-      nextEl: ".mil-banner-next",
+      prevEl: ".absolution-banner-prev",
+      nextEl: ".absolution-banner-next",
     },
   },
   milReviSlider2: {
@@ -101,8 +101,8 @@ export const sliderProps = {
     },
     loop: true,
     navigation: {
-      prevEl: ".mil-revi-prev",
-      nextEl: ".mil-revi-next",
+      prevEl: ".absolution-revi-prev",
+      nextEl: ".absolution-revi-next",
     },
     breakpoints: {
       768: {
@@ -117,8 +117,8 @@ export const sliderProps = {
     parallax: true,
     effect: "fade",
     navigation: {
-      prevEl: ".mil-box-prev",
-      nextEl: ".mil-box-next",
+      prevEl: ".absolution-box-prev",
+      nextEl: ".absolution-box-next",
     },
   },
   milCoursesSlider: {
@@ -126,8 +126,8 @@ export const sliderProps = {
     spaceBetween: 30,
     speed: 800,
     navigation: {
-      prevEl: ".mil-courses-prev",
-      nextEl: ".mil-courses-next",
+      prevEl: ".absolution-courses-prev",
+      nextEl: ".absolution-courses-next",
     },
     breakpoints: {
       768: {
@@ -155,8 +155,8 @@ export const sliderProps = {
     parallax: true,
     effect: "fade",
     navigation: {
-      prevEl: ".mil-box-prev",
-      nextEl: ".mil-box-next",
+      prevEl: ".absolution-box-prev",
+      nextEl: ".absolution-box-next",
     },
   },
   milReviSlider: {
@@ -164,8 +164,8 @@ export const sliderProps = {
     spaceBetween: 30,
     speed: 800,
     navigation: {
-      prevEl: ".mil-revi-prev",
-      nextEl: ".mil-revi-next",
+      prevEl: ".absolution-revi-prev",
+      nextEl: ".absolution-revi-next",
     },
     breakpoints: {
       768: {
@@ -181,8 +181,8 @@ export const sliderProps = {
     spaceBetween: 30,
     speed: 800,
     navigation: {
-      prevEl: ".mil-events-prev",
-      nextEl: ".mil-events-next",
+      prevEl: ".absolution-events-prev",
+      nextEl: ".absolution-events-next",
     },
     breakpoints: {
       768: {
@@ -198,8 +198,8 @@ export const sliderProps = {
     spaceBetween: 30,
     speed: 800,
     navigation: {
-      prevEl: ".mil-services-prev",
-      nextEl: ".mil-services-next",
+      prevEl: ".absolution-services-prev",
+      nextEl: ".absolution-services-next",
     },
     breakpoints: {
       768: {

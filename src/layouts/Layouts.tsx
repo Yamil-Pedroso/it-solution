@@ -7,6 +7,7 @@ import {
 } from '@/src/common/utilits'
 import Footer from './footers/Index'
 import Header from './headers/Index'
+import { LayoutProps } from '@/src/types/types' 
 
 const Layouts = ({
   children,
@@ -17,7 +18,7 @@ const Layouts = ({
   transparent,
   headerTop,
   extraClass,
-}: any) => {
+}: LayoutProps) => {
   useEffect(() => {
     milButtonClick()
     milButtonClick2()
@@ -25,7 +26,7 @@ const Layouts = ({
   }, [])
 
   return (
-    <div className="mil-wrapper">
+    <div className="absolution-wrapper">
       {!noHeader && (
         <Header
           header={header}

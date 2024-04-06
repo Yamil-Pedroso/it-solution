@@ -8,17 +8,17 @@ const Service1 = () => {
         pageTitle={"SaaS development services"}
       />
       {/* call to action */}
-      <section className="mil-p-120-90">
+      <section className="absolution-p-120-90">
         <div
-          className="mil-deco"
+          className="absolution-deco"
           style={{ bottom: 0, right: "25%", transform: "rotate(180deg)" }}
         />
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
-              <div className="mil-hori-box mil-mb-30">
-                <div className="mil-mr-30">
-                  <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg">
+              <div className="absolution-hori-box absolution-mb-30">
+                <div className="absolution-mr-30">
+                  <div className="absolution-icon-frame absolution-icon-frame-md absolution-icon-bg">
                     <img src="img/icons/md/1.svg" alt="icon" />
                   </div>
                 </div>
@@ -30,8 +30,8 @@ const Service1 = () => {
               </div>
             </div>
             <div className="col-lg-4">
-              <div className="mil-adaptive-right">
-                <a href="#." className="mil-button mil-border mil-mb-30">
+              <div className="absolution-adaptive-right">
+                <a href="#." className="absolution-button absolution-border absolution-mb-30">
                   <span>Get in Touch</span>
                 </a>
               </div>
@@ -41,37 +41,37 @@ const Service1 = () => {
       </section>
       {/* call to action end */}
       <div className="container">
-        <div className="mil-divider" />
+        <div className="absolution-divider" />
       </div>
       {/* steps */}
-      <section className="mil-p-120-90">
+      <section className="absolution-p-120-90">
         <div
-          className="mil-deco"
+          className="absolution-deco"
           style={{ bottom: 0, right: "35%", transform: "rotate(180deg)" }}
         />
         <div className="container">
           <div className="row">
-            <div className="col-12 mil-mb-90">
-              <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+            <div className="col-12 absolution-mb-90">
+              <span className="absolution-suptitle absolution-suptitle-2 absolution-mb-30">
                 Services and Solutions
               </span>
-              <h2 className="mil-mb-30">
+              <h2 className="absolution-mb-30">
                 Our SaaS Development Services Let You Win Big
               </h2>
-              <p className="mil-dark">
+              <p className="absolution-dark">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor <br />
                 incididunt ut labore et dolore magna.
               </p>
             </div>
           </div>
-          <div className="row mil-mb-30-adapt">
+          <div className="row absolution-mb-30-adapt">
             <div className="col-xl-4">
-              <div className="mil-mb-60">
-                <div className="mil-number-icon mil-circle mil-mb-30">
+              <div className="absolution-mb-60">
+                <div className="absolution-number-icon absolution-circle absolution-mb-30">
                   <span>01</span>
                 </div>
-                <h4 className="mil-mb-15">SaaS Development Consulting</h4>
+                <h4 className="absolution-mb-15">SaaS Development Consulting</h4>
                 <p>
                   Dissuade ecstatic and properly saw entirely sir why laughter
                   endeavor. In on my jointure horrible margaret suitable he
@@ -80,11 +80,11 @@ const Service1 = () => {
               </div>
             </div>
             <div className="col-xl-4">
-              <div className="mil-mb-60">
-                <div className="mil-number-icon mil-lines mil-mb-30">
+              <div className="absolution-mb-60">
+                <div className="absolution-number-icon absolution-lines absolution-mb-30">
                   <span>02</span>
                 </div>
-                <h4 className="mil-mb-15">SaaS Design and Prototyping</h4>
+                <h4 className="absolution-mb-15">SaaS Design and Prototyping</h4>
                 <p>
                   Dissuade ecstatic and properly saw entirely sir why laughter
                   endeavor. In on my jointure horrible margaret suitable he
@@ -93,11 +93,11 @@ const Service1 = () => {
               </div>
             </div>
             <div className="col-xl-4">
-              <div className="mil-mb-60">
-                <div className="mil-number-icon mil-mb-30">
+              <div className="absolution-mb-60">
+                <div className="absolution-number-icon absolution-mb-30">
                   <span>03</span>
                 </div>
-                <h4 className="mil-mb-15">End-to-End SaaS Development</h4>
+                <h4 className="absolution-mb-15">End-to-End SaaS Development</h4>
                 <p>
                   Dissuade ecstatic and properly saw entirely sir why laughter
                   endeavor. In on my jointure horrible margaret suitable he
@@ -106,11 +106,11 @@ const Service1 = () => {
               </div>
             </div>
             <div className="col-xl-4">
-              <div className="mil-mb-60">
-                <div className="mil-number-icon mil-mb-30">
+              <div className="absolution-mb-60">
+                <div className="absolution-number-icon absolution-mb-30">
                   <span>04</span>
                 </div>
-                <h4 className="mil-mb-15">Migration to SaaS</h4>
+                <h4 className="absolution-mb-15">Migration to SaaS</h4>
                 <p>
                   Dissuade ecstatic and properly saw entirely sir why laughter
                   endeavor. In on my jointure horrible margaret suitable he
@@ -119,11 +119,11 @@ const Service1 = () => {
               </div>
             </div>
             <div className="col-xl-4">
-              <div className="mil-mb-60">
-                <div className="mil-number-icon mil-circle mil-mb-30">
+              <div className="absolution-mb-60">
+                <div className="absolution-number-icon absolution-circle absolution-mb-30">
                   <span>05</span>
                 </div>
-                <h4 className="mil-mb-15">Third Party Integrations</h4>
+                <h4 className="absolution-mb-15">Third Party Integrations</h4>
                 <p>
                   Dissuade ecstatic and properly saw entirely sir why laughter
                   endeavor. In on my jointure horrible margaret suitable he
@@ -132,11 +132,11 @@ const Service1 = () => {
               </div>
             </div>
             <div className="col-xl-4">
-              <div className="mil-mb-60">
-                <div className="mil-number-icon mil-lines mil-mb-30">
+              <div className="absolution-mb-60">
+                <div className="absolution-number-icon absolution-lines absolution-mb-30">
                   <span>06</span>
                 </div>
-                <h4 className="mil-mb-15">SaaS Support and Maintenance</h4>
+                <h4 className="absolution-mb-15">SaaS Support and Maintenance</h4>
                 <p>
                   Dissuade ecstatic and properly saw entirely sir why laughter
                   endeavor. In on my jointure horrible margaret suitable he
@@ -147,13 +147,13 @@ const Service1 = () => {
           </div>
           <div className="row align-items-center">
             <div className="col-md-6 col-xl-6">
-              <a href="#." className="mil-button mil-border mil-mb-30">
+              <a href="#." className="absolution-button absolution-border absolution-mb-30">
                 <span>Tell us about your project</span>
               </a>
             </div>
             <div className="col-md-6 col-xl-6">
-              <div className="mil-adaptive-right">
-                <a href="#." className="mil-link mil-mb-30">
+              <div className="absolution-adaptive-right">
+                <a href="#." className="absolution-link absolution-mb-30">
                   <span>See More</span>
                   <i className="fas fa-arrow-right" />
                 </a>
@@ -164,41 +164,41 @@ const Service1 = () => {
       </section>
       {/* steps end */}
       <div className="container">
-        <div className="mil-divider" />
+        <div className="absolution-divider" />
       </div>
       {/* next step */}
-      <section className="mil-p-120-0">
+      <section className="absolution-p-120-0">
         <div className="container">
-          <div className="mil-text-center mil-mb-90">
-            <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+          <div className="absolution-text-center absolution-mb-90">
+            <span className="absolution-suptitle absolution-suptitle-2 absolution-mb-30">
               Safeguard Modern
             </span>
             <h2>Ready To Take The Next Step?</h2>
           </div>
           <div className="row">
             <div className="col-lg-6">
-              <div className="mil-hover-card mil-mb-30">
-                <h4 className="mil-mb-30">Get a Live Demo</h4>
-                <p className="mil-mb-30">
+              <div className="absolution-hover-card absolution-mb-30">
+                <h4 className="absolution-mb-30">Get a Live Demo</h4>
+                <p className="absolution-mb-30">
                   Dissuade ecstatic and properly saw entirely sir why laughter
                   endeavor. In on my jointure horrible margaret suitable he
                   followed speedily. Indeed vanity excuse or mr lovers of on.
                 </p>
-                <a href="#." className="mil-link">
+                <a href="#." className="absolution-link">
                   <span>Request a Free Demo</span>
                   <i className="fas fa-arrow-right" />
                 </a>
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="mil-hover-card mil-mb-30">
-                <h4 className="mil-mb-30">Start Now</h4>
-                <p className="mil-mb-30">
+              <div className="absolution-hover-card absolution-mb-30">
+                <h4 className="absolution-mb-30">Start Now</h4>
+                <p className="absolution-mb-30">
                   Dissuade ecstatic and properly saw entirely sir why laughter
                   endeavor. In on my jointure horrible margaret suitable he
                   followed speedily. Indeed vanity excuse or mr lovers of on.
                 </p>
-                <a href="#." className="mil-link">
+                <a href="#." className="absolution-link">
                   <span>Get In Touch</span>
                   <i className="fas fa-arrow-right" />
                 </a>
@@ -209,9 +209,9 @@ const Service1 = () => {
       </section>
       {/* next step end */}
       {/* partners */}
-      <div className="mil-partners mil-partners-spaces">
+      <div className="absolution-partners absolution-partners-spaces">
         <div className="container">
-          <div className="mil-partners-frame">
+          <div className="absolution-partners-frame">
             <a href="#.">
               <img src="img/partners/1.png" alt="partner" />
             </a>
@@ -235,33 +235,33 @@ const Service1 = () => {
       </div>
       {/* partners end */}
       <div className="container">
-        <div className="mil-divider" />
+        <div className="absolution-divider" />
       </div>
       {/* services */}
-      <section className="mil-services mil-p-120-90">
+      <section className="absolution-services absolution-p-120-90">
         <div
-          className="mil-deco"
+          className="absolution-deco"
           style={{ bottom: 0, right: "40%", transform: "rotate(180deg)" }}
         />
         <div className="container">
-          <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+          <span className="absolution-suptitle absolution-suptitle-2 absolution-mb-30">
             High Quality and Performance
           </span>
-          <h2 className="mil-mb-90">
-            Our Approach To <span className="mil-accent">SaaS Software</span>{" "}
+          <h2 className="absolution-mb-90">
+            Our Approach To <span className="absolution-accent">SaaS Software</span>{" "}
             Development
           </h2>
-          <div className="row mil-mb-30-adapt">
+          <div className="row absolution-mb-30-adapt">
             <div className="col-lg-6 col-xl-6">
-              <div className="mil-service-item mil-without-lines mil-mb-60">
-                <div className="mil-service-icon">
-                  <div className="mil-icon-frame mil-icon-frame-md">
+              <div className="absolution-service-item absolution-without-lines absolution-mb-60">
+                <div className="absolution-service-icon">
+                  <div className="absolution-icon-frame absolution-icon-frame-md">
                     <img src="img/icons/md/1.svg" alt="icon" />
                   </div>
                 </div>
-                <div className="mil-service-text">
-                  <h5 className="mil-mb-30">
-                    <span className="mil-accent">01</span> Tech Stack Choice
+                <div className="absolution-service-text">
+                  <h5 className="absolution-mb-30">
+                    <span className="absolution-accent">01</span> Tech Stack Choice
                   </h5>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -272,15 +272,15 @@ const Service1 = () => {
               </div>
             </div>
             <div className="col-lg-6 col-xl-6">
-              <div className="mil-service-item mil-without-lines mil-mb-60">
-                <div className="mil-service-icon">
-                  <div className="mil-icon-frame mil-icon-frame-md">
+              <div className="absolution-service-item absolution-without-lines absolution-mb-60">
+                <div className="absolution-service-icon">
+                  <div className="absolution-icon-frame absolution-icon-frame-md">
                     <img src="img/icons/md/2.svg" alt="icon" />
                   </div>
                 </div>
-                <div className="mil-service-text">
-                  <h5 className="mil-mb-30">
-                    <span className="mil-accent">02</span> Multi Tenant
+                <div className="absolution-service-text">
+                  <h5 className="absolution-mb-30">
+                    <span className="absolution-accent">02</span> Multi Tenant
                     Architecture
                   </h5>
                   <p>
@@ -292,15 +292,15 @@ const Service1 = () => {
               </div>
             </div>
             <div className="col-lg-6 col-xl-6">
-              <div className="mil-service-item mil-without-lines mil-mb-60">
-                <div className="mil-service-icon">
-                  <div className="mil-icon-frame mil-icon-frame-md">
+              <div className="absolution-service-item absolution-without-lines absolution-mb-60">
+                <div className="absolution-service-icon">
+                  <div className="absolution-icon-frame absolution-icon-frame-md">
                     <img src="img/icons/md/3.svg" alt="icon" />
                   </div>
                 </div>
-                <div className="mil-service-text">
-                  <h5 className="mil-mb-30">
-                    <span className="mil-accent">03</span> External Services
+                <div className="absolution-service-text">
+                  <h5 className="absolution-mb-30">
+                    <span className="absolution-accent">03</span> External Services
                     Integration
                   </h5>
                   <p>
@@ -312,15 +312,15 @@ const Service1 = () => {
               </div>
             </div>
             <div className="col-lg-6 col-xl-6">
-              <div className="mil-service-item mil-without-lines mil-mb-60">
-                <div className="mil-service-icon">
-                  <div className="mil-icon-frame mil-icon-frame-md">
+              <div className="absolution-service-item absolution-without-lines absolution-mb-60">
+                <div className="absolution-service-icon">
+                  <div className="absolution-icon-frame absolution-icon-frame-md">
                     <img src="img/icons/md/4.svg" alt="icon" />
                   </div>
                 </div>
-                <div className="mil-service-text">
-                  <h5 className="mil-mb-30">
-                    <span className="mil-accent">04</span> Scalability On Demand
+                <div className="absolution-service-text">
+                  <h5 className="absolution-mb-30">
+                    <span className="absolution-accent">04</span> Scalability On Demand
                   </h5>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -331,15 +331,15 @@ const Service1 = () => {
               </div>
             </div>
             <div className="col-lg-6 col-xl-6">
-              <div className="mil-service-item mil-without-lines mil-mb-60">
-                <div className="mil-service-icon">
-                  <div className="mil-icon-frame mil-icon-frame-md">
+              <div className="absolution-service-item absolution-without-lines absolution-mb-60">
+                <div className="absolution-service-icon">
+                  <div className="absolution-icon-frame absolution-icon-frame-md">
                     <img src="img/icons/md/5.svg" alt="icon" />
                   </div>
                 </div>
-                <div className="mil-service-text">
-                  <h5 className="mil-mb-30">
-                    <span className="mil-accent">05</span> Security Audit
+                <div className="absolution-service-text">
+                  <h5 className="absolution-mb-30">
+                    <span className="absolution-accent">05</span> Security Audit
                   </h5>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -350,15 +350,15 @@ const Service1 = () => {
               </div>
             </div>
             <div className="col-lg-6 col-xl-6">
-              <div className="mil-service-item mil-without-lines mil-mb-60">
-                <div className="mil-service-icon">
-                  <div className="mil-icon-frame mil-icon-frame-md">
+              <div className="absolution-service-item absolution-without-lines absolution-mb-60">
+                <div className="absolution-service-icon">
+                  <div className="absolution-icon-frame absolution-icon-frame-md">
                     <img src="img/icons/md/6.svg" alt="icon" />
                   </div>
                 </div>
-                <div className="mil-service-text">
-                  <h5 className="mil-mb-30">
-                    <span className="mil-accent">06</span> Smooth Deployment
+                <div className="absolution-service-text">
+                  <h5 className="absolution-mb-30">
+                    <span className="absolution-accent">06</span> Smooth Deployment
                   </h5>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -371,13 +371,13 @@ const Service1 = () => {
           </div>
           <div className="row align-items-center">
             <div className="col-md-6 col-xl-6">
-              <a href="#." className="mil-button mil-border mil-mb-30">
+              <a href="#." className="absolution-button absolution-border absolution-mb-30">
                 <span>Talk To Our SaaS Experts</span>
               </a>
             </div>
             <div className="col-md-6 col-xl-6">
-              <div className="mil-adaptive-right">
-                <a href="#." className="mil-link mil-mb-30">
+              <div className="absolution-adaptive-right">
+                <a href="#." className="absolution-link absolution-mb-30">
                   <span>See More</span>
                   <i className="fas fa-arrow-right" />
                 </a>
@@ -388,94 +388,94 @@ const Service1 = () => {
       </section>
       {/* services end */}
       {/* services */}
-      <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
+      <section className="absolution-gradient-bg absolution-deco-right absolution-p-120-0">
         <div
-          className="mil-deco mil-deco-accent"
+          className="absolution-deco absolution-deco-accent"
           style={{ top: 0, left: "5%" }}
         />
         <div className="container">
-          <div className="mil-text-center mil-mb-90">
-            <span className="mil-suptitle  mil-light mil-suptitle-2 mil-mb-30">
+          <div className="absolution-text-center absolution-mb-90">
+            <span className="absolution-suptitle  absolution-light absolution-suptitle-2 absolution-mb-30">
               Always The Best
             </span>
-            <h2 className="mil-light mil-mb-30">
-              Types Of <span className="mil-accent">SaaS Applications</span> We
+            <h2 className="absolution-light absolution-mb-30">
+              Types Of <span className="absolution-accent">SaaS Applications</span> We
               Deliver
             </h2>
-            <p className="mil-light-soft">
+            <p className="absolution-light-soft">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor <br />
               incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-          <div className="row mil-mb-30-adapt">
+          <div className="row absolution-mb-30-adapt">
             <div className="col-lg-3">
-              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+              <div className="absolution-icon-box-head absolution-long absolution-mob-center absolution-mb-60">
+                <div className="absolution-icon-frame absolution-icon-frame-sm absolution-light">
                   <img src="img/icons/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">CRMs Platforms</p>
+                <p className="absolution-light">CRMs Platforms</p>
               </div>
             </div>
             <div className="col-lg-3">
-              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+              <div className="absolution-icon-box-head absolution-long absolution-mob-center absolution-mb-60">
+                <div className="absolution-icon-frame absolution-icon-frame-sm absolution-light">
                   <img src="img/icons/sm/2.svg" alt="icon" />
                 </div>
-                <p className="mil-light">ERPs Platforms</p>
+                <p className="absolution-light">ERPs Platforms</p>
               </div>
             </div>
             <div className="col-lg-3">
-              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+              <div className="absolution-icon-box-head absolution-long absolution-mob-center absolution-mb-60">
+                <div className="absolution-icon-frame absolution-icon-frame-sm absolution-light">
                   <img src="img/icons/sm/7.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Marketing Software</p>
+                <p className="absolution-light">Marketing Software</p>
               </div>
             </div>
             <div className="col-lg-3">
-              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+              <div className="absolution-icon-box-head absolution-long absolution-mob-center absolution-mb-60">
+                <div className="absolution-icon-frame absolution-icon-frame-sm absolution-light">
                   <img src="img/icons/sm/3.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Project Management Systems</p>
+                <p className="absolution-light">Project Management Systems</p>
               </div>
             </div>
             <div className="col-lg-3">
-              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+              <div className="absolution-icon-box-head absolution-long absolution-mob-center absolution-mb-60">
+                <div className="absolution-icon-frame absolution-icon-frame-sm absolution-light">
                   <img src="img/icons/sm/5.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Accounting Systems</p>
+                <p className="absolution-light">Accounting Systems</p>
               </div>
             </div>
             <div className="col-lg-3">
-              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+              <div className="absolution-icon-box-head absolution-long absolution-mob-center absolution-mb-60">
+                <div className="absolution-icon-frame absolution-icon-frame-sm absolution-light">
                   <img src="img/icons/sm/1.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Document Auto. Solutions</p>
+                <p className="absolution-light">Document Auto. Solutions</p>
               </div>
             </div>
             <div className="col-lg-3">
-              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+              <div className="absolution-icon-box-head absolution-long absolution-mob-center absolution-mb-60">
+                <div className="absolution-icon-frame absolution-icon-frame-sm absolution-light">
                   <img src="img/icons/sm/4.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Cybersecurity Platforms</p>
+                <p className="absolution-light">Cybersecurity Platforms</p>
               </div>
             </div>
             <div className="col-lg-3">
-              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+              <div className="absolution-icon-box-head absolution-long absolution-mob-center absolution-mb-60">
+                <div className="absolution-icon-frame absolution-icon-frame-sm absolution-light">
                   <img src="img/icons/sm/8.svg" alt="icon" />
                 </div>
-                <p className="mil-light">HR/HRM Software</p>
+                <p className="absolution-light">HR/HRM Software</p>
               </div>
             </div>
           </div>
-          <div className="mil-text-center">
-            <a href="#." className="mil-button mil-border mil-light mil-mb-30">
+          <div className="absolution-text-center">
+            <a href="#." className="absolution-button absolution-border absolution-light absolution-mb-30">
               <span>Talk To Our SaaS Experts</span>
             </a>
           </div>
