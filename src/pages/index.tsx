@@ -11,7 +11,6 @@ import HowItWorksSection from '../components/sections/HowItWorks'
 import SkillsSection from '../components/sections/Skills'
 import ContactSection from '../components/sections/Contact'
 import Divider from '../components/sections/Divider'
-import Search from '../components/search/Search'
 
 const LatestProjectsSlider = dynamic(
   () => import('../components/sliders/LatestProjects'),

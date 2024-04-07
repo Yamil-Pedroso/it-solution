@@ -1,13 +1,13 @@
-import React from "react";
-import { sliderProps } from "@/src/common/sliderProps";
-import { Swiper, SwiperSlide } from "swiper/react";
+import React from 'react'
+import { sliderProps } from '@/src/common/sliderProps'
+import { Swiper, SwiperSlide } from 'swiper/react'
 
-import Content from '../../data/sliders/testimonial';
+import Content from '../../data/sliders/testimonial.json'
 
 const Home1TestimonialSlider = () => {
   return (
     <section className="absolution-reviews absolution-deep-bg absolution-p-120-120">
-      <div className="absolution-deco" style={{ top: 0, right: "30%" }} />
+      <div className="absolution-deco" style={{ top: 0, right: '30%' }} />
       <div className="container">
         <div className="row align-items-center absolution-mb-90">
           <div className="col-md-6 col-xl-6">
@@ -15,7 +15,9 @@ const Home1TestimonialSlider = () => {
               {Content.subtitle}
             </span>
             <h2>
-              {Content.title.first} <span className="absolution-accent">{Content.title.second}</span> {Content.title.third}
+              {Content.title.first}{' '}
+              <span className="absolution-accent">{Content.title.second}</span>{' '}
+              {Content.title.third}
             </h2>
           </div>
           <div className="col-md-6 col-xl-6">
@@ -38,44 +40,44 @@ const Home1TestimonialSlider = () => {
           className="swiper-container absolution-revi-slider"
         >
           {Content.items.map((item, key) => (
-          <SwiperSlide className="swiper-slide">
-            <div className="absolution-review">
-              <div className="absolution-stars absolution-mb-30">
-                <img src="img/icons/sm/11.svg" alt="quote" />
-                <ul>
-                  <li>
-                    <i className="fas fa-star" />
-                  </li>
-                  <li>
-                    <i className="fas fa-star" />
-                  </li>
-                  <li>
-                    <i className="fas fa-star" />
-                  </li>
-                  <li>
-                    <i className="fas fa-star" />
-                  </li>
-                  <li>
-                    <i className="fas fa-star" />
-                  </li>
-                </ul>
-              </div>
-              <p className="absolution-mb-30">
-                {item.text}
-              </p>
-              <div className="absolution-author">
-                <img src={item.image} alt={item.name} />
-                <div className="absolution-name">
-                  <h6 className="absolution-mb-5">{item.name}</h6>
-                  <span className="absolution-text-sm">{item.role}</span>
+            <SwiperSlide className="swiper-slide">
+              <div className="absolution-review">
+                <div className="absolution-stars absolution-mb-30">
+                  <img src="img/icons/sm/11.svg" alt="quote" />
+                  <ul>
+                    <li>
+                      <i className="fas fa-star" />
+                    </li>
+                    <li>
+                      <i className="fas fa-star" />
+                    </li>
+                    <li>
+                      <i className="fas fa-star" />
+                    </li>
+                    <li>
+                      <i className="fas fa-star" />
+                    </li>
+                    <li>
+                      <i className="fas fa-star" />
+                    </li>
+                  </ul>
+                </div>
+                <p className="absolution-mb-30">{item.text}</p>
+                <div className="absolution-author">
+                  <div className="absolution-img-wrapper">
+                    <img src={item.image} alt={item.name} />
+                  </div>
+                  <div className="absolution-name">
+                    <h6 className="absolution-mb-5">{item.name}</h6>
+                    <span className="absolution-text-sm">{item.role}</span>
+                  </div>
                 </div>
               </div>
-            </div>
-          </SwiperSlide>
+            </SwiperSlide>
           ))}
         </Swiper>
       </div>
     </section>
-  );
-};
-export default Home1TestimonialSlider;
+  )
+}
+export default Home1TestimonialSlider

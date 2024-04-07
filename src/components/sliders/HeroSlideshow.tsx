@@ -1,10 +1,16 @@
 import React from 'react'
 import { sliderProps } from '@/src/common/sliderProps'
 import Link from 'next/link'
+import Typical from 'react-typical'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Content from '../../data/sliders/hero-slideshow.json'
 
 const Home1BannerSlider = () => {
+  const steps = Content.title.second.reduce((acc, item: any) => {
+    acc.push(item, 6000)
+    return acc
+  }, [])
+
   return (
     <div className="absolution-banner absolution-top-space-0">
       <Swiper
@@ -30,16 +36,20 @@ const Home1BannerSlider = () => {
           <div className="row align-items-center">
             <div className="col-xl-8">
               <span className="absolution-suptitle absolution-mb-60">
-                <span className="absolution-light">{Content.subtitle.first}</span>{' '}
-                <span className="absolution-accent">{Content.subtitle.second}</span>
+                <span className="absolution-light">
+                  {Content.subtitle.first}
+                </span>{' '}
+                <span className="absolution-accent">
+                  {Content.subtitle.second}
+                </span>
               </span>
               <h1 className="absolution-mb-60">
                 <span
                   dangerouslySetInnerHTML={{ __html: Content.title.first }}
                   className="absolution-uppercase absolution-light"
                 />{' '}
-                <span className="absolution-font-3 absolution-accent">
-                  {Content.title.second}
+                <span className="absolution-font-2 absolution-accent">
+                  <Typical steps={steps} loop={Infinity} wrapper="span" />
                 </span>
               </h1>
               <div className="absolution-flex-hori-center">
@@ -63,7 +73,9 @@ const Home1BannerSlider = () => {
                     <div className="absolution-plus">
                       <div className="absolution-hover-window">
                         <div className="absolution-window-content">
-                          <h5 className="absolution-dark absolution-mb-15">{item.title}</h5>
+                          <h5 className="absolution-dark absolution-mb-15">
+                            {item.title}
+                          </h5>
                           <div className="absolution-divider absolution-divider-left absolution-mb-15" />
                           <p className="absolution-text-sm">{item.text}</p>
                         </div>

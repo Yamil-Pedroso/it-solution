@@ -1,5 +1,5 @@
 {
-    "title": { "first": "We Provide Services <br />and Solutions", "second": "To Enterprise" },
+    "title": { "first": "Driving Innovation  <br />with Expert", "second": ["IT Solutions", "Cloud Services", "Cybersecurity"]},
     "subtitle": { "first": "The Next", "second": "Gen" },
     "button": { "label": "Let’s Talk", "link": "/contact" },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",

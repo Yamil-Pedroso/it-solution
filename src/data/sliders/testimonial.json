@@ -1,33 +1,33 @@
 {
     "subtitle": "Testimonial",
-    "title":  { "first": "What Our", "second": "Clients", "third": "Say" },
+    "title":  { "first": "Our", "second": "Client's", "third": "Words" },
     "items": [
         {
-            "name": "Tamzyn French",
+            "name": "Samy Taylor",
             "image": "img/faces/1.jpg",
             "role": "Agency Design",
             "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
         },
         {
-            "name": "Margaret Williams",
+            "name": "William Smith",
             "image": "img/faces/2.jpg",
             "role": "Agency Design",
             "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
         },
         {
-            "name": "Tarryn Gillies",
+            "name": "Fernand Ross",
             "image": "img/faces/3.jpg",
             "role": "Agency Design",
             "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
         },
         {
-            "name": "Tamzyn French",
+            "name": "Milla Clark",
             "image": "img/faces/4.jpg",
             "role": "Agency Design",
             "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
         },
         {
-            "name": "Margaret Williams",
+            "name": "Jonnathan Doe",
             "image": "img/faces/5.jpg",
             "role": "Agency Design",
             "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."

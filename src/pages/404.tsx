@@ -10,7 +10,11 @@ const E404 = () => {
           className="absolution-deco absolution-deco-accent"
           style={{ top: '40vh', right: '10%', transform: 'rotate(90deg)' }}
         />
-        <img src="img/deco/map.png" alt="background" className="absolution-map-bg" />
+        <img
+          src="img/deco/map.png"
+          alt="background"
+          className="absolution-map-bg"
+        />
         <div className="container">
           <div className="row align-items-center">
             <div className="col-xl-4">
@@ -28,7 +32,10 @@ const E404 = () => {
                   The page you are looking for does not exist; it may have been
                   moved or removed altogether.
                 </p>
-                <Link href="home-2" className="absolution-button absolution-border absolution-light">
+                <Link
+                  href="home-2"
+                  className="absolution-button absolution-border absolution-light"
+                >
                   <span>Back to homepage</span>
                 </Link>
               </div>
@@ -39,8 +46,12 @@ const E404 = () => {
       {/* 404 end */}
       <div className="absolution-addition-bottom">
         <div className="container-fluid">
-          <p className="absolution-text-sm absolution-light-soft">© Absolution 2023.</p>
-          <p className="absolution-text-sm absolution-light-soft">All Rights Reserved.</p>
+          <p className="absolution-text-sm absolution-light-soft">
+            © absolution 2024.
+          </p>
+          <p className="absolution-text-sm absolution-light-soft">
+            All Rights Reserved.
+          </p>
         </div>
       </div>
     </Layouts>
