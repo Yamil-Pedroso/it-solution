@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { sliderProps } from "@/src/common/sliderProps";
 import Link from "next/link";
-import Typical from "react-typical";
+//import Typical from "react-typical";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Content from "../../data/sliders/hero-slideshow.json";
 import { RiTeamFill } from "react-icons/ri";
@@ -62,11 +62,7 @@ const Home1BannerSlider = () => {
                   className="absolution-uppercase absolution-light"
                 />{" "}
                 <span className="absolution-font-2 absolution-accent">
-                  <Typical 
-                   steps={steps}
-                   loop={Infinity} 
-                   wrapper="span" 
-                  />
+                  {Content.title.second}
                 </span>
               </h1>
               <div className="absolution-flex-hori-center">
