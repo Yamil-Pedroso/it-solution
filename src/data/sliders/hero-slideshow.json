@@ -1,6 +1,6 @@
 {
-    "title": { "first": "Driving Innovation  <br />with Expert", "second": ["IT Solutions", "Cloud Services", "Cybersecurity"]},
-    "subtitle": { "first": "The Next", "second": "Gen" },
+    "title": { "first": "Driving Innovation  <br />with Expert", "second": ["IT Solutions", "Web dev", "Design"]},
+    "subtitle": { "first": "The future", "second": "Generation" },
     "button": { "label": "Let’s Talk", "link": "/contact" },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "slides": [
@@ -16,19 +16,19 @@
     ],
     "items": [
         {
-            "label": "Dedicated Team",
+            "label": "Involved Team",
             "title": "Experts",
-            "text": "And here's some amazing content. It's very engaging. Right?"
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
         },
         {
             "label": "Developers",
             "title": "Experts",
-            "text": "And here's some amazing content. It's very engaging. Right?"
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
         },
         {
             "label": "Designers",
             "title": "Experts",
-            "text": "And here's some amazing content. It's very engaging. Right?"
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
         }
     ]
 }

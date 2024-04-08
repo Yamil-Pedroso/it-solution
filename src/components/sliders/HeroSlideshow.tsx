@@ -1,15 +1,28 @@
-import React from 'react'
-import { sliderProps } from '@/src/common/sliderProps'
-import Link from 'next/link'
-import Typical from 'react-typical'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import Content from '../../data/sliders/hero-slideshow.json'
+import { useState } from "react";
+import { sliderProps } from "@/src/common/sliderProps";
+import Link from "next/link";
+import Typical from "react-typical";
+import { Swiper, SwiperSlide } from "swiper/react";
+import Content from "../../data/sliders/hero-slideshow.json";
+import { RiTeamFill } from "react-icons/ri";
+import { MdDeveloperMode } from "react-icons/md";
+import { IoImages } from "react-icons/io5";
 
 const Home1BannerSlider = () => {
+  const [activeItem, setActiveItem] = useState("");
+
+  const handleMouseOver = (itemLabel: any) => {
+    setActiveItem(itemLabel);
+  };
+
+  const handleMouseOut = () => {
+    setActiveItem("");
+  };
+
   const steps = Content.title.second.reduce((acc, item: any) => {
-    acc.push(item, 6000)
-    return acc
-  }, [])
+    acc.push(item, 6000);
+    return acc;
+  }, []);
 
   return (
     <div className="absolution-banner absolution-top-space-0">
@@ -22,7 +35,7 @@ const Home1BannerSlider = () => {
             <img
               src={slide.image}
               className="absolution-background-image"
-              style={{ objectPosition: 'center' }}
+              style={{ objectPosition: "center" }}
               data-swiper-parallax={-100}
               data-swiper-parallax-scale="1.1"
               alt="image"
@@ -38,7 +51,7 @@ const Home1BannerSlider = () => {
               <span className="absolution-suptitle absolution-mb-60">
                 <span className="absolution-light">
                   {Content.subtitle.first}
-                </span>{' '}
+                </span>{" "}
                 <span className="absolution-accent">
                   {Content.subtitle.second}
                 </span>
@@ -47,9 +60,13 @@ const Home1BannerSlider = () => {
                 <span
                   dangerouslySetInnerHTML={{ __html: Content.title.first }}
                   className="absolution-uppercase absolution-light"
-                />{' '}
+                />{" "}
                 <span className="absolution-font-2 absolution-accent">
-                  <Typical steps={steps} loop={Infinity} wrapper="span" />
+                  <Typical 
+                   steps={steps}
+                   loop={Infinity} 
+                   wrapper="span" 
+                  />
                 </span>
               </h1>
               <div className="absolution-flex-hori-center">
@@ -80,8 +97,15 @@ const Home1BannerSlider = () => {
                           <p className="absolution-text-sm">{item.text}</p>
                         </div>
                       </div>
-                      <div className="absolution-item-hover">
-                        <div className="absolution-plus-icon">+</div>
+                      <div
+                        className="absolution-item-hover"
+                      >
+                        <div className="absolution-plus-icon">
+                   
+                          {item.label === "Involved Team" && <RiTeamFill />}
+                          {item.label === "Developers" && <MdDeveloperMode />}
+                          {item.label === "Designers" && <IoImages />}
+                        </div>
                         <h6 className="absolution-light">{item.label}</h6>
                       </div>
                     </div>
@@ -93,6 +117,6 @@ const Home1BannerSlider = () => {
         </div>
       </div>
     </div>
-  )
-}
-export default Home1BannerSlider
+  );
+};
+export default Home1BannerSlider;

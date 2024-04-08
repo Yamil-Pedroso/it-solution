@@ -844,8 +844,8 @@ illustration
                 opacity: 0;
                 pointer-events: none;
                 transform: translateY(-10px) scale(.98);
-                bottom: 75px;
-                left: -105px;
+                bottom: 6.2rem;
+                left: -6.1rem;
                 box-shadow: 0px 0px 40px 0px rgba(18, 24, 32, 0.1);
                 background-color: $light;
                 border-radius: 5px;
@@ -895,13 +895,12 @@ illustration
                 & .absolution-plus-icon {
                     background-color: $lt-10;
                     backdrop-filter: blur(10px);
-                    width: 50px;
+                    width: 5rem;
                     margin-right: 15px;
                     font-size: 32px;
                     font-weight: 200;
                     color: $light;
-                    height: 50px;
-                    border-radius: 50%;
+                    height: 5rem;       
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -925,7 +924,7 @@ illustration
                     & .absolution-plus-icon {
                         background-color: $blue;
                         animation: puls 1s linear infinite;
-
+                        border-radius: 50%;
                     }
                 }
             }
@@ -1645,6 +1644,10 @@ icon box
 .absolution-icon-box-head {
     display: flex;
     align-items: center;
+    
+    & h5 {
+        color: $light;
+    }
 
     & .absolution-icon-frame {
         margin-right: 15px;
@@ -1654,6 +1657,10 @@ icon box
                 filter: invert(100%);
             }
         }
+    }
+
+    &.absolution-icon-created {
+       
     }
 
     &.absolution-long {
