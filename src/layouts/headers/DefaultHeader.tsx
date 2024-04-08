@@ -78,9 +78,9 @@ const DefaultHeader = ({ transparent, headerTop, extraClass }: LayoutProps) => {
                 <li className="absolution-has-children">
                   <Link href="/">Enterprise</Link>
                   <ul>
-                    <li>
+                    {/*<li>
                       <Link href="home-2">Home V2</Link>
-                    </li>
+          </li>*/}
                     <li>
                       <Link href="about">About us</Link>
                     </li>
@@ -111,16 +111,16 @@ const DefaultHeader = ({ transparent, headerTop, extraClass }: LayoutProps) => {
                   <Link href="service-1">Services</Link>
                   <ul>
                     <li>
-                      <Link href="service-1">Service 1</Link>
+                      <Link href="service-1">SaaS Development</Link>
                     </li>
                     <li>
-                      <Link href="service-2">Service 2</Link>
+                      <Link href="service-2">UI/UX Design</Link>
                     </li>
                     <li>
-                      <Link href="service-3">Service 3</Link>
+                      <Link href="service-3">App Solutions</Link>
                     </li>
                     <li>
-                      <Link href="service-4">Service 4</Link>
+                      <Link href="service-4">Cloud Security</Link>
                     </li>
                   </ul>
                 </li>
@@ -128,13 +128,13 @@ const DefaultHeader = ({ transparent, headerTop, extraClass }: LayoutProps) => {
                   <Link href="solution-1">Solutions</Link>
                   <ul>
                     <li>
-                      <Link href="solution-1">Solution 1</Link>
+                      <Link href="solution-1">AI consulting and development</Link>
                     </li>
                     <li>
-                      <Link href="solution-2">Solution 2</Link>
+                      <Link href="solution-2">Big data</Link>
                     </li>
                     <li>
-                      <Link href="solution-3">Solution 3</Link>
+                      <Link href="solution-3">IoT development</Link>
                     </li>
                   </ul>
                 </li>
@@ -144,7 +144,7 @@ const DefaultHeader = ({ transparent, headerTop, extraClass }: LayoutProps) => {
                 <li>
                   <Link href="contact">Contact Us</Link>
                 </li>
-                <li className="absolution-has-children">
+                {/*<li className="absolution-has-children">
                   <Link href="#.">Other</Link>
                   <ul>
                     <li>
@@ -154,7 +154,7 @@ const DefaultHeader = ({ transparent, headerTop, extraClass }: LayoutProps) => {
                       <Link href="404">404</Link>
                     </li>
                   </ul>
-                </li>
+        </li>*/}
               </ul>
 
               <div
