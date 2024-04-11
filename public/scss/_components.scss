@@ -536,11 +536,6 @@ addition panel
     }
 }
 
-/* -------------------------------------------
-
-banner
-
-------------------------------------------- */
 .absolution-banner {
     height: 100vh;
     width: 100%;
@@ -902,7 +897,7 @@ illustration
                     font-size: 32px;
                     font-weight: 200;
                     color: $light;
-                    height: 5rem;       
+                    height: 5rem;
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -1039,7 +1034,7 @@ icons
 
     &:before {
         content: '';
-        background-color: $blue;
+        //background-color: $blue;
         border-radius: 50%;
         position: absolute;
         bottom: -2px;
@@ -1179,11 +1174,7 @@ partners
     }
 }
 
-/* -------------------------------------------
 
-services
-
-------------------------------------------- */
 .absolution-service-item {
     padding: 30px 0;
     display: flex;
@@ -1646,7 +1637,7 @@ icon box
 .absolution-icon-box-head {
     display: flex;
     align-items: center;
-    
+
     & h5 {
         color: $light;
     }
@@ -1662,7 +1653,7 @@ icon box
     }
 
     &.absolution-icon-created {
-       
+
     }
 
     &.absolution-long {
